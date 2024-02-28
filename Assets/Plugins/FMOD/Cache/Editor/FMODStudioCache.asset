@@ -475,7 +475,7 @@ MonoBehaviour:
   Path: spatializer-evaluation/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638446778198483317
+  lastModified: 638446868008280988
   FileSizes:
   - Name: Desktop
     Value: 3838
@@ -710,12 +710,12 @@ MonoBehaviour:
   Path: spatializer-evaluation/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638446778198473295
+  lastModified: 638446868008236009
   FileSizes:
   - Name: Desktop
-    Value: 6450400
+    Value: 6450752
   - Name: Mobile
-    Value: 15164640
+    Value: 15164992
   Exists: 1
 --- !u!114 &-946515520402350275
 MonoBehaviour:
@@ -912,7 +912,7 @@ MonoBehaviour:
   - {fileID: -1074333314047361534}
   StringsBanks:
   - {fileID: -2559924674273271750}
-  cacheTime: 638446778198483317
+  cacheTime: 638446868008280988
   cacheVersion: 131616
 --- !u!114 &39868051584154718
 MonoBehaviour:
@@ -1823,7 +1823,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -1074333314047361534}
   IsStream: 1
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
