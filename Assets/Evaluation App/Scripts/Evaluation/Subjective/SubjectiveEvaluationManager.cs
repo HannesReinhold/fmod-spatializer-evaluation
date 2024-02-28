@@ -56,7 +56,7 @@ public class SubjectiveEvaluationManager : MonoBehaviour
     {
         finish.SetActive(false);
         evaluationRound.SetActive(false);
-
+        Debug.Log(GameManager.Instance);
         numParts = GameManager.Instance.dataManager.spatializerData.subjectiveEvaluationData.evaluationParts.Count;
         if (!skipTutorial) introduction.SetActive(true);
         else { 
