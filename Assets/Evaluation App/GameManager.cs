@@ -160,7 +160,11 @@ public class GameManager : MonoBehaviour
 
     public void InitializeGame()
     {
-
+        Canvas[] foundCanvasses = FindObjectsOfType<Canvas>();
+        foreach(Canvas c in foundCanvasses)
+        {
+            c.worldCamera = Camera.main;
+        }
     }
 
     public void StartIntroduction()

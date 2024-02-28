@@ -148,7 +148,7 @@ public class AudioPhenomena : MonoBehaviour
         // calc occlusion
         float occ = calcOcclusion();
         occlusionVolume = occ;
-        occlusionFilterCutoff = Mathf.Lerp(0, 1, occ);
+        occlusionFilterCutoff = Mathf.Lerp(0.01f, 0.99f, occ);
 
         // calc reverb parameters
 
@@ -200,7 +200,7 @@ public class AudioPhenomena : MonoBehaviour
         }
 
         speakerModel.localScale = Vector3.one+Vector3.one*rms*0.2f;
-        light.intensity = rms * 1;
+        light.intensity = rms * 0.1f;
     }
 
     bool playParticles = false;

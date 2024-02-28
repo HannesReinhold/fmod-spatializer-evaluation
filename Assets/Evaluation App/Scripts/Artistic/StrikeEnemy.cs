@@ -104,8 +104,8 @@ public class StrikeEnemy : MonoBehaviour
         laser = GameObject.Find("LaserPointer");
         if (laser != null) laser.GetComponent<LineRenderer>().widthMultiplier = 0;
         GameObject controllerObject = GameObject.Find("MetaQuestTouchPro_Right");
-        controllerObject.SetActive(false);
         warningWindow.Close();
+        controllerObject.SetActive(false);
     }
 
     public void OpenComplete()
