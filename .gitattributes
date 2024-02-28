@@ -42,3 +42,10 @@
 /Assets/Plugins/SteamAudio/Binaries/macOS/audioplugin_phonon.bundle/Contents/_CodeSignature/CodeResources filter=lfs diff=lfs merge=lfs -text
 /Assets/Plugins/SteamAudio/Binaries/macOS/phonon.bundle/Contents/MacOS/phonon filter=lfs diff=lfs merge=lfs -text
 /Assets/Plugins/SteamAudio/Binaries/macOS/phonon.bundle/Contents/_CodeSignature/CodeResources filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
+*.prefab filter=lfs diff=lfs merge=lfs -text
+*.shader filter=lfs diff=lfs merge=lfs -text
+*.mat filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.bundle filter=lfs diff=lfs merge=lfs -text
+*.mixer filter=lfs diff=lfs merge=lfs -text
