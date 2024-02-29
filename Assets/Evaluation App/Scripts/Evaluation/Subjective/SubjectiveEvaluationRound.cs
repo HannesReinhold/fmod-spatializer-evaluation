@@ -60,7 +60,7 @@ public class SubjectiveEvaluationRound : MonoBehaviour
     public void StartRound(bool nextAspect)
     {
         //sync.SetAudioOutput(false,);
-        audioSwitch.SetAll(true,roundData.speakerID, roundData.comparisonSpatializerID);
+        
 
         if (nextAspect) windowManager.OpenPage(0);
         else
@@ -68,7 +68,8 @@ public class SubjectiveEvaluationRound : MonoBehaviour
             windowManager.OpenPage(1);
             
         }
-        
+
+        audioSwitch.SetAll(true, roundData.speakerID, roundData.comparisonSpatializerID);
         audioSwitch.Play(partData.fileID);
 
     }

@@ -56,13 +56,14 @@ public class SubjectiveEvaluationManager : MonoBehaviour
     {
         finish.SetActive(false);
         evaluationRound.SetActive(false);
-        Debug.Log(GameManager.Instance);
+        Debug.Log(GameManager.Instance.dataManager);
         numParts = GameManager.Instance.dataManager.spatializerData.subjectiveEvaluationData.evaluationParts.Count;
         if (!skipTutorial) introduction.SetActive(true);
         else { 
             StartRound(); 
             roundID++;
         }
+        DisableHighlighting();
         //GUIAudioManager.SetAmbientVolume(0);
 
 
@@ -70,6 +71,7 @@ public class SubjectiveEvaluationManager : MonoBehaviour
 
     public void FinishEvaluation()
     {
+        Debug.Log("End Evaluation");
         evaluationRound.SetActive(false);
         finish.SetActive(true);
         GUIAudioManager.SetAmbientVolume(0.5f);
@@ -78,6 +80,7 @@ public class SubjectiveEvaluationManager : MonoBehaviour
 
     public void StartRound()
     {
+        Debug.Log("STart Round");
         //subjectiveEvalInterface.ShowNextEvaluation(partID, roundID);
         GUIAudioManager.SetAmbientVolume(0);
         numParts = GameManager.Instance.dataManager.spatializerData.subjectiveEvaluationData.evaluationParts.Count;
@@ -138,7 +141,7 @@ public class SubjectiveEvaluationManager : MonoBehaviour
     {
         for(int i=0; i<speakers.Count; i++)
         {
-            speakers[i].GetComponentInChildren<Hint>().CloseHint();
+            if(speakers[i]!=null) speakers[i].GetComponentInChildren<Hint>().CloseHint();
         }
     }
 
@@ -170,8 +173,8 @@ public class SubjectiveEvaluationManager : MonoBehaviour
     public void CompleteEvaluation()
     {
         finish.SetActive(false);
-        ResetValues();
         Invoke("StartDirectionGuessing",2);
+        ResetValues();
     }
 
     private void StartDirectionGuessing()
