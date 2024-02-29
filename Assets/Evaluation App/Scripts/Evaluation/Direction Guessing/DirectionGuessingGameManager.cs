@@ -5,10 +5,7 @@ using UnityEngine;
 
 public class DirectionGuessingGameManager : MonoBehaviour
 {
-    public GameObject introduction;
-    public GameObject tutorial;
     public GameObject game;
-    public GameObject complete;
 
     public GameObject tutorialGame;
 

@@ -7,6 +7,8 @@ using static UnityEngine.GraphicsBuffer;
 
 public class DirectionGuessingGame : MonoBehaviour
 {
+    public DirectionGuessingGameManager manager;
+
     public GameObject target;
     public GameObject targetVisualizer;
     public Transform controllerTransform;
@@ -14,11 +16,8 @@ public class DirectionGuessingGame : MonoBehaviour
     public LineRenderer lineRendererGuessed;
     public LineRenderer lineRendererActual;
 
-    public TextMeshProUGUI textMesh;
-
     public PopupWindow startWindow;
     public PopupWindow finishWindow;
-    public GameObject countdown;
 
     public AudioSource source;
     public AudioOutputChannelRouter outputChannelRouter;
@@ -90,8 +89,8 @@ public class DirectionGuessingGame : MonoBehaviour
     /// </summary>
     public void StartGame()
     {
-        startWindow.gameObject.SetActive(true);
-        startWindow.Open();
+        //startWindow.gameObject.SetActive(true);
+        //startWindow.Open();
 
         
         target.SetActive(false);
@@ -100,23 +99,22 @@ public class DirectionGuessingGame : MonoBehaviour
     /// <summary>
     /// end the game
     /// </summary>
+    public void OnFinishClick()
+    {
+        GameManager.Instance.StartComplete();
+        GUIAudioManager.SetAmbientVolume(0.5f);
+    }
+
     public void FinishGame()
     {
+        GameManager.Instance.SaveData();
+        manager.windowManager.ResetSlow();
+
         finishWindow.gameObject.SetActive(true);
         targetVisualizer.SetActive(false);
         lineRendererGuessed.gameObject.SetActive(false);
         lineRendererActual.gameObject.SetActive(false);
         DisableControllerInput();
-        GUIAudioManager.SetAmbientVolume(0.5f);
-    }
-
-    public void OnFinishClick()
-    {
-        GameManager.Instance.SaveData();
-        GameManager.Instance.StartComplete();
-        FinishGame();
-        finishWindow.Close();
-        GUIAudioManager.SetAmbientVolume(0.5f);
     }
 
     /// <summary>
@@ -125,7 +123,7 @@ public class DirectionGuessingGame : MonoBehaviour
     public void StartCountdown()
     {
         GUIAudioManager.SetAmbientVolume(0.0f);
-        startWindow.Close();
+        //startWindow.Close();
         Invoke("StartRound", countdownTime);
         // hide target
         targetVisualizer.SetActive(false);

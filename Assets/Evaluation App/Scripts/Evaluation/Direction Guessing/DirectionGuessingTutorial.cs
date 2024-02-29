@@ -7,7 +7,7 @@ using static UnityEngine.GraphicsBuffer;
 
 public class DirectionGuessingTutorial : MonoBehaviour
 {
-    public List<Transform> positionList;
+    public List<Vector3> positionList;
 
     public WindowManager windowManager;
 
@@ -120,7 +120,7 @@ public class DirectionGuessingTutorial : MonoBehaviour
         enabled = true;
         enableInput = true;
 
-        target.transform.position = positionList[roundID].position;
+        target.transform.position = positionList[roundID];
         target.SetActive(true);
 
         // Play 3 times audio cue
@@ -143,8 +143,7 @@ public class DirectionGuessingTutorial : MonoBehaviour
         FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Gunshot", transform.position);
         CancelInvoke("PlayAudioCue");
 
-        playerPositionWhileGuessing = Camera.main.transform.position;
-
+        playerPositionWhileGuessing = FindObjectOfType<FollowTarget>().transform.position;
         showVisualizerSphere = true;
         showDiffereLine=true;
 
@@ -221,7 +220,7 @@ public class DirectionGuessingTutorial : MonoBehaviour
     void SetWireSphere(int numSegments, int gridN)
     {
 
-        sphereParent.localPosition = playerPositionWhileGuessing;
+        sphereParent.position = playerPositionWhileGuessing;
 
 
         int i = 0;
