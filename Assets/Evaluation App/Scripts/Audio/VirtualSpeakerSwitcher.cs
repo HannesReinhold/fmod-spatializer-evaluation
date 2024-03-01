@@ -12,6 +12,9 @@ public class VirtualSpeakerSwitcher : MonoBehaviour
 
     public FMODUnity.StudioEventEmitter emitterRef;
 
+    private int currentSpeaker=0;
+    private int lastSpeakerID=0;
+
     FMOD.Studio.Bus bus;
 
     private int audioID = 0;
@@ -45,6 +48,10 @@ public class VirtualSpeakerSwitcher : MonoBehaviour
         emitterRef.transform.position = speakerPositionList[speakerID].position;
         emitterRef.transform.rotation = speakerPositionList[speakerID].rotation;
         emitterRef.EventReference = events[audioID].spatializedEvents[spatializerID];
+        currentSpeaker = speakerID;
+
+        ShowSpeakerOn();
+        lastSpeakerID = currentSpeaker;
     }
 
     public void SetSpeaker(int speakerID, int spatializerID)
@@ -53,6 +60,16 @@ public class VirtualSpeakerSwitcher : MonoBehaviour
         emitterRef.transform.position = speakerPositionList[speakerID].position;
         emitterRef.transform.rotation = speakerPositionList[speakerID].rotation;
         emitterRef.EventReference = events[audioID].spatializedEvents[spatializerID];
+        currentSpeaker = speakerID;
+
+        ShowSpeakerOn();
+        lastSpeakerID = currentSpeaker;
+    }
+
+    public void ShowSpeakerOn()
+    {
+        speakerPositionList[lastSpeakerID].gameObject.GetComponentInChildren<ParticleSystem>().Stop();
+        speakerPositionList[currentSpeaker].gameObject.GetComponentInChildren<ParticleSystem>().Play();
     }
 
     private float maxVolume = 1f;

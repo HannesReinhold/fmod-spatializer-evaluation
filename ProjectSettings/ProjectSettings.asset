@@ -804,7 +804,7 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: STEAMAUDIO_ENABLED
+    Android: STEAMAUDIO_ENABLED;NORMCORE
     Standalone: STEAMAUDIO_ENABLED;NORMCORE
     iPhone: STEAMAUDIO_ENABLED
   additionalCompilerArguments: {}

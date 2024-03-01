@@ -32,7 +32,6 @@ Transform:
   - {fileID: 824462652337410614}
   - {fileID: 1662246117432231465}
   - {fileID: 5969787423345255280}
-  - {fileID: 6748788295226992340}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7433899100040160353
@@ -63,7 +62,8 @@ Transform:
   m_LocalPosition: {x: -0.116, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 6748788295226992340}
   m_Father: {fileID: 5165805025468615758}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8255622349017411734
@@ -92,12 +92,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8255622349017411734}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.106, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.009999931, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5165805025468615758}
+  m_Father: {fileID: 5969787423345255280}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!198 &6150316903056866142
 ParticleSystem:
@@ -116,7 +116,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 1
   prewarm: 0
-  playOnAwake: 0
+  playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -5025,11 +5025,27 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: 998a079a78e9c1248ae522b0f81995d5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1582794643566213095, guid: 64113fb50d20aec4f8f288dee3ec7ddd,
+        type: 3}
     - target: {fileID: 919132149155446097, guid: 998a079a78e9c1248ae522b0f81995d5,
         type: 3}
       propertyPath: m_Name
       value: Speaker
       objectReference: {fileID: 0}
+    - target: {fileID: 7071182760956848314, guid: 998a079a78e9c1248ae522b0f81995d5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a954244003a5ad408c9b6d10a219972, type: 2}
+    - target: {fileID: 7202271454713460447, guid: 998a079a78e9c1248ae522b0f81995d5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a954244003a5ad408c9b6d10a219972, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5049,6 +5065,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5165805025468615758}
     m_Modifications:
+    - target: {fileID: 1303501254194951638, guid: b8090e0860802ea4d9641f90c5b64bd4,
+        type: 3}
+      propertyPath: scaling
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2244568304839956839, guid: b8090e0860802ea4d9641f90c5b64bd4,
         type: 3}
       propertyPath: m_text

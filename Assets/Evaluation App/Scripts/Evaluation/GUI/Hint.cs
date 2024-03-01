@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Hint : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class Hint : MonoBehaviour
     public GameObject audioSource;
 
     public float scaling = 1000;
+
+    public CanvasGroup corner;
 
 
 
@@ -23,6 +26,7 @@ public class Hint : MonoBehaviour
     {
         LeanTween.scale(gameObject, Vector3.one * scaling, 0.5f).setEaseOutCubic();
         if(audioSource!=null) audioSource.GetComponent<FMODUnity.StudioEventEmitter>().Play();
+        LeanTween.alphaCanvas(corner, 1, 0.5f).setEaseOutCubic();
     }
 
     public void CloseHint()
@@ -34,6 +38,7 @@ public class Hint : MonoBehaviour
     public void HideHint()
     {
         //LeanTween.scale(gameObject, Vector3.one * 750, 0.5f).setEaseOutCubic();
-        LeanTween.alphaCanvas(canvas,0.5f,0.5f).setEaseOutCubic();
+        LeanTween.alphaCanvas(corner,0.5f,0.5f).setEaseOutCubic();
+        
     }
 }
