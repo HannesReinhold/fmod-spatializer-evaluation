@@ -321,7 +321,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &463684936540598151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1143,7 +1143,7 @@ MonoBehaviour:
       Data3: -456191602
       Data4: -216614390
     Path: event:/UI/Submit
-  clickVibration: 0.02
+  clickVibration: 0.005
   playEnterSound: 0
   enterSound:
     Guid:
@@ -1152,7 +1152,7 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  enterVibration: 0.1
+  enterVibration: 0.02
   playExitSound: 0
   exitSound:
     Guid:
@@ -1161,7 +1161,7 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  exitVibration: 0.02
+  exitVibration: 0.005
 --- !u!1001 &8316250159889443234
 PrefabInstance:
   m_ObjectHideFlags: 0

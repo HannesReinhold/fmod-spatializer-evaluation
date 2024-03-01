@@ -91,7 +91,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &119060043983530731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -783,7 +783,7 @@ MonoBehaviour:
       Data3: -456191602
       Data4: -216614390
     Path: event:/UI/Submit
-  clickVibration: 0.02
+  clickVibration: 0.005
   playEnterSound: 0
   enterSound:
     Guid:
@@ -792,7 +792,7 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  enterVibration: 0.1
+  enterVibration: 0.02
   playExitSound: 0
   exitSound:
     Guid:
@@ -801,7 +801,7 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  exitVibration: 0.02
+  exitVibration: 0.005
 --- !u!224 &1674526584591336672 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4780487151849567413, guid: 326efbcbf10e378408c63df10788c62a,
@@ -821,6 +821,21 @@ PrefabInstance:
       propertyPath: m_Group
       value: 
       objectReference: {fileID: 2703514651625088173}
+    - target: {fileID: 2692763665455405611, guid: afa94f4453233204e8027cb8f32c49b3,
+        type: 3}
+      propertyPath: exitVibration
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 2692763665455405611, guid: afa94f4453233204e8027cb8f32c49b3,
+        type: 3}
+      propertyPath: clickVibration
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 2692763665455405611, guid: afa94f4453233204e8027cb8f32c49b3,
+        type: 3}
+      propertyPath: enterVibration
+      value: 0.02
+      objectReference: {fileID: 0}
     - target: {fileID: 4083547295804860254, guid: afa94f4453233204e8027cb8f32c49b3,
         type: 3}
       propertyPath: moveLocal
@@ -970,6 +985,21 @@ PrefabInstance:
       propertyPath: m_Group
       value: 
       objectReference: {fileID: 2703514651625088173}
+    - target: {fileID: 2692763665455405611, guid: afa94f4453233204e8027cb8f32c49b3,
+        type: 3}
+      propertyPath: exitVibration
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 2692763665455405611, guid: afa94f4453233204e8027cb8f32c49b3,
+        type: 3}
+      propertyPath: clickVibration
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 2692763665455405611, guid: afa94f4453233204e8027cb8f32c49b3,
+        type: 3}
+      propertyPath: enterVibration
+      value: 0.02
+      objectReference: {fileID: 0}
     - target: {fileID: 4083547295804860254, guid: afa94f4453233204e8027cb8f32c49b3,
         type: 3}
       propertyPath: moveLocal
@@ -1124,6 +1154,21 @@ PrefabInstance:
       propertyPath: m_Group
       value: 
       objectReference: {fileID: 2703514651625088173}
+    - target: {fileID: 2692763665455405611, guid: afa94f4453233204e8027cb8f32c49b3,
+        type: 3}
+      propertyPath: exitVibration
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 2692763665455405611, guid: afa94f4453233204e8027cb8f32c49b3,
+        type: 3}
+      propertyPath: clickVibration
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 2692763665455405611, guid: afa94f4453233204e8027cb8f32c49b3,
+        type: 3}
+      propertyPath: enterVibration
+      value: 0.02
+      objectReference: {fileID: 0}
     - target: {fileID: 4083547295804860254, guid: afa94f4453233204e8027cb8f32c49b3,
         type: 3}
       propertyPath: moveLocal

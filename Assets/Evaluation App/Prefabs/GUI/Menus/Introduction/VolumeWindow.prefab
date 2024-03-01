@@ -573,7 +573,7 @@ PrefabInstance:
     - target: {fileID: 4335430802333370114, guid: 5c86e71f9c152724c830dd35a32346be,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 3.8484857
+      value: 3.8484802
       objectReference: {fileID: 0}
     - target: {fileID: 4335430802333370114, guid: 5c86e71f9c152724c830dd35a32346be,
         type: 3}
@@ -1270,7 +1270,7 @@ MonoBehaviour:
       Data3: -456191602
       Data4: -216614390
     Path: event:/UI/Submit
-  clickVibration: 0.02
+  clickVibration: 0.005
   playEnterSound: 0
   enterSound:
     Guid:
@@ -1279,7 +1279,7 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  enterVibration: 0.1
+  enterVibration: 0.02
   playExitSound: 0
   exitSound:
     Guid:
@@ -1288,7 +1288,7 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  exitVibration: 0.02
+  exitVibration: 0.005
 --- !u!1001 &7150735029246786511
 PrefabInstance:
   m_ObjectHideFlags: 0

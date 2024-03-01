@@ -718,7 +718,7 @@ MonoBehaviour:
       Data3: 1216707743
       Data4: -873777871
     Path: event:/UI/BtnClick
-  clickVibration: 0.02
+  clickVibration: 0.005
   playEnterSound: 0
   enterSound:
     Guid:
@@ -727,7 +727,7 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  enterVibration: 0.1
+  enterVibration: 0.02
   playExitSound: 0
   exitSound:
     Guid:
@@ -736,7 +736,7 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  exitVibration: 0.02
+  exitVibration: 0.005
 --- !u!1001 &3640805736151669673
 PrefabInstance:
   m_ObjectHideFlags: 0
