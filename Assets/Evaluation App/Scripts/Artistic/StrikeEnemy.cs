@@ -5,6 +5,8 @@ using UnityEngine;
 public class StrikeEnemy : MonoBehaviour
 {
     public Transform rightControllerTransform;
+    public GameObject rightController;
+    public GameObject ray;
 
     public GameObject sword;
     public GameObject enemy;
@@ -53,10 +55,11 @@ public class StrikeEnemy : MonoBehaviour
         completeWindow.gameObject.SetActive(false);
         if (rightControllerTransform != null) lastPosition = rightControllerTransform.position;
         Invoke("EquipSword", 3);
-        rend.material.SetFloat("Opacity", 0.0f);
+        
         enemy.SetActive(true);
         music.SetActive(true);
-        
+        rend.material.SetFloat("Opacity", 0.0f);
+
     }
 
 
@@ -98,14 +101,19 @@ public class StrikeEnemy : MonoBehaviour
 
     public void EquipSword()
     {
+        //sword.transform.parent = rightControllerTransform.transform;
+        //sword.transform.localPosition = Vector3.zero;
+        //sword.transform.rotation = Quaternion.identity;
+        rightController.SetActive(false);
+        ray.SetActive(false);
         sword.SetActive(true);
         equipped = true;
 
         laser = GameObject.Find("LaserPointer");
         if (laser != null) laser.GetComponent<LineRenderer>().widthMultiplier = 0;
-        GameObject controllerObject = GameObject.Find("MetaQuestTouchPro_Right");
+        //GameObject controllerObject = GameObject.Find("MetaQuestTouchPro_Right");
         warningWindow.Close();
-        controllerObject.SetActive(false);
+        //controllerObject.SetActive(false);
     }
 
     public void OpenComplete()
@@ -135,6 +143,8 @@ public class StrikeEnemy : MonoBehaviour
         if (laser != null) laser.GetComponent<LineRenderer>().widthMultiplier = 1;
         GameObject controllerObject = GameObject.Find("MetaQuestTouchPro_Right");
         controllerObject.SetActive(true);
+        rightController.SetActive(true);
+        ray.SetActive(true);
     }
 
     private void StartNewEvent()

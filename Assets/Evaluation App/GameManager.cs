@@ -115,10 +115,6 @@ public class GameManager : MonoBehaviour
     {
         if (sessionID != 0)
         {
-            //introductionObject = GameObject.Find("Introduction Menu Final");
-            //subjectiveObject = GameObject.Find("Subjective Evaluaion 1");
-            //directionGuessingObject = GameObject.Find("Direction Guessing Game");
-            //introductionObject = GameObject.Find("Compete Menu");
         }
 
 
