@@ -24,6 +24,7 @@ public class RotateTowardsCam : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(target==null) target = FindObjectOfType<FollowTarget>().transform;
         Vector3 direction = (new Vector3(target.position.x,enableXRot ? target.position.y:0, target.position.z) - new Vector3(transform.position.x, enableXRot ? transform.position.y : 0, transform.position.z)).normalized;
         if (invert) direction = -direction;
 
