@@ -26,6 +26,7 @@ public class PopupWindow : MonoBehaviour
     public float tiltDeg = 30;
 
     public CanvasGroup canvas;
+    public Interactable interactable;
 
     private void Awake()
     {
@@ -37,6 +38,7 @@ public class PopupWindow : MonoBehaviour
         LeanTween.moveLocalY(gameObject, minY, 0);
         LeanTween.scale(gameObject, Vector3.one * minScale * 0.001f, 0);
         LeanTween.alphaCanvas(canvas, minAlpha, 0);
+        interactable.enabled = false;
     }
 
     private void OnEnable()
@@ -60,6 +62,7 @@ public class PopupWindow : MonoBehaviour
         LeanTween.moveLocalY(gameObject, maxY, openDuration).setEaseOutCubic();
         LeanTween.alphaCanvas(canvas, maxAlpha, openDuration).setEaseOutCubic();
         if (!moveLocal) LeanTween.rotateX(gameObject, tiltDeg, openDuration).setEaseOutCubic();
+        Invoke("EnableCollider",openDuration*0.75f);
 
     }
 
@@ -70,6 +73,7 @@ public class PopupWindow : MonoBehaviour
         LeanTween.scale(gameObject, Vector3.one * minScale * 0.001f, closeDuration).setEaseOutCubic();
         LeanTween.alphaCanvas(canvas, minAlpha, closeDuration).setEaseOutCubic();
         if (!moveLocal) LeanTween.rotateX(gameObject, -tiltDeg, closeDuration).setEaseOutCubic();
+        Invoke("EnableCollider", closeDuration * 0.25f);
     }
 
     public void Open()
@@ -85,5 +89,15 @@ public class PopupWindow : MonoBehaviour
     private void Disable()
     {
         gameObject.SetActive(false);
+    }
+
+    private void EnableCollider()
+    {
+        interactable.enabled = true;
+    }
+
+    private void DisableCollider()
+    {
+        interactable.enabled = false;
     }
 }

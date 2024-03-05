@@ -180,7 +180,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &7887401670369073056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -225,6 +225,7 @@ MonoBehaviour:
   maxAlpha: 1
   tiltDeg: 10
   canvas: {fileID: 0}
+  collider: {fileID: 0}
 --- !u!225 &791804491906047445
 CanvasGroup:
   m_ObjectHideFlags: 0

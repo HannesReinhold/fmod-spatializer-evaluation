@@ -23,6 +23,11 @@ public class GameManager : MonoBehaviour
 
     public GameObject roomModel;
 
+    public GameObject rightControllerObject;
+    public GameObject rayObject;
+
+    public OVRPassthroughLayer passthroughLayer;
+
 
 
 
@@ -222,6 +227,23 @@ public class GameManager : MonoBehaviour
             Debug.Log("Set Alpha");
         }
 
+    }
+
+    public void HideController()
+    {
+        rightControllerObject.SetActive(false);
+        rayObject.SetActive(false);
+    }
+
+    public void ShowController()
+    {
+        rightControllerObject.SetActive(true);
+        rayObject.SetActive(true);
+    }
+
+    public void SetPassthroughOpacity(float opacity)
+    {
+        passthroughLayer.textureOpacity = opacity;
     }
 }
 

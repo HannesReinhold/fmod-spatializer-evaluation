@@ -495,6 +495,7 @@ MonoBehaviour:
   maxAlpha: 1
   tiltDeg: 10
   canvas: {fileID: 0}
+  interactable: {fileID: 0}
 --- !u!225 &7425012348406273303
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -672,6 +673,16 @@ PrefabInstance:
       propertyPath: minY
       value: -400
       objectReference: {fileID: 0}
+    - target: {fileID: 8777719103945906752, guid: 326efbcbf10e378408c63df10788c62a,
+        type: 3}
+      propertyPath: collider
+      value: 
+      objectReference: {fileID: 4451372116399801856}
+    - target: {fileID: 8777719103945906752, guid: 326efbcbf10e378408c63df10788c62a,
+        type: 3}
+      propertyPath: interactable
+      value: 
+      objectReference: {fileID: 4972135581353155519}
     - target: {fileID: 8804418575427606548, guid: 326efbcbf10e378408c63df10788c62a,
         type: 3}
       propertyPath: m_Layer

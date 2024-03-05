@@ -213,6 +213,7 @@ MonoBehaviour:
   maxAlpha: 1
   tiltDeg: 10
   canvas: {fileID: 0}
+  interactable: {fileID: 0}
 --- !u!225 &179417829808293488
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -1061,6 +1062,7 @@ MonoBehaviour:
   maxAlpha: 1
   tiltDeg: 0
   canvas: {fileID: 0}
+  interactable: {fileID: 0}
 --- !u!225 &4897502687883769572
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -1229,6 +1231,11 @@ PrefabInstance:
       propertyPath: openDelay
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8777719103945906752, guid: 326efbcbf10e378408c63df10788c62a,
+        type: 3}
+      propertyPath: interactable
+      value: 
+      objectReference: {fileID: 3020749511279944552}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

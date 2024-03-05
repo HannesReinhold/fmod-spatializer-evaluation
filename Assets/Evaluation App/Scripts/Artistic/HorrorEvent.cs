@@ -5,6 +5,7 @@ using UnityEngine;
 public class HorrorEvent : MonoBehaviour
 {
     public GameObject roomModel;
+    public Light light;
 
     public MainIntroductionManager mainIntroductionManager;
     public WindowManager windowManager;
@@ -73,13 +74,14 @@ public class HorrorEvent : MonoBehaviour
 
         GUIAudioManager.SetAmbientVolume(0);
 
-        //completeWindow.SetActive(false);
+        GameManager.Instance.HideController();
 
     }
 
     private void OnDisable()
     {
         GameManager.Instance.HideRoomModel(2);
+        GameManager.Instance.ShowController();
 
         currentFogTarget = 0;
 
@@ -119,7 +121,7 @@ public class HorrorEvent : MonoBehaviour
 
     public void EnableJumpscare()
     {
-
+        roomModel.SetActive(true);
 
         jumpscareSpring = Instantiate(jumpScarePrefab);
         Vector3 lookDir = Camera.main.transform.eulerAngles;
@@ -167,8 +169,10 @@ public class HorrorEvent : MonoBehaviour
 
     private void DisableEvent()
     {
+        roomModel.SetActive(true);
         gameObject.SetActive(false);
         Destroy(jumpscareSpring);
+        GameManager.Instance.ShowController();
     }
 
 
@@ -176,7 +180,9 @@ public class HorrorEvent : MonoBehaviour
     private void Update()
     {
         currentFogValue = 0.99f * currentFogValue + 0.01f * currentFogTarget;
-        RenderSettings.fogDensity = currentFogValue;
+        //RenderSettings.fogDensity = currentFogValue;
+        //light.intensity = 1-currentFogValue/maxFog;
+        GameManager.Instance.SetPassthroughOpacity(1 - currentFogValue / maxFog);
 
 
         if (!playMonsterSounds) return;
