@@ -105,8 +105,8 @@ public class DirectionGuessingTutorial : MonoBehaviour
             currentRadius = Mathf.Lerp(lastCurrentRadius, targetRadius, currentAnimationTime);
             //SetSphereAlpha(Mathf.Lerp(lastTargetAlpha,targetAlpha,currentAnimationTime));
             //SetWireSphere(64, gridResolution);
-            if (maxN < 100) SetGuessedDifference((int)Mathf.Lerp(0, 100, currentAnimationTime - 1.5f));
-            if (maxN >= 100) SetGuessedDifference((int)Mathf.Lerp(100, 200, currentAnimationTime - 2.5f));
+            if (maxN < 100) SetGuessedDifference2((int)Mathf.Lerp(0, 100, currentAnimationTime - 1.5f));
+            if (maxN >= 100) SetGuessedDifference2((int)Mathf.Lerp(100, 200, currentAnimationTime - 2.5f));
             
             currentAnimationTime += Time.deltaTime;
             //Debug.Log(currentAnimationTime);
@@ -117,7 +117,7 @@ public class DirectionGuessingTutorial : MonoBehaviour
         sphereParent.gameObject.SetActive(showVisualizerSphere);
         GuessedPoint.SetActive(showDiffereLine);
         differenceLine.gameObject.SetActive(showDiffereLine);
-        if(showDiffereLine) SetGuessedDifference(maxN);
+        //if(showDiffereLine) SetGuessedDifference2(maxN);
     }
 
     public void StartTutorial()
@@ -370,6 +370,71 @@ public class DirectionGuessingTutorial : MonoBehaviour
 
         
         
+    }
+
+    void SetGuessedDifference2(int max)
+    {
+        int n = 200;
+        maxN = max;
+        differenceLine.positionCount = max;
+
+        // set line origin
+        differenceLine.gameObject.transform.position = centerTransform.position;
+        Vector3 actualDirection = (target.transform.position - centerTransform.position).normalized;
+
+        // azimuth
+        Vector3 horizontalProjGuessed = Vector3.ProjectOnPlane(guessedDirection, Vector3.up).normalized;
+        Vector3 horizontalProjActual = Vector3.ProjectOnPlane(actualDirection, Vector3.up).normalized;
+
+        // elevation
+        Vector3 verticalProjGuessed = Vector3.ProjectOnPlane(guessedDirection, Vector3.Cross(horizontalProjGuessed, Vector3.up));
+        Vector3 verticalProjActual = Vector3.ProjectOnPlane(actualDirection, Vector3.Cross(horizontalProjActual, Vector3.up));
+
+        // calculate start offset 
+        float offsetAz = -Vector3.SignedAngle(horizontalProjGuessed, Vector3.forward, Vector3.up);
+        float offsetEl = -Vector3.SignedAngle(verticalProjGuessed, horizontalProjGuessed, Vector3.Cross(horizontalProjGuessed, Vector3.up));
+
+        float rangeAz = -Vector3.SignedAngle(horizontalProjActual, horizontalProjGuessed, Vector3.up);
+        float rangeEl = -Vector3.SignedAngle(verticalProjActual, horizontalProjActual, Vector3.Cross(horizontalProjActual, Vector3.up)) - offsetEl;
+
+
+        
+
+        // set differences
+        azimuthDifference = rangeAz;
+        elevationDifference = rangeEl;
+
+        offsetAz *= Mathf.Deg2Rad;
+        offsetEl *= Mathf.Deg2Rad;
+
+        rangeAz *= Mathf.Deg2Rad / (n / 2f - 1f);
+        rangeEl *= Mathf.Deg2Rad / (n / 2f - 1f);
+
+        Debug.Log("OffsetAz: " + offsetAz + ", offsetEl: " + offsetEl + ", rangeAz: " + rangeAz + ", rangeEl: " + rangeEl);
+
+        Vector3 pos = Vector3.zero;
+        for (int i = 0; (i < maxN) && (i < n/2); i++)
+        {
+            int index = i - n / 2;
+            pos.x = Mathf.Sin(offsetAz + rangeAz * i) * Mathf.Cos(offsetEl) * currentRadius;
+            pos.z = Mathf.Cos(offsetAz + rangeAz * i) * Mathf.Cos(offsetEl) * currentRadius;
+            pos.y = Mathf.Sin(offsetEl) * currentRadius;
+
+            differenceLine.SetPosition(i, pos);
+        }
+
+        for (int i = n / 2; (i < maxN) && (i < n); i++)
+        {
+            int index = i - n / 2;
+            pos.x = Mathf.Sin(offsetAz + rangeAz * n / 2) * Mathf.Cos(offsetEl + rangeEl * index) * currentRadius;
+            pos.z = Mathf.Cos(offsetAz + rangeAz * n / 2) * Mathf.Cos(offsetEl + rangeEl * index) * currentRadius;
+            pos.y = Mathf.Sin(offsetEl + rangeEl * index) * currentRadius;
+
+            differenceLine.SetPosition(i, pos);
+        }
+
+
+
     }
 
     void SetSphereAlpha(float alpha)
