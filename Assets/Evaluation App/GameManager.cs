@@ -104,6 +104,12 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
+        if (OVRInput.GetDown(OVRInput.Button.PrimaryHandTrigger))
+        {
+            WindowManager currentWindowManager = FindFirstObjectByType<WindowManager>();
+            currentWindowManager.OpenCurrentWindow();
+        }
+
     }
 
     private void SetupWorldCamera()

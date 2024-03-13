@@ -41,6 +41,8 @@ public class HorrorEvent : MonoBehaviour
 
     public GameObject monster;
 
+    public Renderer passthroughBox;
+
 
 
     private void OnEnable()
@@ -122,6 +124,7 @@ public class HorrorEvent : MonoBehaviour
     public void EnableJumpscare()
     {
         roomModel.SetActive(true);
+        passthroughBox.enabled = true;
 
         jumpscareSpring = Instantiate(jumpScarePrefab);
         Vector3 lookDir = Camera.main.transform.eulerAngles;
@@ -180,9 +183,10 @@ public class HorrorEvent : MonoBehaviour
     private void Update()
     {
         currentFogValue = 0.99f * currentFogValue + 0.01f * currentFogTarget;
-        //RenderSettings.fogDensity = currentFogValue;
+        passthroughBox.material.SetFloat("_Opacity", currentFogValue / maxFog);
+        RenderSettings.fogDensity = currentFogValue;
         //light.intensity = 1-currentFogValue/maxFog;
-        GameManager.Instance.SetPassthroughOpacity(1 - currentFogValue / maxFog);
+        //GameManager.Instance.SetPassthroughOpacity(1 - currentFogValue / maxFog);
 
 
         if (!playMonsterSounds) return;

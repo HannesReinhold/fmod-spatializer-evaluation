@@ -256,7 +256,7 @@ public class DirectionGuessingGame : MonoBehaviour
         float elevation = dif.x;
 
         // draw azimuth projection of guessed and actual
-        DrawDirectionLines(new Vector3(guessedDirection.x, guessedDirection.y, guessedDirection.z).normalized, new Vector3(actualDirection.x, actualDirection.y, actualDirection.z).normalized);
+        //DrawDirectionLines(new Vector3(guessedDirection.x, guessedDirection.y, guessedDirection.z).normalized, new Vector3(actualDirection.x, actualDirection.y, actualDirection.z).normalized);
 
         // show error as text
         //textMesh.text = "Azimuth: " + azimuth + "\n Elevation: " + elevation;

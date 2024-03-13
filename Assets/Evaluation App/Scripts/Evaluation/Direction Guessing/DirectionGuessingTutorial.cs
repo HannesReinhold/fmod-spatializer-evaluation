@@ -9,6 +9,8 @@ public class DirectionGuessingTutorial : MonoBehaviour
 {
     public List<Vector3> positionList;
 
+    public Transform centerTransform;
+
     public WindowManager windowManager;
 
     public GameObject target;
@@ -54,6 +56,11 @@ public class DirectionGuessingTutorial : MonoBehaviour
     private float elevationDifference;
     private Vector3 scoreWindowPosition = Vector3.zero;
 
+    public GameObject crosshairVisualizer;
+    private Transform controllerTransform;
+
+
+    public DirectionVisualizerEvent directionVisualizer;
 
     private void OnEnable()
     {
@@ -75,15 +82,25 @@ public class DirectionGuessingTutorial : MonoBehaviour
 
         differenceWindow.GetComponentInChildren<PopupWindow>().Close();
 
+        directionVisualizer.OpenCrosshair();
+
     }
 
     private void Start()
     {
         CreateWireSphere();
+        GameObject controller = GameObject.Find("RightHandAnchor");
+        if (controller != null) controllerTransform = controller.transform;
     }
 
     private void Update()
     {
+
+        //Raycast(centerTransform.position, new Vector3(0.1f,0.2f,1).normalized);
+        //Vector3 dir = controllerTransform!= null ? (controllerTransform.forward - controllerTransform.right*0.1f).normalized : Vector3.forward;
+        //directionVisualizer.MapCrosshairToSphere(dir);
+
+
         if (enableInput && OVRInput.GetDown(OVRInput.Button.One)) Shoot();
         if (enableInput && target.activeSelf && Mouse.current.leftButton.wasPressedThisFrame) Shoot();
 
@@ -134,6 +151,29 @@ public class DirectionGuessingTutorial : MonoBehaviour
         currentAnimationTime = 0;
         maxN = 0;
         currentRadius=0;
+
+        directionVisualizer.OpenCrosshair();
+    }
+
+    public void Raycast(Vector3 pos, Vector3 dir)
+    {
+        if (controllerTransform != null)
+        {
+            pos = controllerTransform.position;
+            dir = (controllerTransform.forward - controllerTransform.right * 0.1f).normalized;
+        }
+
+        int layerMask = 1 << 6;
+        RaycastHit hit;
+        if (Physics.Raycast(pos + dir * 10, -dir, out hit, 100, layerMask))
+        {
+            crosshairVisualizer.transform.position = hit.point;
+
+            crosshairVisualizer.transform.rotation = Quaternion.FromToRotation(-Vector3.forward, hit.normal) * transform.rotation;
+            Vector3 newRotation = crosshairVisualizer.transform.eulerAngles;
+            crosshairVisualizer.transform.rotation = Quaternion.Euler(newRotation.x, newRotation.y, 0);
+        }
+
     }
 
     void Shoot()
@@ -155,7 +195,7 @@ public class DirectionGuessingTutorial : MonoBehaviour
 
         Invoke("ShowScore", 2);
 
-
+        directionVisualizer.CloseCrosshair();
     }
 
     public void Vib()
