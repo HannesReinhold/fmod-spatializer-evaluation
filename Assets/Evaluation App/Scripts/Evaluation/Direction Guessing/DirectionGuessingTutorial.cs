@@ -57,6 +57,7 @@ public class DirectionGuessingTutorial : MonoBehaviour
     private Vector3 scoreWindowPosition = Vector3.zero;
 
     public GameObject crosshairVisualizer;
+    public GameObject guessedDirectionVisualizer;
     private Transform controllerTransform;
 
 
@@ -81,9 +82,6 @@ public class DirectionGuessingTutorial : MonoBehaviour
         GUIAudioManager.SetAmbientVolume(0f);
 
         differenceWindow.GetComponentInChildren<PopupWindow>().Close();
-
-        directionVisualizer.OpenCrosshair();
-
     }
 
     private void Start()
@@ -96,21 +94,17 @@ public class DirectionGuessingTutorial : MonoBehaviour
     private void Update()
     {
 
-        //Raycast(centerTransform.position, new Vector3(0.1f,0.2f,1).normalized);
-        //Vector3 dir = controllerTransform!= null ? (controllerTransform.forward - controllerTransform.right*0.1f).normalized : Vector3.forward;
-        //directionVisualizer.MapCrosshairToSphere(dir);
-
 
         if (enableInput && OVRInput.GetDown(OVRInput.Button.One)) Shoot();
         if (enableInput && target.activeSelf && Mouse.current.leftButton.wasPressedThisFrame) Shoot();
 
 
-
-        if (showVisualizerSphere && currentAnimationTime<=maxAnimationTime)
+        
+        if (showDiffereLine && currentAnimationTime<=maxAnimationTime)
         {
             currentRadius = Mathf.Lerp(lastCurrentRadius, targetRadius, currentAnimationTime);
-            SetSphereAlpha(Mathf.Lerp(lastTargetAlpha,targetAlpha,currentAnimationTime));
-            SetWireSphere(64, gridResolution);
+            //SetSphereAlpha(Mathf.Lerp(lastTargetAlpha,targetAlpha,currentAnimationTime));
+            //SetWireSphere(64, gridResolution);
             if (maxN < 100) SetGuessedDifference((int)Mathf.Lerp(0, 100, currentAnimationTime - 1.5f));
             if (maxN >= 100) SetGuessedDifference((int)Mathf.Lerp(100, 200, currentAnimationTime - 2.5f));
             
@@ -121,9 +115,9 @@ public class DirectionGuessingTutorial : MonoBehaviour
 
 
         sphereParent.gameObject.SetActive(showVisualizerSphere);
-        GuessedPoint.SetActive(showVisualizerSphere && showDiffereLine);
-        differenceLine.gameObject.SetActive(showVisualizerSphere && showDiffereLine);
-        //if (showVisualizerSphere) SetGuessedDifference(maxN);
+        GuessedPoint.SetActive(showDiffereLine);
+        differenceLine.gameObject.SetActive(showDiffereLine);
+        if(showDiffereLine) SetGuessedDifference(maxN);
     }
 
     public void StartTutorial()
@@ -153,27 +147,7 @@ public class DirectionGuessingTutorial : MonoBehaviour
         currentRadius=0;
 
         directionVisualizer.OpenCrosshair();
-    }
-
-    public void Raycast(Vector3 pos, Vector3 dir)
-    {
-        if (controllerTransform != null)
-        {
-            pos = controllerTransform.position;
-            dir = (controllerTransform.forward - controllerTransform.right * 0.1f).normalized;
-        }
-
-        int layerMask = 1 << 6;
-        RaycastHit hit;
-        if (Physics.Raycast(pos + dir * 10, -dir, out hit, 100, layerMask))
-        {
-            crosshairVisualizer.transform.position = hit.point;
-
-            crosshairVisualizer.transform.rotation = Quaternion.FromToRotation(-Vector3.forward, hit.normal) * transform.rotation;
-            Vector3 newRotation = crosshairVisualizer.transform.eulerAngles;
-            crosshairVisualizer.transform.rotation = Quaternion.Euler(newRotation.x, newRotation.y, 0);
-        }
-
+        directionVisualizer.OpenSphere();
     }
 
     void Shoot()
@@ -184,12 +158,12 @@ public class DirectionGuessingTutorial : MonoBehaviour
         CancelInvoke("PlayAudioCue");
 
         playerPositionWhileGuessing = FindObjectOfType<FollowTarget>().transform.position;
-        showVisualizerSphere = true;
+        //showVisualizerSphere = true;
         showDiffereLine=true;
 
         targetRadius = Vector3.Distance(playerPositionWhileGuessing, target.transform.position);
 
-        SetWireSphere(64, gridResolution);
+        //SetWireSphere(64, gridResolution);
         SetGuessedPointPosition();
         //SetGuessedDifference();
 
@@ -303,31 +277,32 @@ public class DirectionGuessingTutorial : MonoBehaviour
 
     void SetGuessedPointPosition()
     {
-        guessedDirection = Vector3.left;
+       
+        guessedDirection = (directionVisualizer.crosshairVisualizer.transform.position - centerTransform.position).normalized;
+        GuessedPoint.transform.position = directionVisualizer.crosshairVisualizer.transform.position;
 
-        float rad = Vector3.Distance(playerPositionWhileGuessing, target.transform.position);
-        GuessedPoint.transform.position = playerPositionWhileGuessing + guessedDirection * rad;
+        float rad = Vector3.Distance(centerTransform.position, target.transform.position);
+        targetRadius = rad;
+        directionVisualizer.sphereEditor.SetSphere(rad,0.5f,1);
+        //float rad = Vector3.Distance(playerPositionWhileGuessing, target.transform.position);
+        //GuessedPoint.transform.position = playerPositionWhileGuessing + guessedDirection * rad;
     }
 
     void SetGuessedDifference(int max)
     {
 
+        //TODO: Fix vertical difference. Currently its set to 0
+
         maxN = max;
 
-        differenceLine.gameObject.transform.position = playerPositionWhileGuessing;
+        differenceLine.gameObject.transform.position = centerTransform.position;
 
-        Vector3 actualDirection = (target.transform.position - playerPositionWhileGuessing).normalized;
+        Vector3 actualDirection = (target.transform.position - centerTransform.position).normalized;
 
         // azimuth
         Vector3 horizontalProjGuessed = Vector3.ProjectOnPlane(guessedDirection, Vector3.up).normalized;
         Vector3 horizontalProjActual = Vector3.ProjectOnPlane(actualDirection, Vector3.up).normalized;
 
-        //Debug.DrawLine(playerPositionWhileGuessing, playerPositionWhileGuessing+horizontalProjActual,Color.green);
-        //Debug.DrawLine(playerPositionWhileGuessing, playerPositionWhileGuessing + horizontalProjGuessed, Color.red);
-
-
-
-        
         int n = 200;
         differenceLine.positionCount = maxN;
 
@@ -357,7 +332,7 @@ public class DirectionGuessingTutorial : MonoBehaviour
         }
 
         Vector3 dir = pos.normalized;
-        scoreWindowPosition = new Vector3(pos.x, -0.2f, pos.z) - dir * 0.3f + playerPositionWhileGuessing;
+        scoreWindowPosition = new Vector3(pos.x, -0.2f, pos.z) - dir * 0.3f + centerTransform.position;
         lastPos = pos;
 
         // elevation
@@ -367,11 +342,12 @@ public class DirectionGuessingTutorial : MonoBehaviour
         //Vector3 verticalProjGuessed = Vector3.ProjectOnPlane(guessedDirection, Vector3.right).normalized;
         //Vector3 verticalProjActual = Vector3.ProjectOnPlane(actualDirection, Vector3.right).normalized;
 
-        Debug.DrawLine(playerPositionWhileGuessing, playerPositionWhileGuessing + verticalProjGuessed, Color.green);
-        Debug.DrawLine(playerPositionWhileGuessing, playerPositionWhileGuessing + verticalProjActual, Color.red);
+        //Debug.DrawLine(centerTransform.position, centerTransform.position + (verticalProjGuessed), Color.green);
+        //Debug.DrawLine(centerTransform.position, centerTransform.position + (horizontalProjActual), Color.red);
 
 
         offset = -Vector3.SignedAngle(verticalProjGuessed, horizontalProjGuessed, Vector3.Cross(horizontalProjGuessed, Vector3.up));
+        Debug.Log("O:"+offset);
         offset *= Mathf.Deg2Rad;
         //Debug.Log(offset);
         range = -Vector3.SignedAngle(verticalProjActual, horizontalProjActual, Vector3.Cross(horizontalProjActual, Vector3.up)) - offset;
@@ -417,6 +393,7 @@ public class DirectionGuessingTutorial : MonoBehaviour
 
 
         Invoke("Disable",2);
+
 
     }
 
