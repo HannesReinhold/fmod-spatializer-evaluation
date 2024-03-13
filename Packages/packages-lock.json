@@ -77,12 +77,32 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.meta.xr.sdk.interaction.ovr.samples": {
+      "version": "62.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.meta.xr.sdk.interaction.ovr": "62.0.0",
+        "com.meta.xr.sdk.sharedassets": "62.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.meta.xr.sdk.platform": {
       "version": "62.0.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.meta.xr.sdk.core": "62.0.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.meta.xr.sdk.sharedassets": {
+      "version": "62.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.textmeshpro": "3.0.6",
         "com.unity.ugui": "1.0.0"
       },
       "url": "https://packages.unity.com"
@@ -126,6 +146,21 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.normalvr.normcore": {
+      "version": "2.9.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "url": "https://normcore-registry.normcore.io"
+    },
+    "com.unity.2d.sprite": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
     "com.unity.ai.navigation": {
       "version": "1.1.4",
       "depth": 2,
@@ -147,6 +182,13 @@
     "com.unity.collab-proxy": {
       "version": "2.0.5",
       "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.editorcoroutines": {
+      "version": "1.0.0",
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -181,6 +223,15 @@
       "depth": 0,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.inputsystem": {
+      "version": "1.6.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.mathematics": {

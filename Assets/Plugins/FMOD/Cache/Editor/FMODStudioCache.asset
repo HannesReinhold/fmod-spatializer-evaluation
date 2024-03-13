@@ -244,6 +244,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 300
+--- !u!114 &-5643486022443258723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/Event 1/Event1_Own
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/Event 1/Event1_Own
+  Guid:
+    Data1: -1469173203
+    Data2: 1334160676
+    Data3: 1192502673
+    Data4: 1235604996
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 29560
 --- !u!114 &-5531499567061207812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -475,12 +502,12 @@ MonoBehaviour:
   Path: spatializer-evaluation/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638446868008280988
+  lastModified: 638451560598036103
   FileSizes:
   - Name: Desktop
-    Value: 3838
+    Value: 4064
   - Name: Mobile
-    Value: 3838
+    Value: 4064
   Exists: 1
 --- !u!114 &-2319461348373264283
 MonoBehaviour:
@@ -710,12 +737,12 @@ MonoBehaviour:
   Path: spatializer-evaluation/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638446868008236009
+  lastModified: 638451588473025222
   FileSizes:
   - Name: Desktop
-    Value: 6450752
+    Value: 6455744
   - Name: Mobile
-    Value: 15164992
+    Value: 15169984
   Exists: 1
 --- !u!114 &-946515520402350275
 MonoBehaviour:
@@ -744,6 +771,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 15046
+--- !u!114 &-875593208059429763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/Event 1/Event1_Steam
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/Event 1/Event1_Steam
+  Guid:
+    Data1: 72765773
+    Data2: 1123063404
+    Data3: 1718027175
+    Data4: -1008022725
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 29560
 --- !u!114 &-649183196630573860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -906,13 +960,17 @@ MonoBehaviour:
   - {fileID: 2060410385711810692}
   - {fileID: 1780493839843008541}
   - {fileID: 2553622043674683139}
+  - {fileID: 5894112179383700834}
+  - {fileID: 7278082788066183621}
+  - {fileID: -5643486022443258723}
+  - {fileID: -875593208059429763}
   EditorParameters:
   - {fileID: -1390372814926940250}
   MasterBanks:
   - {fileID: -1074333314047361534}
   StringsBanks:
   - {fileID: -2559924674273271750}
-  cacheTime: 638446868008280988
+  cacheTime: 638451588473025222
   cacheVersion: 131616
 --- !u!114 &39868051584154718
 MonoBehaviour:
@@ -1667,6 +1725,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 400
+--- !u!114 &5894112179383700834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/Event 1/Event1_Oculus
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/Event 1/Event1_Oculus
+  Guid:
+    Data1: -2067781118
+    Data2: 1330640251
+    Data3: 485749158
+    Data4: -37591488
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 29560
 --- !u!114 &6154344760274638015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1694,6 +1779,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4989
+--- !u!114 &7278082788066183621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/Event 1/Event1_Resonance
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/Event 1/Event1_Resonance
+  Guid:
+    Data1: 1849234471
+    Data2: 1292111895
+    Data3: 810010552
+    Data4: -734097609
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 29560
 --- !u!114 &7416582146748095930
 MonoBehaviour:
   m_ObjectHideFlags: 0

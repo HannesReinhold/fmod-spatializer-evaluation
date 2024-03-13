@@ -1,4 +1,4 @@
-Library: C:\Users\IXLAB\Documents\GitHub\fmod-spatializer-evaluation\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
+Library: D:\Dokumente\Bachelor Medieninformatik\Bachelorarbeit\Repository\fmod-spatializer-evaluation\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
 --platform=Android
 --backend=burst-llvm-15
 --target=ARMV8A_AARCH64
@@ -9,14 +9,20 @@ Library: C:\Users\IXLAB\Documents\GitHub\fmod-spatializer-evaluation\Temp\BurstO
 --float-precision=Standard
 --float-mode=Fast
 --assembly-defines=Assembly-CSharp;
+--assembly-defines=FMODUnity;
+--assembly-defines=FMODUnityResonance;
 --assembly-defines=Meta.XR.BuildingBlocks;
 --assembly-defines=meta.xr.mrutilitykit;
 --assembly-defines=Mono.Security;
 --assembly-defines=mscorlib;
 --assembly-defines=Newtonsoft.Json;
+--assembly-defines=Normal.Realtime;
+--assembly-defines=Normal.Realtime.Shared;
 --assembly-defines=Oculus.Interaction;
 --assembly-defines=Oculus.Interaction.OVR;
 --assembly-defines=Oculus.VR;
+--assembly-defines=PathCreator;
+--assembly-defines=SteamAudioUnity;
 --assembly-defines=System.Configuration;
 --assembly-defines=System.Core;
 --assembly-defines=System.Data;
@@ -25,21 +31,25 @@ Library: C:\Users\IXLAB\Documents\GitHub\fmod-spatializer-evaluation\Temp\BurstO
 --assembly-defines=System.Runtime.Serialization;
 --assembly-defines=System.Xml;
 --assembly-defines=System.Xml.Linq;
+--assembly-defines=Unity.AI.Navigation;
 --assembly-defines=Unity.Burst;
 --assembly-defines=Unity.Burst.Unsafe;
+--assembly-defines=Unity.InputSystem;
+--assembly-defines=Unity.InputSystem.ForUI;
 --assembly-defines=Unity.Mathematics;
 --assembly-defines=Unity.RenderPipeline.Universal.ShaderLibrary;
 --assembly-defines=Unity.RenderPipelines.Core.Runtime;
 --assembly-defines=Unity.RenderPipelines.Universal.Runtime;
 --assembly-defines=Unity.TextMeshPro;
+--assembly-defines=Unity.Timeline;
 --assembly-defines=Unity.XR.Management;
 --assembly-defines=Unity.XR.Oculus;
 --assembly-defines=UnityEngine;
 --generate-link-xml=Temp\burst.link.xml
---temp-folder=C:\Users\IXLAB\Documents\GitHub\fmod-spatializer-evaluation\Temp\Burst
---key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer
---decode-folder=C:\Users\IXLAB\Documents\GitHub\fmod-spatializer-evaluation\Library\Burst
---output=C:\Users\IXLAB\Documents\GitHub\fmod-spatializer-evaluation\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
+--temp-folder=D:\Dokumente\Bachelor Medieninformatik\Bachelorarbeit\Repository\fmod-spatializer-evaluation\Temp\Burst
+--key-folder=D:/Apps/Coding/Unity/Unity Editor/2022.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer
+--decode-folder=D:\Dokumente\Bachelor Medieninformatik\Bachelorarbeit\Repository\fmod-spatializer-evaluation\Library\Burst
+--output=D:\Dokumente\Bachelor Medieninformatik\Bachelorarbeit\Repository\fmod-spatializer-evaluation\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Jobs.IJobForExtensions+ForJobStruct`1[[UnityEngine.Rendering.Universal.ZBinningJob, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.ZBinningJob&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--77fc393cb521ac129b1392d4eb94d29a
@@ -53,14 +63,20 @@ Library: C:\Users\IXLAB\Documents\GitHub\fmod-spatializer-evaluation\Temp\BurstO
 --dump=Function
 --float-precision=Standard
 --assembly-defines=Assembly-CSharp;
+--assembly-defines=FMODUnity;
+--assembly-defines=FMODUnityResonance;
 --assembly-defines=Meta.XR.BuildingBlocks;
 --assembly-defines=meta.xr.mrutilitykit;
 --assembly-defines=Mono.Security;
 --assembly-defines=mscorlib;
 --assembly-defines=Newtonsoft.Json;
+--assembly-defines=Normal.Realtime;
+--assembly-defines=Normal.Realtime.Shared;
 --assembly-defines=Oculus.Interaction;
 --assembly-defines=Oculus.Interaction.OVR;
 --assembly-defines=Oculus.VR;
+--assembly-defines=PathCreator;
+--assembly-defines=SteamAudioUnity;
 --assembly-defines=System.Configuration;
 --assembly-defines=System.Core;
 --assembly-defines=System.Data;
@@ -69,21 +85,25 @@ Library: C:\Users\IXLAB\Documents\GitHub\fmod-spatializer-evaluation\Temp\BurstO
 --assembly-defines=System.Runtime.Serialization;
 --assembly-defines=System.Xml;
 --assembly-defines=System.Xml.Linq;
+--assembly-defines=Unity.AI.Navigation;
 --assembly-defines=Unity.Burst;
 --assembly-defines=Unity.Burst.Unsafe;
+--assembly-defines=Unity.InputSystem;
+--assembly-defines=Unity.InputSystem.ForUI;
 --assembly-defines=Unity.Mathematics;
 --assembly-defines=Unity.RenderPipeline.Universal.ShaderLibrary;
 --assembly-defines=Unity.RenderPipelines.Core.Runtime;
 --assembly-defines=Unity.RenderPipelines.Universal.Runtime;
 --assembly-defines=Unity.TextMeshPro;
+--assembly-defines=Unity.Timeline;
 --assembly-defines=Unity.XR.Management;
 --assembly-defines=Unity.XR.Oculus;
 --assembly-defines=UnityEngine;
 --generate-link-xml=Temp\burst.link.xml
---temp-folder=C:\Users\IXLAB\Documents\GitHub\fmod-spatializer-evaluation\Temp\Burst
---key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer
---decode-folder=C:\Users\IXLAB\Documents\GitHub\fmod-spatializer-evaluation\Library\Burst
---output=C:\Users\IXLAB\Documents\GitHub\fmod-spatializer-evaluation\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
+--temp-folder=D:\Dokumente\Bachelor Medieninformatik\Bachelorarbeit\Repository\fmod-spatializer-evaluation\Temp\Burst
+--key-folder=D:/Apps/Coding/Unity/Unity Editor/2022.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer
+--decode-folder=D:\Dokumente\Bachelor Medieninformatik\Bachelorarbeit\Repository\fmod-spatializer-evaluation\Library\Burst
+--output=D:\Dokumente\Bachelor Medieninformatik\Bachelorarbeit\Repository\fmod-spatializer-evaluation\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10

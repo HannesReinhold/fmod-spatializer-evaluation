@@ -8,6 +8,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 0
+    path: Assets/Samples/Meta XR Interaction SDK OVR Samples/62.0.0/Feature Scenes/DebugRay.unity
+    guid: 98733b7ba27575749b1cb1365c853e1f
+  - enabled: 0
+    path: Assets/Scenes/Interaction Test.unity
+    guid: 13646d9ae112ae74db540a71e93e0baf
+  - enabled: 0
+    path: Assets/Samples/Meta XR Interaction SDK OVR Samples/62.0.0/Feature Scenes/RayCanvasCurved.unity
+    guid: a59598fb46d366b45ad435a0f942ce62
+  - enabled: 0
+    path: Assets/Samples/Meta XR Interaction SDK OVR Samples/62.0.0/Feature Scenes/RayCanvasFlat.unity
+    guid: 7f5c84932632e2a4eb3d90db823935f1
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 9dde99b37d5f3c54f95ca3ba7cc471a1,
       type: 2}
