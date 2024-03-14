@@ -93,8 +93,8 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _DistOffset: 2
-    - _DistRange: 1
+    - _DistOffset: 2.36
+    - _DistRange: 3.22
     - _DstBlend: 10
     - _DstBlendAlpha: 10
     - _Emission: 1
@@ -121,7 +121,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _EyeOffset: {r: -0.5, g: -0.5, b: 0, a: 0}
-    - _IrisColor: {r: 1, g: 0, b: 0, a: 1}
+    - _IrisColor: {r: 1, g: 0, b: 0.023255825, a: 1}
     - _PupilColor: {r: 0, g: 0, b: 0, a: 1}
     - _ScleraColor: {r: 1, g: 1, b: 1, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}

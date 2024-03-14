@@ -43,6 +43,8 @@ public class HorrorEvent : MonoBehaviour
 
     public Renderer passthroughBox;
 
+    public Lightsflicker lightsFlicker;
+
 
 
     private void OnEnable()
@@ -50,6 +52,7 @@ public class HorrorEvent : MonoBehaviour
         GameManager.Instance.ShowRoomModel(2);
 
         ambience.SetActive(true);
+        lightsFlicker.StartFlicker();
 
         /*
         EnableFog();
@@ -102,6 +105,7 @@ public class HorrorEvent : MonoBehaviour
     public void EnableFog()
     {
         currentFogTarget = maxFog;
+        lightsFlicker.StopFlicker();
     }
 
     public void DisableFog()
@@ -132,6 +136,7 @@ public class HorrorEvent : MonoBehaviour
         jumpscareSpring.transform.position = new Vector3(camPos.x, 0, camPos.z) + new Vector3(Mathf.Sin(lookDir.x),0,Mathf.Cos(lookDir.z));
         jumpscareSpring.transform.LookAt(new Vector3(camPos.x, 0, camPos.z));
         FMODUnity.RuntimeManager.PlayOneShot("event:/Spooky/Boing", jumpscareSpring.transform.position);
+        Debug.Log("Boo");
     }
 
     private void DisableAmbience()
@@ -185,7 +190,7 @@ public class HorrorEvent : MonoBehaviour
         currentFogValue = 0.99f * currentFogValue + 0.01f * currentFogTarget;
         passthroughBox.material.SetFloat("_Opacity", currentFogValue / maxFog);
         RenderSettings.fogDensity = currentFogValue;
-        //light.intensity = 1-currentFogValue/maxFog;
+        light.intensity = 1-currentFogValue/maxFog;
         //GameManager.Instance.SetPassthroughOpacity(1 - currentFogValue / maxFog);
 
 
