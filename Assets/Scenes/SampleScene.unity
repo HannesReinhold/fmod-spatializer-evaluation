@@ -10343,6 +10343,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 5.46
       objectReference: {fileID: 0}
+    - target: {fileID: 6001682489351831660, guid: 92f88015bbaab1f47b2758b238242831,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.79
+      objectReference: {fileID: 0}
     - target: {fileID: 6001682489618252535, guid: 92f88015bbaab1f47b2758b238242831,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19300,7 +19305,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eyePrefab: {fileID: 2150261895636368250, guid: 4ec82f0506781a548a298f9a57da019e,
     type: 3}
-  numEyes: 50
+  numEyes: 25
   eyeList: []
 --- !u!1001 &1589280755
 PrefabInstance:

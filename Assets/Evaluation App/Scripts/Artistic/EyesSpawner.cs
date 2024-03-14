@@ -38,7 +38,9 @@ public class EyesSpawner : MonoBehaviour
     private void SpawnEye()
     {
         GameObject eye = Instantiate(eyePrefab);
-        eye.transform.position = Random.onUnitSphere * 5 + new Vector3(Random.value, Random.value + Random.value) * 0.3f;
+        Vector3 pos = Random.onUnitSphere * 5 + new Vector3(Random.value, Random.value + Random.value) * 0.3f;
+        if (pos.y < 0.7f) pos.y = Random.Range(0.7f,3);
+        eye.transform.position = pos;
         eye.transform.parent = transform;
         eyeList.Add(eye);
     }
