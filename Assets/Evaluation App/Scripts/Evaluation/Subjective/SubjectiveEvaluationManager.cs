@@ -134,7 +134,9 @@ public class SubjectiveEvaluationManager : MonoBehaviour
         Invoke("EmergeSpeaker", 4);
         Invoke("EmergeSpeaker", 5);
         Invoke("EmergeSpeaker", 6);
-        
+        Invoke("EmergeSpeaker", 7);
+        Invoke("EmergeSpeaker", 8);
+
         Invoke("DisableHighlighting",8);
     }
 
