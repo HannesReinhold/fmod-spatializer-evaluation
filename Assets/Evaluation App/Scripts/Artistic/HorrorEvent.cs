@@ -136,6 +136,7 @@ public class HorrorEvent : MonoBehaviour
         jumpscareSpring.transform.position = new Vector3(camPos.x, 0, camPos.z) + new Vector3(Mathf.Sin(lookDir.x),0,Mathf.Cos(lookDir.z));
         jumpscareSpring.transform.LookAt(new Vector3(camPos.x, 0, camPos.z));
         FMODUnity.RuntimeManager.PlayOneShot("event:/Spooky/Boing", jumpscareSpring.transform.position);
+        Debug.Log("Boo");
     }
 
     private void DisableAmbience()
