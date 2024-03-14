@@ -423,6 +423,9 @@ public class DirectionGuessingTutorial : MonoBehaviour
             differenceLine.SetPosition(i, pos);
         }
 
+        Vector3 dir = pos.normalized;
+        scoreWindowPosition = new Vector3(pos.x, -0.2f, pos.z) - dir * 0.3f + centerTransform.position;
+
         for (int i = n / 2; (i < maxN) && (i < n); i++)
         {
             int index = i - n / 2;
