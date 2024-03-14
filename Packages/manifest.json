@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.ixlab.alignment": "https://dev.ixlab.inf.tu-dresden.de/lab/multiuservrfoundations/viewr_core.git?path=/Assets/ViewR/Core/Calibration",
     "com.meta.xr.sdk.all": "62.0.0",
     "com.meta.xr.sdk.interaction.ovr.samples": "62.0.0",
     "com.normalvr.normcore": "2.9.2",
