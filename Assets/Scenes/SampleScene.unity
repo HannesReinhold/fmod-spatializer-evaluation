@@ -3074,7 +3074,7 @@ PrefabInstance:
     - target: {fileID: 4972187996373516670, guid: a1541d2fad318d243815afa312605171,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4972187996373516671, guid: a1541d2fad318d243815afa312605171,
         type: 3}
@@ -10222,7 +10222,7 @@ PrefabInstance:
     - target: {fileID: 2345778413083533527, guid: 92f88015bbaab1f47b2758b238242831,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2345778413083533544, guid: 92f88015bbaab1f47b2758b238242831,
         type: 3}
@@ -10502,7 +10502,7 @@ PrefabInstance:
     - target: {fileID: 6001682491419708761, guid: 92f88015bbaab1f47b2758b238242831,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6028090317842065371, guid: 92f88015bbaab1f47b2758b238242831,
         type: 3}
@@ -15781,10 +15781,9 @@ MonoBehaviour:
   rightControllerObject: {fileID: 2019931622}
   rayObject: {fileID: 137617727}
   passthroughLayer: {fileID: 2050220107}
-  startEvaluationState: 0
+  startEvaluationState: 1
   VRStuff:
   - {fileID: 173285995}
-  - {fileID: 797275253}
   - {fileID: 823480772}
   - {fileID: 643058308}
   - {fileID: 1553206614}

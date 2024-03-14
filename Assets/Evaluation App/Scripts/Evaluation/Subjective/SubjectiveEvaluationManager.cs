@@ -57,13 +57,14 @@ public class SubjectiveEvaluationManager : MonoBehaviour
         finish.SetActive(false);
         evaluationRound.SetActive(false);
         Debug.Log(GameManager.Instance.dataManager);
+        DisableHighlighting();
         numParts = GameManager.Instance.dataManager.spatializerData.subjectiveEvaluationData.evaluationParts.Count;
         if (!skipTutorial) introduction.SetActive(true);
         else { 
             StartRound(); 
             roundID++;
         }
-        DisableHighlighting();
+        
         //GUIAudioManager.SetAmbientVolume(0);
 
 

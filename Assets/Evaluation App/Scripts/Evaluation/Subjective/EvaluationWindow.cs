@@ -45,8 +45,8 @@ public class EvaluationWindow : MonoBehaviour
     }
     private void Update()
     {
-        maskTransform.localPosition = new Vector3(0, -1520+a*440, 0);
-        textTransform.localPosition = new Vector3(0, 100+a * 440, 0);
+        maskTransform.localPosition = new Vector3(0, -1540+a*440, 0);
+        textTransform.localPosition = new Vector3(0, 120+a * 440, 0);
 
         a = Mathf.Lerp(a,targetA,0.1f);
     }

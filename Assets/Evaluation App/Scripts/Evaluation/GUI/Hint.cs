@@ -38,7 +38,7 @@ public class Hint : MonoBehaviour
     public void HideHint()
     {
         //LeanTween.scale(gameObject, Vector3.one * 750, 0.5f).setEaseOutCubic();
-        LeanTween.alphaCanvas(corner,0.5f,0.5f).setEaseOutCubic();
+        LeanTween.alphaCanvas(corner,0.2f,0.5f).setEaseOutCubic();
         
     }
 }

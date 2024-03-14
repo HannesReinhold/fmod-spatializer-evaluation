@@ -93,7 +93,7 @@ public class PopupWindow : MonoBehaviour
 
     private void EnableCollider()
     {
-        interactable.enabled = true;
+        if(interactable!=null) interactable.enabled = true;
     }
 
     private void DisableCollider()
