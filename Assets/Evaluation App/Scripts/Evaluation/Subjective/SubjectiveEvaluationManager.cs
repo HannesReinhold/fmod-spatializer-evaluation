@@ -153,6 +153,15 @@ public class SubjectiveEvaluationManager : MonoBehaviour
         currentEmergingSpeaker++;
     }
 
+    public void HighlightSpeaker(int index)
+    {
+        for(int i=0; i<6; i++)
+        {
+            if(index==i) speakers[i].GetComponentInChildren<SpeakerHighlighter>().ApplyHighlight();
+            else speakers[i].GetComponentInChildren<SpeakerHighlighter>().RemoveHighlight();
+        }
+    }
+
 
 
     public void ResetValues()

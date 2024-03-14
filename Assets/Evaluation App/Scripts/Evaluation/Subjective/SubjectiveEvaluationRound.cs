@@ -72,6 +72,8 @@ public class SubjectiveEvaluationRound : MonoBehaviour
         audioSwitch.SetAll(true, roundData.speakerID, roundData.comparisonSpatializerID);
         audioSwitch.Play(partData.fileID);
 
+        manager.HighlightSpeaker(roundData.speakerID);
+
     }
 
     public void UpdateRatingValue()
