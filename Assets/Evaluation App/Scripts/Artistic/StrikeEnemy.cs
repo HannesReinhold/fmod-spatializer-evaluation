@@ -9,6 +9,7 @@ public class StrikeEnemy : MonoBehaviour
     public GameObject ray;
 
     public GameObject sword;
+    public GameObject swordTip;
     public GameObject enemy;
 
     public GameObject music;
@@ -79,7 +80,7 @@ public class StrikeEnemy : MonoBehaviour
             rend.material.SetFloat("_Opacity", currentOpacity);
         }
 
-        float d = Vector3.Distance(sword.transform.position, lastPosition)/Time.deltaTime;
+        float d = Vector3.Distance(swordTip.transform.position, lastPosition)/Time.deltaTime;
         if (d > 10f)
         {
             if (!alreadySwung)
@@ -92,7 +93,9 @@ public class StrikeEnemy : MonoBehaviour
         {
             alreadySwung = false;
         }
-        lastPosition = sword.transform.position;
+        lastPosition = swordTip.transform.position;
+
+        Debug.Log("Vel: "+d);
     }
 
     private void ResetSwing()
