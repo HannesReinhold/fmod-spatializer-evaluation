@@ -702,6 +702,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6568449658912156358, guid: 1fd585f8769e1da4da1887487c24f064,
         type: 3}
+      propertyPath: enableDynamicResolution
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6568449658912156358, guid: 1fd585f8769e1da4da1887487c24f064,
+        type: 3}
       propertyPath: isInsightPassthroughEnabled
       value: 1
       objectReference: {fileID: 0}
@@ -713,12 +718,42 @@ PrefabInstance:
     - target: {fileID: 6568449658917244126, guid: 1fd585f8769e1da4da1887487c24f064,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6568449658917244126, guid: 1fd585f8769e1da4da1887487c24f064,
+        type: 3}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6568449658917244126, guid: 1fd585f8769e1da4da1887487c24f064,
+        type: 3}
+      propertyPath: m_BackGroundColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6568449658917244126, guid: 1fd585f8769e1da4da1887487c24f064,
+        type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6568449658917244126, guid: 1fd585f8769e1da4da1887487c24f064,
+        type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6568449658917244126, guid: 1fd585f8769e1da4da1887487c24f064,
+        type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6568449658917244126, guid: 1fd585f8769e1da4da1887487c24f064,
         type: 3}
       propertyPath: m_CullingMask.m_Bits
       value: 4294967263
+      objectReference: {fileID: 0}
+    - target: {fileID: 6568449658917674784, guid: 1fd585f8769e1da4da1887487c24f064,
+        type: 3}
+      propertyPath: m_TagString
+      value: MainCamera
       objectReference: {fileID: 0}
     - target: {fileID: 6568449658917674786, guid: 1fd585f8769e1da4da1887487c24f064,
         type: 3}
@@ -729,6 +764,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6568449658917674788, guid: 1fd585f8769e1da4da1887487c24f064,
+        type: 3}
+      propertyPath: m_TagString
+      value: MainCamera
       objectReference: {fileID: 0}
     - target: {fileID: 6568449658917831426, guid: 1fd585f8769e1da4da1887487c24f064,
         type: 3}
@@ -782,8 +822,48 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6584508732446061322, guid: 1fd585f8769e1da4da1887487c24f064,
         type: 3}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584508732446061322, guid: 1fd585f8769e1da4da1887487c24f064,
+        type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584508732446061322, guid: 1fd585f8769e1da4da1887487c24f064,
+        type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584508732446061322, guid: 1fd585f8769e1da4da1887487c24f064,
+        type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584508732446061322, guid: 1fd585f8769e1da4da1887487c24f064,
+        type: 3}
       propertyPath: m_CullingMask.m_Bits
       value: 4294967263
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584508734730038416, guid: 1fd585f8769e1da4da1887487c24f064,
+        type: 3}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584508734730038416, guid: 1fd585f8769e1da4da1887487c24f064,
+        type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584508734730038416, guid: 1fd585f8769e1da4da1887487c24f064,
+        type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584508734730038416, guid: 1fd585f8769e1da4da1887487c24f064,
+        type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6584508734730038416, guid: 1fd585f8769e1da4da1887487c24f064,
         type: 3}
@@ -2355,6 +2435,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 26428066735310325, guid: a1541d2fad318d243815afa312605171,
+        type: 3}
+      propertyPath: closeOnComplete
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 48786394719009166, guid: a1541d2fad318d243815afa312605171,
         type: 3}
       propertyPath: openDelay
@@ -2983,7 +3068,7 @@ PrefabInstance:
     - target: {fileID: 3940596950687256802, guid: a1541d2fad318d243815afa312605171,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: NextRound
+      value: StartRound
       objectReference: {fileID: 0}
     - target: {fileID: 3940596950687256802, guid: a1541d2fad318d243815afa312605171,
         type: 3}
@@ -16903,7 +16988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ca02c6db6f15ef4eb08a354da27ef1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsVR: 1
+  IsVR: 0
   allowEvaluationNonVR: 0
   introductionObject: {fileID: 823480772}
   subjectiveObject: {fileID: 643058308}
@@ -16913,7 +16998,7 @@ MonoBehaviour:
   rightControllerObject: {fileID: 2019931622}
   rayObject: {fileID: 137617727}
   passthroughLayer: {fileID: 2050220107}
-  startEvaluationState: 0
+  startEvaluationState: 1
   VRStuff:
   - {fileID: 173285995}
   - {fileID: 823480772}

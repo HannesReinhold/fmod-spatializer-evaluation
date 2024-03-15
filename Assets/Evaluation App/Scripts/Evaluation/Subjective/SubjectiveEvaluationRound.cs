@@ -45,8 +45,13 @@ public class SubjectiveEvaluationRound : MonoBehaviour
     {
         bus = FMODUnity.RuntimeManager.GetBus("bus:/MainSounds");
         bus.setVolume(1);
-        windowManager = GetComponent<WindowManager>();
+        
 
+    }
+
+    private void Awake()
+    {
+        windowManager = GetComponent<WindowManager>();
     }
 
     public void SaveRound()

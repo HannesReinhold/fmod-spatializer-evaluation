@@ -86,8 +86,10 @@ public class SubjectiveEvaluationManager : MonoBehaviour
         GUIAudioManager.SetAmbientVolume(0);
         numParts = GameManager.Instance.dataManager.spatializerData.subjectiveEvaluationData.evaluationParts.Count;
         roundManager.UpdateInterface(GameManager.Instance.dataManager.spatializerData.subjectiveEvaluationData.evaluationParts[partID], roundID);
+        roundManager.StartRound(true);
         tutorial.SetActive(false);
         evaluationRound.SetActive(true);
+        roundID++;
     }
 
     public void NextRound()

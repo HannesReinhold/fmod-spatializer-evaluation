@@ -15,4 +15,5 @@ public class RoundData
     public int roundID;
     public int positionID;
     public int spatializerID;
+    public int cueID;
 }

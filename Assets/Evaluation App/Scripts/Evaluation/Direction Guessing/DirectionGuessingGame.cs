@@ -210,7 +210,7 @@ public class DirectionGuessingGame : MonoBehaviour
     /// </summary>
     private void PlayAudioCue()
     {
-        int cueID = 0;
+        int cueID = gameData.rounds[currentRound].cueID;
         Debug.Log("Playing spatializer "+currentSpatializer+" at "+target.transform.position);
         switch (currentSpatializer) {
             case 0: PlayRealAudio(currentPositionID, cueID); break;

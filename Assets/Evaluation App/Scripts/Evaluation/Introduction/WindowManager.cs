@@ -72,8 +72,9 @@ public class WindowManager : MonoBehaviour
 
     public void OpenPage(int pageIndex)
     {
+        
+        if (currentWindow != null && pageIndex!=currentWindowIndex) currentWindow.GetComponent<PopupWindow>().Close();
         currentWindowIndex = pageIndex;
-        if (currentWindow != null) currentWindow.GetComponent<PopupWindow>().Close();
         currentWindow = windows[pageIndex];
         currentWindow.SetActive(true);
         GUIAudioManager.PlayMenuOpen(transform.position);
