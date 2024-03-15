@@ -88,7 +88,6 @@ public class SubjectiveEvaluationManager : MonoBehaviour
         roundManager.UpdateInterface(GameManager.Instance.dataManager.spatializerData.subjectiveEvaluationData.evaluationParts[partID], roundID);
         tutorial.SetActive(false);
         evaluationRound.SetActive(true);
-
     }
 
     public void NextRound()
