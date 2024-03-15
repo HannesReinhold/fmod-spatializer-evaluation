@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9184065619566305965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DirectionGame/Hint 3/Hint_3_Oculus
+  m_EditorClassIdentifier: 
+  Path: event:/DirectionGame/Hint 3/Hint_3_Oculus
+  Guid:
+    Data1: 436581627
+    Data2: 1324440848
+    Data3: 1678909091
+    Data4: 2005514177
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1209
 --- !u!114 &-9104270326859875436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27,6 +54,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 6086
+--- !u!114 &-8955239299703273626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DirectionGame/Hint 1/Hint_1_Own
+  m_EditorClassIdentifier: 
+  Path: event:/DirectionGame/Hint 1/Hint_1_Own
+  Guid:
+    Data1: -179139685
+    Data2: 1308042440
+    Data3: -590464072
+    Data4: -78898188
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
 --- !u!114 &-8756741607683439625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -189,33 +243,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1000
---- !u!114 &-6904890855166453109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/DirectionGame/HintOculus
-  m_EditorClassIdentifier: 
-  Path: event:/DirectionGame/HintOculus
-  Guid:
-    Data1: -1272315626
-    Data2: 1155795682
-    Data3: 358162325
-    Data4: 905312367
-  Banks:
-  - {fileID: -1074333314047361534}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 300
 --- !u!114 &-6640867426801592095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -271,6 +298,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 66000
+--- !u!114 &-6366238338684877742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DirectionGame/Hint 1/Hint_1_Resonance
+  m_EditorClassIdentifier: 
+  Path: event:/DirectionGame/Hint 1/Hint_1_Resonance
+  Guid:
+    Data1: 797709285
+    Data2: 1146701144
+    Data3: 562566021
+    Data4: 149155074
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
 --- !u!114 &-6154041328220040605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -298,33 +352,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3000
---- !u!114 &-5998868233792804546
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/DirectionGame/HintResonance
-  m_EditorClassIdentifier: 
-  Path: event:/DirectionGame/HintResonance
-  Guid:
-    Data1: 797709285
-    Data2: 1146701144
-    Data3: 562566021
-    Data4: 149155074
-  Banks:
-  - {fileID: -1074333314047361534}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 300
 --- !u!114 &-5531499567061207812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -406,7 +433,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 7418
---- !u!114 &-4892158323348484516
+--- !u!114 &-4495279810698101181
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -416,23 +443,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/DirectionGame/HintSteam
+  m_Name: event:/DirectionGame/Hint 2/Hint_2_Own
   m_EditorClassIdentifier: 
-  Path: event:/DirectionGame/HintSteam
+  Path: event:/DirectionGame/Hint 2/Hint_2_Own
   Guid:
-    Data1: -88364426
-    Data2: 1081428025
-    Data3: 442253740
-    Data4: 771646228
+    Data1: 1219128703
+    Data2: 1100291988
+    Data3: -2064164443
+    Data4: 1347876248
   Banks:
   - {fileID: -1074333314047361534}
-  IsStream: 0
+  IsStream: 1
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 300
+  Length: 400
 --- !u!114 &-4228001828078358950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -487,6 +514,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 9273
+--- !u!114 &-3673413596350100839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DirectionGame/Hint 3/Hint_3_Steam
+  m_EditorClassIdentifier: 
+  Path: event:/DirectionGame/Hint 3/Hint_3_Steam
+  Guid:
+    Data1: -841941038
+    Data2: 1320234516
+    Data3: -866065226
+    Data4: 1157880796
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1209
 --- !u!114 &-3418089491624838235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -568,6 +622,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 7480
+--- !u!114 &-2800729604850916404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DirectionGame/Hint 2/Hint_2_Steam
+  m_EditorClassIdentifier: 
+  Path: event:/DirectionGame/Hint 2/Hint_2_Steam
+  Guid:
+    Data1: 315540234
+    Data2: 1124315697
+    Data3: 951083399
+    Data4: 96639550
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
 --- !u!114 &-2559924674273271750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -583,12 +664,12 @@ MonoBehaviour:
   Path: spatializer-evaluation/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638461012941933851
+  lastModified: 638461136306401038
   FileSizes:
   - Name: Desktop
-    Value: 4612
+    Value: 5038
   - Name: Mobile
-    Value: 4612
+    Value: 5038
   Exists: 1
 --- !u!114 &-2319461348373264283
 MonoBehaviour:
@@ -644,6 +725,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2086
+--- !u!114 &-2134519339988687991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DirectionGame/Hint 1/Hint_1_Steam
+  m_EditorClassIdentifier: 
+  Path: event:/DirectionGame/Hint 1/Hint_1_Steam
+  Guid:
+    Data1: -88364426
+    Data2: 1081428025
+    Data3: 442253740
+    Data4: 771646228
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
 --- !u!114 &-1925718115235173823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -818,13 +926,40 @@ MonoBehaviour:
   Path: spatializer-evaluation/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638461012941868856
+  lastModified: 638461136306346050
   FileSizes:
   - Name: Desktop
-    Value: 19566624
+    Value: 19726976
   - Name: Mobile
-    Value: 39948288
+    Value: 40687744
   Exists: 1
+--- !u!114 &-951975973606069593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DirectionGame/Hint 3/Hint_3_Resonance
+  m_EditorClassIdentifier: 
+  Path: event:/DirectionGame/Hint 3/Hint_3_Resonance
+  Guid:
+    Data1: 1242662177
+    Data2: 1141495675
+    Data3: -1764909384
+    Data4: -1091795167
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1209
 --- !u!114 &-946515520402350275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1061,7 +1196,6 @@ MonoBehaviour:
   - {fileID: 8677170616594671084}
   - {fileID: -8756741607683439625}
   - {fileID: -60594793919669843}
-  - {fileID: -6904890855166453109}
   - {fileID: -2893674120835575157}
   - {fileID: -2314447397825866884}
   - {fileID: -89360670153433620}
@@ -1090,7 +1224,6 @@ MonoBehaviour:
   - {fileID: 4925468588622358279}
   - {fileID: 7416582146748095930}
   - {fileID: -5406841696847260583}
-  - {fileID: -4892158323348484516}
   - {fileID: -9104270326859875436}
   - {fileID: 4338480650004231675}
   - {fileID: 7971029185854446743}
@@ -1117,7 +1250,6 @@ MonoBehaviour:
   - {fileID: 1165072095325509053}
   - {fileID: 8047628818371160746}
   - {fileID: 6154344760274638015}
-  - {fileID: -5998868233792804546}
   - {fileID: 903749323588180776}
   - {fileID: 2060410385711810692}
   - {fileID: 1780493839843008541}
@@ -1138,13 +1270,25 @@ MonoBehaviour:
   - {fileID: 32288847005773126}
   - {fileID: -7828849016741434504}
   - {fileID: -6487856318206082627}
+  - {fileID: -2800729604850916404}
+  - {fileID: 7720945445724958846}
+  - {fileID: -951975973606069593}
+  - {fileID: -2134519339988687991}
+  - {fileID: 4752039413308478712}
+  - {fileID: -4495279810698101181}
+  - {fileID: -8955239299703273626}
+  - {fileID: 5812768453601162006}
+  - {fileID: -3673413596350100839}
+  - {fileID: -6366238338684877742}
+  - {fileID: 4982326535997110092}
+  - {fileID: -9184065619566305965}
   EditorParameters:
   - {fileID: -1390372814926940250}
   MasterBanks:
   - {fileID: -1074333314047361534}
   StringsBanks:
   - {fileID: -2559924674273271750}
-  cacheTime: 638461012941933851
+  cacheTime: 638461136306401038
   cacheVersion: 131616
 --- !u!114 &32288847005773126
 MonoBehaviour:
@@ -1899,6 +2043,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1906
+--- !u!114 &4752039413308478712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DirectionGame/Hint 3/Hint_3_Own
+  m_EditorClassIdentifier: 
+  Path: event:/DirectionGame/Hint 3/Hint_3_Own
+  Guid:
+    Data1: -1432383625
+    Data2: 1171248267
+    Data3: -1497697100
+    Data4: -2100547482
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1209
 --- !u!114 &4925468588622358279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1926,6 +2097,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2481
+--- !u!114 &4982326535997110092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DirectionGame/Hint 2/Hint_2_Resonance
+  m_EditorClassIdentifier: 
+  Path: event:/DirectionGame/Hint 2/Hint_2_Resonance
+  Guid:
+    Data1: 1618950647
+    Data2: 1125051564
+    Data3: 913058961
+    Data4: -1109557705
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
 --- !u!114 &5280745024446590118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2028,6 +2226,33 @@ MonoBehaviour:
   Banks:
   - {fileID: -1074333314047361534}
   IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
+--- !u!114 &5812768453601162006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DirectionGame/Hint 2/Hint_2_Oculus
+  m_EditorClassIdentifier: 
+  Path: event:/DirectionGame/Hint 2/Hint_2_Oculus
+  Guid:
+    Data1: -1491213883
+    Data2: 1127359296
+    Data3: -1772339288
+    Data4: -199783781
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
   Is3D: 1
   IsOneShot: 1
   Parameters: []
@@ -2196,6 +2421,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 482
+--- !u!114 &7720945445724958846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DirectionGame/Hint 1/Hint_1_Oculus
+  m_EditorClassIdentifier: 
+  Path: event:/DirectionGame/Hint 1/Hint_1_Oculus
+  Guid:
+    Data1: -1272315626
+    Data2: 1155795682
+    Data3: 358162325
+    Data4: 905312367
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
 --- !u!114 &7971029185854446743
 MonoBehaviour:
   m_ObjectHideFlags: 0
