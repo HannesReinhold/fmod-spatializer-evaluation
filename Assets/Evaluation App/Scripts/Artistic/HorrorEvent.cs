@@ -45,6 +45,8 @@ public class HorrorEvent : MonoBehaviour
 
     public Lightsflicker lightsFlicker;
 
+    public Transform g;
+
 
 
     private void OnEnable()
@@ -95,6 +97,7 @@ public class HorrorEvent : MonoBehaviour
 
 
 
+
     public void OnComplete()
     {
         //DisableEyes();
@@ -130,13 +133,21 @@ public class HorrorEvent : MonoBehaviour
         roomModel.SetActive(true);
         passthroughBox.enabled = true;
 
-        jumpscareSpring = Instantiate(jumpScarePrefab);
-        Vector3 lookDir = Camera.main.transform.eulerAngles;
-        Vector3 camPos = Camera.main.transform.position;
-        jumpscareSpring.transform.position = new Vector3(camPos.x, 0, camPos.z) + new Vector3(Mathf.Sin(lookDir.x),0,Mathf.Cos(lookDir.z));
+        
+        Vector3 lookDir = FindFirstObjectByType<FollowTarget>().transform.eulerAngles;
+        Vector3 camPos = FindFirstObjectByType<FollowTarget>().transform.position;
+        //jumpscareSpring.transform.position = new Vector3(camPos.x, 0, camPos.z) + new Vector3(Mathf.Sin(lookDir.y * Mathf.Deg2Rad),0,Mathf.Cos(lookDir.y * Mathf.Deg2Rad));
+        jumpscareSpring = Instantiate(jumpScarePrefab, new Vector3(camPos.x, 0, camPos.z) + new Vector3(Mathf.Sin(lookDir.y * Mathf.Deg2Rad), 0, Mathf.Cos(lookDir.y * Mathf.Deg2Rad)), Quaternion.identity);
         jumpscareSpring.transform.LookAt(new Vector3(camPos.x, 0, camPos.z));
         FMODUnity.RuntimeManager.PlayOneShot("event:/Spooky/Boing", jumpscareSpring.transform.position);
         Debug.Log("Boo");
+    }
+
+    private void Follow()
+    {
+        Vector3 lookDir = FindAnyObjectByType<FollowTarget>().transform.eulerAngles;
+        Vector3 camPos = FindAnyObjectByType<FollowTarget>().transform.position;
+        g.transform.position = new Vector3(camPos.x, 0, camPos.z) + new Vector3(Mathf.Sin(lookDir.y * Mathf.Deg2Rad), 0, Mathf.Cos(lookDir.y * Mathf.Deg2Rad));
     }
 
     private void DisableAmbience()
@@ -210,6 +221,8 @@ public class HorrorEvent : MonoBehaviour
             currentFootTime = 0;
             PlayRandomFootstep();
         }
+
+        
 
     }
 
