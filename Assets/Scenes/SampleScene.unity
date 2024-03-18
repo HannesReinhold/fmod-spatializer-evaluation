@@ -4447,12 +4447,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.027691595, y: 0.04094219, z: 0.5130327}
   m_Center: {x: -0.00013189064, y: -0.00021234437, z: 0.22630645}
---- !u!23 &279868710 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 3d3b0c5faa5775743b3bd6a4ed3caf7e,
-    type: 3}
-  m_PrefabInstance: {fileID: 1200692150}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &283438656
 GameObject:
   m_ObjectHideFlags: 0
@@ -10685,6 +10679,12 @@ PrefabInstance:
 --- !u!4 &800118182 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6f33ecb4ac9a6d345a8d7cefb39bdaf6,
+    type: 3}
+  m_PrefabInstance: {fileID: 800118181}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &800118183 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 6f33ecb4ac9a6d345a8d7cefb39bdaf6,
     type: 3}
   m_PrefabInstance: {fileID: 800118181}
   m_PrefabAsset: {fileID: 0}
@@ -27812,7 +27812,7 @@ MonoBehaviour:
   particles: {fileID: 1877781890}
   meshRendererHelmet: {fileID: 779550473}
   meshRendererBody: {fileID: 403872989}
-  meshRendererSword: {fileID: 279868710}
+  meshRendererSword: {fileID: 800118183}
   exampleRef: {fileID: 593290940}
   inactive: 0
 --- !u!1 &1902353047
