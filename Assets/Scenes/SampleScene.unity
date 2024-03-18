@@ -4414,6 +4414,81 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1249546274}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &278464335
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 278464336}
+  - component: {fileID: 278464338}
+  - component: {fileID: 278464337}
+  m_Layer: 0
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &278464336
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278464335}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1586177551}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -437}
+  m_SizeDelta: {x: 400, y: -946.3}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &278464337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278464335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.62352943}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &278464338
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278464335}
+  m_CullTransparentMesh: 1
 --- !u!1 &279868706 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3d3b0c5faa5775743b3bd6a4ed3caf7e,
@@ -6631,7 +6706,7 @@ PrefabInstance:
     - target: {fileID: 6275210443843268121, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8433668495210305521, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -6946,8 +7021,8 @@ PrefabInstance:
     - target: {fileID: 5245283905467361035, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_text
-      value: To demonstrate the importance of immersive audio, here are some examples.
-        You can move freely around.
+      value: To demonstrate the importance of <color=#7FD6FC>immersive audio<color=white>,
+        here are some <color=#7FD6FC>examples<color=white>. You can move freely around.
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -6962,7 +7037,7 @@ PrefabInstance:
     - target: {fileID: 6275210443843268121, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8433668495210305521, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -10994,7 +11069,7 @@ PrefabInstance:
     - target: {fileID: 2345778413083533527, guid: 92f88015bbaab1f47b2758b238242831,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2345778413083533544, guid: 92f88015bbaab1f47b2758b238242831,
         type: 3}
@@ -11554,6 +11629,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 918144554}
+    - targetCorrespondingSourceObject: {fileID: 2345778413532412881, guid: 92f88015bbaab1f47b2758b238242831,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1586177551}
     - targetCorrespondingSourceObject: {fileID: 3417964932205309039, guid: 92f88015bbaab1f47b2758b238242831,
         type: 3}
       insertIndex: -1
@@ -13256,10 +13335,30 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 658934126015681792, guid: 6b1700d31efbb164d9a717b0971c58bc,
+        type: 3}
+      propertyPath: m_text
+      value: What is your current <color=#7FD6FC>age<color=white>?
+      objectReference: {fileID: 0}
+    - target: {fileID: 935369709290955365, guid: 6b1700d31efbb164d9a717b0971c58bc,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 935369709290955365, guid: 6b1700d31efbb164d9a717b0971c58bc,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 176
+      objectReference: {fileID: 0}
     - target: {fileID: 1027293521879237893, guid: 6b1700d31efbb164d9a717b0971c58bc,
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1077930339180858317, guid: 6b1700d31efbb164d9a717b0971c58bc,
+        type: 3}
+      propertyPath: m_text
+      value: Click to enter age...
       objectReference: {fileID: 0}
     - target: {fileID: 1206883904692790237, guid: 6b1700d31efbb164d9a717b0971c58bc,
         type: 3}
@@ -14508,6 +14607,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7418055277574374250, guid: 63ae9cc22fd8b9e448ba940ac0d2ae68,
+        type: 3}
+      propertyPath: m_text
+      value: What is your <color=#7FD6FC>biological sex<color=white>?
       objectReference: {fileID: 0}
     - target: {fileID: 8031800048643067975, guid: 63ae9cc22fd8b9e448ba940ac0d2ae68,
         type: 3}
@@ -17320,7 +17424,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: The following data is stored during this evaluation. If you agree to
-        this, please press the Consent button.
+        this, please press the <color=#7FD6FC>"Consent"<color=white> button.
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -18082,7 +18186,7 @@ Transform:
   m_GameObject: {fileID: 1353089490}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.691, y: -0.005, z: 1.323}
+  m_LocalPosition: {x: -1.691, y: -0.037, z: 1.323}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -18969,7 +19073,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: But first we need to clarify what immersive audio actually is, and what
-        these spatializers have to do with it
+        these <color=#7FD6FC>spatializers<color=white> have to do with it
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -19254,6 +19358,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6882046529134176048, guid: 1a0466d323790c54ab6e8501a74ce61f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8433668495210305521, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_Sprite
@@ -19417,8 +19526,8 @@ PrefabInstance:
     - target: {fileID: 5245283905467361035, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_text
-      value: Before the evaulation starts, I need some information about you that
-        will help me to better evaluate the data.
+      value: Before the evaulation starts, I need some <color=#7FD6FC>information<color=white>
+        about you that will help me to better evaluate the data.
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -19562,6 +19671,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 823480773}
     m_Modifications:
+    - target: {fileID: 274163663027627799, guid: cf8fa3d15e34a10469429d41cbb5ed0e,
+        type: 3}
+      propertyPath: m_text
+      value: Move the <color=#7FD6FC>slider<color=white> until it sounds right.
+      objectReference: {fileID: 0}
     - target: {fileID: 486503819701392079, guid: cf8fa3d15e34a10469429d41cbb5ed0e,
         type: 3}
       propertyPath: m_Pivot.x
@@ -19701,6 +19815,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1833180493995083629, guid: cf8fa3d15e34a10469429d41cbb5ed0e,
+        type: 3}
+      propertyPath: m_text
+      value: Please set your preferred <color=#7FD6FC>volume<color=white>.
       objectReference: {fileID: 0}
     - target: {fileID: 2188235719093121859, guid: cf8fa3d15e34a10469429d41cbb5ed0e,
         type: 3}
@@ -20005,7 +20124,7 @@ PrefabInstance:
     - target: {fileID: 6249800031889801880, guid: cf8fa3d15e34a10469429d41cbb5ed0e,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.38
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6249800031889801880, guid: cf8fa3d15e34a10469429d41cbb5ed0e,
         type: 3}
@@ -20050,7 +20169,7 @@ PrefabInstance:
     - target: {fileID: 6941376929351976717, guid: cf8fa3d15e34a10469429d41cbb5ed0e,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.38
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6941376929351976717, guid: cf8fa3d15e34a10469429d41cbb5ed0e,
         type: 3}
@@ -20060,7 +20179,7 @@ PrefabInstance:
     - target: {fileID: 6941376929351976717, guid: cf8fa3d15e34a10469429d41cbb5ed0e,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.38
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7061761852618770328, guid: cf8fa3d15e34a10469429d41cbb5ed0e,
         type: 3}
@@ -20787,6 +20906,108 @@ MonoBehaviour:
     type: 3}
   numEyes: 25
   eyeList: []
+--- !u!1 &1586177550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1586177551}
+  - component: {fileID: 1586177554}
+  - component: {fileID: 1586177553}
+  - component: {fileID: 1586177552}
+  m_Layer: 0
+  m_Name: Shadow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1586177551
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586177550}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 278464336}
+  m_Father: {fileID: 823480773}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -1.096}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1586177552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586177550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1586177553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586177550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 1
+--- !u!223 &1586177554
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586177550}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 14
+  m_TargetDisplay: 0
 --- !u!1001 &1589280755
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21023,7 +21244,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1591778538
 Transform:
   m_ObjectHideFlags: 0
@@ -28095,7 +28316,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: Thank <color=#7FD6FC>you<color="white"> for taking the time to participate
-        in this evaluation
+        in this <color=#7FD6FC>evaluation.
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
