@@ -245,7 +245,7 @@
 			<value>Occlusion</value>
 		</property>
 		<property name="value">
-			<value>9.99999997e-07</value>
+			<value>0</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,0.000000)(1.000000,10.000000)}</value>
@@ -277,7 +277,6 @@
 		<property name="name">
 			<value>Attenuation Ran</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-6</value>
 		</property>
@@ -286,7 +285,6 @@
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -304,7 +302,7 @@
 			<value>Near-Field FX</value>
 		</property>
 		<property name="value">
-			<value>false</value>
+			<value>true</value>
 		</property>
 	</object>
 	<object class="FloatPluginParameter" id="{333e2faf-049c-4e67-9fdf-a77f0592f4ea}">
@@ -322,7 +320,6 @@
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>
