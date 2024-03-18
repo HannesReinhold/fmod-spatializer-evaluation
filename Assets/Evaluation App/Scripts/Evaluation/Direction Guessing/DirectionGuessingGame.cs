@@ -21,7 +21,9 @@ public class DirectionGuessingGame : MonoBehaviour
 
     public AudioSource source;
     public AudioOutputChannelRouter outputChannelRouter;
-    public AudioClip clip;
+    public List<AudioClip> clips;
+
+    [SerializeField] public AudioEvent[] events;
 
     private Vector3 guessedDirection;
 
@@ -208,20 +210,21 @@ public class DirectionGuessingGame : MonoBehaviour
     /// </summary>
     private void PlayAudioCue()
     {
+        int cueID = gameData.rounds[currentRound].cueID;
         Debug.Log("Playing spatializer "+currentSpatializer+" at "+target.transform.position);
         switch (currentSpatializer) {
-            case 0: PlayRealAudio(currentPositionID); break;
-            case 1: FMODUnity.RuntimeManager.PlayOneShot("event:/DirectionGame/HintOculus", target.transform.position); break;
-            case 2: FMODUnity.RuntimeManager.PlayOneShot("event:/DirectionGame/Hintresonance", target.transform.position); break;
-            case 3: FMODUnity.RuntimeManager.PlayOneShot("event:/DirectionGame/HintSteam", target.transform.position); break;
-            case 4: FMODUnity.RuntimeManager.PlayOneShot("event:/DirectionGame/HintOculus", target.transform.position); break;
+            case 0: PlayRealAudio(currentPositionID, cueID); break;
+            case 1: FMODUnity.RuntimeManager.PlayOneShot(events[cueID].spatializedEvents[0], target.transform.position); break;
+            case 2: FMODUnity.RuntimeManager.PlayOneShot(events[cueID].spatializedEvents[1], target.transform.position); break;
+            case 3: FMODUnity.RuntimeManager.PlayOneShot(events[cueID].spatializedEvents[2], target.transform.position); break;
+            case 4: FMODUnity.RuntimeManager.PlayOneShot(events[cueID].spatializedEvents[3], target.transform.position); break;
         }
     }
 
-    private void PlayRealAudio(int channelID)
+    private void PlayRealAudio(int channelID, int cueID)
     {
         outputChannelRouter.SetOutputChannel(channelID);
-        source.PlayOneShot(clip);
+        source.PlayOneShot(clips[cueID]);
     }
 
     /// <summary>

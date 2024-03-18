@@ -49,7 +49,7 @@ Shader "CustomPassthrough"
             fixed4 frag(v2f i) : SV_Target
             {
                 //return fixed4(0, 0, 0, 0);
-                return lerp(fixed4(0, 0, 0, 0), fixed4(0, 0, 0, 1),_Opacity*0.8);
+                return lerp(fixed4(0, 0, 0, 0), fixed4(0, 0, 0, 1),_Opacity);
                 //return tex2D(_MainTex, i.uv);
             }
             ENDCG
