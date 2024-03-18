@@ -10,7 +10,6 @@ Library: C:\Users\IXLAB\Documents\GitHub\fmod-spatializer-evaluation\Temp\BurstO
 --assembly-defines=FMODUnity;
 --assembly-defines=FMODUnityResonance;
 --assembly-defines=ixCalibration;
---assembly-defines=Meta.XR.Audio;
 --assembly-defines=Meta.XR.BuildingBlocks;
 --assembly-defines=meta.xr.mrutilitykit;
 --assembly-defines=Mono.Security;
@@ -73,7 +72,6 @@ Library: C:\Users\IXLAB\Documents\GitHub\fmod-spatializer-evaluation\Temp\BurstO
 --assembly-defines=FMODUnity;
 --assembly-defines=FMODUnityResonance;
 --assembly-defines=ixCalibration;
---assembly-defines=Meta.XR.Audio;
 --assembly-defines=Meta.XR.BuildingBlocks;
 --assembly-defines=meta.xr.mrutilitykit;
 --assembly-defines=Mono.Security;
