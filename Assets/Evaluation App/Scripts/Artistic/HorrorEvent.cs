@@ -101,6 +101,7 @@ public class HorrorEvent : MonoBehaviour
         //DisableEyes();
         Invoke("DisableFog",2);
         Invoke("OpenCompleteWindow",4);
+        GameManager.Instance.ShowController();
     }
 
     public void EnableFog()
@@ -182,7 +183,7 @@ public class HorrorEvent : MonoBehaviour
         roomModel.SetActive(true);
         gameObject.SetActive(false);
         Destroy(jumpscareSpring);
-        GameManager.Instance.ShowController();
+        
     }
 
 
