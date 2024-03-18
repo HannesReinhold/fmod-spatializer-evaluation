@@ -45,8 +45,6 @@ public class HorrorEvent : MonoBehaviour
 
     public Lightsflicker lightsFlicker;
 
-    public Transform g;
-
 
 
     private void OnEnable()
@@ -141,13 +139,6 @@ public class HorrorEvent : MonoBehaviour
         jumpscareSpring.transform.LookAt(new Vector3(camPos.x, 0, camPos.z));
         FMODUnity.RuntimeManager.PlayOneShot("event:/Spooky/Boing", jumpscareSpring.transform.position);
         Debug.Log("Boo");
-    }
-
-    private void Follow()
-    {
-        Vector3 lookDir = FindAnyObjectByType<FollowTarget>().transform.eulerAngles;
-        Vector3 camPos = FindAnyObjectByType<FollowTarget>().transform.position;
-        g.transform.position = new Vector3(camPos.x, 0, camPos.z) + new Vector3(Mathf.Sin(lookDir.y * Mathf.Deg2Rad), 0, Mathf.Cos(lookDir.y * Mathf.Deg2Rad));
     }
 
     private void DisableAmbience()
