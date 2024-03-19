@@ -3514,7 +3514,7 @@ PrefabInstance:
         type: 3}
       propertyPath: audioSwitch
       value: 
-      objectReference: {fileID: 787133366}
+      objectReference: {fileID: 0}
     - target: {fileID: 5476997077660769174, guid: a1541d2fad318d243815afa312605171,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -4377,7 +4377,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &228085431
 Transform:
   m_ObjectHideFlags: 0
@@ -4393,6 +4393,7 @@ Transform:
   m_Children:
   - {fileID: 2142684152}
   - {fileID: 778010474}
+  - {fileID: 2072300154}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &243227391
@@ -10574,7 +10575,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 787133364}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -10639,7 +10640,7 @@ MonoBehaviour:
   m_Script: {fileID: -363599832, guid: ebae63e7edba59945a994528ada1f7a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _realtime: {fileID: 0}
+  _realtime: {fileID: 2050970977}
   _sceneViewUUID: 
   _viewUUID: 
   _sceneViewPreventOwnershipTakeover: 0
@@ -18007,7 +18008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ca02c6db6f15ef4eb08a354da27ef1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsVR: 0
+  IsVR: 1
   allowEvaluationNonVR: 0
   introductionObject: {fileID: 823480772}
   subjectiveObject: {fileID: 643058308}
@@ -31263,8 +31264,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 787133365}
   - {fileID: 1363416187}
+  - {fileID: 787133365}
   m_Father: {fileID: 1789051252}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2050970976
@@ -31289,9 +31290,13 @@ MonoBehaviour:
   _components: []
   _childViews:
   - componentID: 1
-    component: {fileID: 787133369}
+    component: {fileID: 0}
   - componentID: 2
     component: {fileID: 1363416188}
+  - componentID: 3
+    component: {fileID: 0}
+  - componentID: 4
+    component: {fileID: 787133369}
 --- !u!114 &2050970977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31414,13 +31419,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2072300153}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.741, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 332298220}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 228085431}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2072300155
 MonoBehaviour:
@@ -33027,4 +33032,3 @@ SceneRoots:
   - {fileID: 1186969419}
   - {fileID: 856621824}
   - {fileID: 1789051252}
-  - {fileID: 2072300154}

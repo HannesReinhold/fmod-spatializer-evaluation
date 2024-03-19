@@ -25,7 +25,7 @@ public class ServerGUI : MonoBehaviour
     {
 
         pageNumText.text = pageNum.ToString();
-        eventLogText.text = eventLog;
+        if(eventLog!="") eventLogText.text = eventLog;
         Debug.Log("Update Log");
     }
 }

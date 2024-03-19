@@ -30,7 +30,6 @@ public class ServerLogEvent : RealtimeComponent<ServerLogEventModel>
     {
         this.currentWindowManager = currentWindowManager;
         int pageNum = windowManagers[currentWindowManager].currentWindowIndex;
-        Debug.Log(pageNum);
         model.FireEvent(realtime.clientID, pageNum, additionalEvent);
     }
 
@@ -44,7 +43,7 @@ public class ServerLogEvent : RealtimeComponent<ServerLogEventModel>
     private void EventDidFire(int senderID, int pageNum, string eventLog)
     {
         // Tell the particle system to trigger an explosion in response to the event
-        
+        Debug.Log("didFIre: "+pageNum);
         _serverGUI.UpdateLog(pageNum, eventLog);
     }
 

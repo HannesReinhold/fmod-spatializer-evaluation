@@ -8,9 +8,9 @@ using System;
 [RealtimeModel]
 public partial class AudioTriggerEventModel
 {
-    [RealtimeProperty(1, true)] private int _start;
-    [RealtimeProperty(2, true)] private int _fileID;
-    [RealtimeProperty(3, true)] private int _senderID;
+    [RealtimeProperty(5, true)] private int _start;
+    [RealtimeProperty(6, true)] private int _fileID;
+    [RealtimeProperty(7, true)] private int _senderID;
 
 
 }
@@ -62,9 +62,9 @@ public partial class AudioTriggerEventModel : RealtimeModel
 
     public enum PropertyID : uint
     {
-        Start = 1,
-        FileID = 2,
-        SenderID = 3,
+        Start = 5,
+        FileID = 6,
+        SenderID = 7,
         
     }
 
@@ -80,9 +80,9 @@ public partial class AudioTriggerEventModel : RealtimeModel
 
     public AudioTriggerEventModel() : base(null)
     {
-        _startProperty = new ReliableProperty<int>(1, _start);
-        _fileIDProperty = new ReliableProperty<int>(2, _fileID);
-        _senderIDProperty = new ReliableProperty<int>(3, _senderID);
+        _startProperty = new ReliableProperty<int>(5, _start);
+        _fileIDProperty = new ReliableProperty<int>(6, _fileID);
+        _senderIDProperty = new ReliableProperty<int>(7, _senderID);
 
         SubscribeEventCallback(Normal.Realtime.RealtimeModelEvent.OnDidRead, DidRead);
     }

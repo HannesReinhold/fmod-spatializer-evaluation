@@ -32,7 +32,12 @@ public class MainIntroductionManager : MonoBehaviour
 
         if(eventOnStart) StartEvent(startEvent);
 
-        //GameManager.Instance.LogServerEvent("Introduction");
+        Invoke("LogStart", 0.5f);
+    }
+
+    void LogStart()
+    {
+        GameManager.Instance.LogServerEvent("Introduction");
     }
 
     private void HideAllWindows()
