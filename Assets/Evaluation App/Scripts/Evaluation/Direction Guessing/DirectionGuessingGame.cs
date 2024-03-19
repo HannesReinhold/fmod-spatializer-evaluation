@@ -203,6 +203,7 @@ public class DirectionGuessingGame : MonoBehaviour
         DisableControllerInput();
 
         EvaluateShot();
+        GameManager.Instance.LogServerEvent("Direction Game Shoot");
     }
 
     /// <summary>

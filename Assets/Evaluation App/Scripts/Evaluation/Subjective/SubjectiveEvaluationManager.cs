@@ -64,9 +64,9 @@ public class SubjectiveEvaluationManager : MonoBehaviour
             StartRound(); 
             roundID++;
         }
-        
-        //GUIAudioManager.SetAmbientVolume(0);
 
+        //GUIAudioManager.SetAmbientVolume(0);
+        GameManager.Instance.LogServerEvent("Subjective Evaluation");
 
     }
 
@@ -90,6 +90,8 @@ public class SubjectiveEvaluationManager : MonoBehaviour
         tutorial.SetActive(false);
         evaluationRound.SetActive(true);
         roundID++;
+
+        GameManager.Instance.LogServerEvent("Subjective Evaluation Round");
     }
 
     public void NextRound()

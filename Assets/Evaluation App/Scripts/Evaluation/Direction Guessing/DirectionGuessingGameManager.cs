@@ -38,12 +38,14 @@ public class DirectionGuessingGameManager : MonoBehaviour
         ResetAll();
         //introduction.SetActive(true);
         GUIAudioManager.SetAmbientVolume(0.5f);
+        GameManager.Instance.LogServerEvent("Direction Game Introduction");
     }
 
     public void OpenTutorial()
     {
         ResetAll();
         tutorialGame.SetActive(true);
+        GameManager.Instance.LogServerEvent("Direction Game Tutorial");
     }
 
     public void OpenGame()
@@ -51,6 +53,7 @@ public class DirectionGuessingGameManager : MonoBehaviour
         ResetAll();
         game.SetActive(true);
         game.GetComponentInChildren<DirectionGuessingGame>().OnStartClick();
+        GameManager.Instance.LogServerEvent("Direction Game Round");
     }
 
     public void OpenComplete()

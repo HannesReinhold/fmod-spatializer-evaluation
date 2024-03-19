@@ -28,6 +28,8 @@ public class GameManager : MonoBehaviour
 
     public OVRPassthroughLayer passthroughLayer;
 
+    public ServerLogEvent serverLog;
+
 
 
 
@@ -251,5 +253,18 @@ public class GameManager : MonoBehaviour
     {
         passthroughLayer.textureOpacity = opacity;
     }
+
+
+    public void LogServerEvents(int currentWindowManager, string additionalEvent="")
+    {
+        serverLog.LogAll(currentWindowManager, additionalEvent);
+    }
+
+    public void LogServerEvent(string additionalEvent = "")
+    {
+        serverLog.LogEvent(additionalEvent);
+    }
 }
+
+
 

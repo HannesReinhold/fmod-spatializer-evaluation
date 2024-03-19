@@ -15,6 +15,9 @@ public class MainIntroductionManager : MonoBehaviour
     public WindowManager windowManager;
 
 
+    private List<string> eventNames = new List<string>() {"Battle", "Horror Atmosphere", "Audio Phenomena"};
+
+
     private void OnEnable()
     {
         ResetEvents();
@@ -28,6 +31,8 @@ public class MainIntroductionManager : MonoBehaviour
         }
 
         if(eventOnStart) StartEvent(startEvent);
+
+        //GameManager.Instance.LogServerEvent("Introduction");
     }
 
     private void HideAllWindows()
@@ -53,6 +58,7 @@ public class MainIntroductionManager : MonoBehaviour
         eventList[currentEvent].SetActive(false);
         currentEvent = i;
         eventList[i].SetActive(true);
+        GameManager.Instance.LogServerEvent(eventNames[Mathf.Clamp(i,0,2)]);
     }
 
     public void ResetEvents()
