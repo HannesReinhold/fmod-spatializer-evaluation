@@ -23,7 +23,7 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1
+  m_AmbientIntensity: 0.56
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
@@ -35,10 +35,10 @@ RenderSettings:
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
-  m_ReflectionIntensity: 1
+  m_ReflectionIntensity: 0.115
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.020732636, g: 0.025957124, b: 0.035296127, a: 0.115}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1022,7 +1022,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_TargetDisplay: 0
 --- !u!1001 &108039765
 PrefabInstance:
@@ -2316,9 +2316,9 @@ PrefabInstance:
     - target: {fileID: 5245283905467361035, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_text
-      value: The interaural time difference describes the fact that sound waves reach
-        the ears at different times. The ear facing the source will hear the sound
-        a little earlier.
+      value: The <color=#7FD6FC>interaural time difference<color=white> describes
+        the fact that sound waves reach the ears at different times. The ear facing
+        the source will hear the sound a little earlier.
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -2564,6 +2564,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 711319685903971971, guid: a1541d2fad318d243815afa312605171,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 784101148970578006, guid: a1541d2fad318d243815afa312605171,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -2682,6 +2687,11 @@ PrefabInstance:
     - target: {fileID: 951068451019154477, guid: a1541d2fad318d243815afa312605171,
         type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1039754891659320462, guid: a1541d2fad318d243815afa312605171,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1077183034740863662, guid: a1541d2fad318d243815afa312605171,
@@ -2972,7 +2982,7 @@ PrefabInstance:
     - target: {fileID: 3238308880239880802, guid: a1541d2fad318d243815afa312605171,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3238308880239880804, guid: a1541d2fad318d243815afa312605171,
         type: 3}
@@ -3007,7 +3017,12 @@ PrefabInstance:
     - target: {fileID: 3286961242523291322, guid: a1541d2fad318d243815afa312605171,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330615107806965374, guid: a1541d2fad318d243815afa312605171,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3436395146984868854, guid: a1541d2fad318d243815afa312605171,
         type: 3}
@@ -3022,6 +3037,11 @@ PrefabInstance:
     - target: {fileID: 3850672328498185807, guid: a1541d2fad318d243815afa312605171,
         type: 3}
       propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3871351017175657098, guid: a1541d2fad318d243815afa312605171,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3940596950687256802, guid: a1541d2fad318d243815afa312605171,
@@ -3919,6 +3939,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7670324569527017366, guid: a1541d2fad318d243815afa312605171,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7865792380278762390, guid: a1541d2fad318d243815afa312605171,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -3949,6 +3974,11 @@ PrefabInstance:
       propertyPath: m_PresetInfoIsWorld
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7993251765733079278, guid: a1541d2fad318d243815afa312605171,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8026268959823601566, guid: a1541d2fad318d243815afa312605171,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -3973,6 +4003,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8156378933347316220, guid: a1541d2fad318d243815afa312605171,
+        type: 3}
+      propertyPath: m_text
+      value: The aim of this evaluation is to compare the spatializers based on different
+        <color=#7FD6FC>aspects<color=white>.
       objectReference: {fileID: 0}
     - target: {fileID: 8227269312864074129, guid: a1541d2fad318d243815afa312605171,
         type: 3}
@@ -4033,6 +4069,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479869921322735236, guid: a1541d2fad318d243815afa312605171,
+        type: 3}
+      propertyPath: m_text
+      value: The first thing you'll notice are the emerging <color=#7FD6FC>virtual
+        speakers<color=white>. The sound will be played from these positions.
       objectReference: {fileID: 0}
     - target: {fileID: 8565609309878753352, guid: a1541d2fad318d243815afa312605171,
         type: 3}
@@ -4414,6 +4456,81 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1249546274}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &278464335
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 278464336}
+  - component: {fileID: 278464338}
+  - component: {fileID: 278464337}
+  m_Layer: 0
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &278464336
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278464335}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1586177551}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -437}
+  m_SizeDelta: {x: 400, y: -946.3}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &278464337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278464335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.62352943}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &278464338
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278464335}
+  m_CullTransparentMesh: 1
 --- !u!1 &279868706 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3d3b0c5faa5775743b3bd6a4ed3caf7e,
@@ -4447,12 +4564,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.027691595, y: 0.04094219, z: 0.5130327}
   m_Center: {x: -0.00013189064, y: -0.00021234437, z: 0.22630645}
---- !u!23 &279868710 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 3d3b0c5faa5775743b3bd6a4ed3caf7e,
-    type: 3}
-  m_PrefabInstance: {fileID: 1200692150}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &283438656
 GameObject:
   m_ObjectHideFlags: 0
@@ -5123,7 +5234,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.22
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -5166,7 +5277,7 @@ Light:
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_ColorTemperature: 5000
+  m_ColorTemperature: 4132
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
@@ -5935,9 +6046,9 @@ PrefabInstance:
     - target: {fileID: 5245283905467361035, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_text
-      value: The loudness also differs from one ear to the other. A sound shadow
-        is created by the head, which means that the ear facing away hears the sound
-        more quietly.
+      value: The <color=#7FD6FC>loudness<color=white> also differs from one ear to
+        the other. A sound shadow is created by the head, which means that the ear
+        facing away hears the sound more quietly.
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -6637,7 +6748,7 @@ PrefabInstance:
     - target: {fileID: 6275210443843268121, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8433668495210305521, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -6952,8 +7063,8 @@ PrefabInstance:
     - target: {fileID: 5245283905467361035, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_text
-      value: To demonstrate the importance of immersive audio, here are some examples.
-        You can move freely around.
+      value: To demonstrate the importance of <color=#7FD6FC>immersive audio<color=white>,
+        here are some <color=#7FD6FC>examples<color=white>. You can move freely around.
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -7133,9 +7244,9 @@ PrefabInstance:
     - target: {fileID: 5245283905467361035, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_text
-      value: When the sound hits a surface, part of it is reflected. If this happens
-        over a longer period of time, a reverberation builds up. This is best observed
-        in a church.
+      value: When the sound hits a surface, part of it is <color=#7FD6FC>reflected<color=white>.
+        If this happens over a longer period of time, a reverberation builds up.
+        This is best observed in a church.
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -7558,7 +7669,7 @@ PrefabInstance:
     - target: {fileID: 5245283905467361035, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_text
-      value: ... to hear an attack from behind!
+      value: ... to hear an attack from <color=#7FD6FC>behind<color=white>!
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -8730,8 +8841,8 @@ PrefabInstance:
     - target: {fileID: 5245283905467361035, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_text
-      value: In the Direction Guessing Game, your task is to locate an unknown audio
-        source as accurately as possible, so listen carefully.
+      value: In the Direction Guessing Game, your task is to <color=#7FD6FC>locate<color=white>
+        an unknown audio source as accurately as possible, so listen carefully.
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -9733,6 +9844,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6882046529134176048, guid: 1a0466d323790c54ab6e8501a74ce61f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8433668495210305521, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_Sprite
@@ -10688,6 +10804,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 800118181}
   m_PrefabAsset: {fileID: 0}
+--- !u!23 &800118183 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 6f33ecb4ac9a6d345a8d7cefb39bdaf6,
+    type: 3}
+  m_PrefabInstance: {fileID: 800118181}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &804299072
 GameObject:
   m_ObjectHideFlags: 0
@@ -10872,9 +10994,10 @@ GameObject:
   - component: {fileID: 820209359}
   - component: {fileID: 820209361}
   - component: {fileID: 820209360}
+  - component: {fileID: 820209362}
   m_Layer: 0
   m_Name: CenterEyeAnchor
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10953,6 +11076,50 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 820209358}
   m_Enabled: 1
+--- !u!114 &820209362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 820209358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    quality: 3
+    frameInfluence: 0.1
+    jitterScale: 1
+    mipBias: 0
+    varianceClampScale: 0.9
+    contrastAdaptiveSharpening: 0
 --- !u!1001 &823480771
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11554,6 +11721,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 918144554}
+    - targetCorrespondingSourceObject: {fileID: 2345778413532412881, guid: 92f88015bbaab1f47b2758b238242831,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1586177551}
     - targetCorrespondingSourceObject: {fileID: 3417964932205309039, guid: 92f88015bbaab1f47b2758b238242831,
         type: 3}
       insertIndex: -1
@@ -11744,9 +11915,9 @@ MonoBehaviour:
   - {fileID: 39455202}
   - {fileID: 1440721956}
   - {fileID: 1993500811}
-  startEvent: 1
-  hideWindowsOnStart: 1
-  eventOnStart: 1
+  startEvent: 0
+  hideWindowsOnStart: 0
+  eventOnStart: 0
   additionalInfoWindow: {fileID: 1268538851}
   windowManager: {fileID: 823480774}
 --- !u!114 &823480777
@@ -12171,7 +12342,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &856621824
 Transform:
   m_ObjectHideFlags: 0
@@ -12883,6 +13054,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3696582585919489299, guid: 1a0466d323790c54ab6e8501a74ce61f,
+        type: 3}
+      propertyPath: m_text
+      value: START EVALUTION
+      objectReference: {fileID: 0}
     - target: {fileID: 4865935044597450904, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: openDelay
@@ -12918,6 +13094,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6952059521770493501, guid: 1a0466d323790c54ab6e8501a74ce61f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 6952059521770493501, guid: 1a0466d323790c54ab6e8501a74ce61f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 8433668495210305521, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -13256,10 +13442,30 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 658934126015681792, guid: 6b1700d31efbb164d9a717b0971c58bc,
+        type: 3}
+      propertyPath: m_text
+      value: What is your current <color=#7FD6FC>age<color=white>?
+      objectReference: {fileID: 0}
+    - target: {fileID: 935369709290955365, guid: 6b1700d31efbb164d9a717b0971c58bc,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 935369709290955365, guid: 6b1700d31efbb164d9a717b0971c58bc,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 176
+      objectReference: {fileID: 0}
     - target: {fileID: 1027293521879237893, guid: 6b1700d31efbb164d9a717b0971c58bc,
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1077930339180858317, guid: 6b1700d31efbb164d9a717b0971c58bc,
+        type: 3}
+      propertyPath: m_text
+      value: Click to enter age...
       objectReference: {fileID: 0}
     - target: {fileID: 1206883904692790237, guid: 6b1700d31efbb164d9a717b0971c58bc,
         type: 3}
@@ -13868,8 +14074,8 @@ PrefabInstance:
     - target: {fileID: 5245283905467361035, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_text
-      value: To do this, we look at various sound phenomena from the real world that
-        we can use for the virtual sound experience.
+      value: To do this, we look at various <color=#7FD6FC>sound phenomena<color=white>
+        from the real world that we can use for the virtual sound experience.
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -14508,6 +14714,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7418055277574374250, guid: 63ae9cc22fd8b9e448ba940ac0d2ae68,
+        type: 3}
+      propertyPath: m_text
+      value: What is your <color=#7FD6FC>biological sex<color=white>?
       objectReference: {fileID: 0}
     - target: {fileID: 8031800048643067975, guid: 63ae9cc22fd8b9e448ba940ac0d2ae68,
         type: 3}
@@ -15248,8 +15459,8 @@ PrefabInstance:
     - target: {fileID: 5245283905467361035, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_text
-      value: The aim of the subjective evaluation is the direct comparison of different
-        spatializers with the real world.
+      value: The aim of the subjective evaluation is the direct <color=#7FD6FC>comparison
+        of different spatializers<color=white> with the real world.
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -15430,7 +15641,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: Horror games thrive on a creepy atmosphere. So listen carefully to your
-        surroundings. It could be the sound of a monster...
+        <color=#7FD6FC>surroundings<color=white>. It could be the sound of a monster...
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -16128,8 +16339,8 @@ PrefabInstance:
     - target: {fileID: 5245283905467361035, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_text
-      value: Air also slowly dampens sound. This means that the longer sound travels,
-        the quieter and more muffled it becomes.
+      value: Air also slowly <color=#7FD6FC>dampens<color=white> sound. This means
+        that the longer sound travels, the quieter and more muffled it becomes.
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -16329,8 +16540,9 @@ PrefabInstance:
     - target: {fileID: 5245283905467361035, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_text
-      value: 'I have divided this into 2 parts: Subjective evaluation and a mini-game,
-        more on that in a moment.'
+      value: 'I have divided this into 2 parts: <color=#7FD6FC>Subjective<color=white>
+        evaluation and a <color=#7FD6FC>mini-game<color=white>, more on that in a
+        moment.'
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -16936,7 +17148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ca02c6db6f15ef4eb08a354da27ef1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsVR: 1
+  IsVR: 0
   allowEvaluationNonVR: 0
   introductionObject: {fileID: 823480772}
   subjectiveObject: {fileID: 643058308}
@@ -17320,7 +17532,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: The following data is stored during this evaluation. If you agree to
-        this, please press the Consent button.
+        this, please press the <color=#7FD6FC>"Consent"<color=white> button.
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -18082,7 +18294,7 @@ Transform:
   m_GameObject: {fileID: 1353089490}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.691, y: -0.005, z: 1.323}
+  m_LocalPosition: {x: -1.691, y: -0.037, z: 1.323}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -18969,7 +19181,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: But first we need to clarify what immersive audio actually is, and what
-        these spatializers have to do with it
+        these <color=#7FD6FC>spatializers<color=white> have to do with it
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -19254,6 +19466,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6882046529134176048, guid: 1a0466d323790c54ab6e8501a74ce61f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8433668495210305521, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_Sprite
@@ -19417,8 +19634,8 @@ PrefabInstance:
     - target: {fileID: 5245283905467361035, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_text
-      value: Before the evaulation starts, I need some information about you that
-        will help me to better evaluate the data.
+      value: Before the evaulation starts, I need some <color=#7FD6FC>information<color=white>
+        about you that will help me to better evaluate the data.
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -19562,6 +19779,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 823480773}
     m_Modifications:
+    - target: {fileID: 274163663027627799, guid: cf8fa3d15e34a10469429d41cbb5ed0e,
+        type: 3}
+      propertyPath: m_text
+      value: Move the <color=#7FD6FC>slider<color=white> until it sounds right.
+      objectReference: {fileID: 0}
     - target: {fileID: 486503819701392079, guid: cf8fa3d15e34a10469429d41cbb5ed0e,
         type: 3}
       propertyPath: m_Pivot.x
@@ -19701,6 +19923,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1833180493995083629, guid: cf8fa3d15e34a10469429d41cbb5ed0e,
+        type: 3}
+      propertyPath: m_text
+      value: Please set your preferred <color=#7FD6FC>volume<color=white>.
       objectReference: {fileID: 0}
     - target: {fileID: 2188235719093121859, guid: cf8fa3d15e34a10469429d41cbb5ed0e,
         type: 3}
@@ -20005,7 +20232,7 @@ PrefabInstance:
     - target: {fileID: 6249800031889801880, guid: cf8fa3d15e34a10469429d41cbb5ed0e,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.38
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6249800031889801880, guid: cf8fa3d15e34a10469429d41cbb5ed0e,
         type: 3}
@@ -20050,7 +20277,7 @@ PrefabInstance:
     - target: {fileID: 6941376929351976717, guid: cf8fa3d15e34a10469429d41cbb5ed0e,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.38
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6941376929351976717, guid: cf8fa3d15e34a10469429d41cbb5ed0e,
         type: 3}
@@ -20060,7 +20287,7 @@ PrefabInstance:
     - target: {fileID: 6941376929351976717, guid: cf8fa3d15e34a10469429d41cbb5ed0e,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.38
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7061761852618770328, guid: cf8fa3d15e34a10469429d41cbb5ed0e,
         type: 3}
@@ -20722,118 +20949,12 @@ MonoBehaviour:
   monster: {fileID: 7688369435561524532, guid: 960872794d23dee4bbb0098968c4c367, type: 3}
   passthroughBox: {fileID: 1591778540}
   lightsFlicker: {fileID: 344197129}
-  g: {fileID: 1573500393}
 --- !u!4 &1570003932 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6001682491098753545, guid: 92f88015bbaab1f47b2758b238242831,
     type: 3}
   m_PrefabInstance: {fileID: 823480771}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1573500389
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1573500393}
-  - component: {fileID: 1573500392}
-  - component: {fileID: 1573500391}
-  - component: {fileID: 1573500390}
-  m_Layer: 0
-  m_Name: Cube
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!65 &1573500390
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1573500389}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1573500391
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1573500389}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1573500392
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1573500389}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1573500393
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1573500389}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.4263291, y: 1.0172205, z: -1.2123852}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1574205181 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 760201630248738887, guid: 1fd585f8769e1da4da1887487c24f064,
@@ -20891,8 +21012,110 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eyePrefab: {fileID: 2150261895636368250, guid: 4ec82f0506781a548a298f9a57da019e,
     type: 3}
-  numEyes: 25
+  numEyes: 10
   eyeList: []
+--- !u!1 &1586177550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1586177551}
+  - component: {fileID: 1586177554}
+  - component: {fileID: 1586177553}
+  - component: {fileID: 1586177552}
+  m_Layer: 0
+  m_Name: Shadow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1586177551
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586177550}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 278464336}
+  m_Father: {fileID: 823480773}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -1.096}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1586177552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586177550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1586177553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586177550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 1
+--- !u!223 &1586177554
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586177550}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 14
+  m_TargetDisplay: 0
 --- !u!1001 &1589280755
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21074,8 +21297,8 @@ PrefabInstance:
     - target: {fileID: 5245283905467361035, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_text
-      value: 'One of the key aspects of immersive audio is knowing, where a sound
-        is coming from.
+      value: 'One of the key aspects of immersive audio is knowing, <color=#7FD6FC>where<color=white>
+        a sound is coming from.
 
 '
       objectReference: {fileID: 0}
@@ -22038,7 +22261,7 @@ RectTransform:
   m_GameObject: {fileID: 1705177087}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
+  m_LocalScale: {x: 0.004, y: 0.004, z: 0.004}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1163815600}
@@ -22047,7 +22270,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_SizeDelta: {x: 256, y: 256}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1705177089
 MonoBehaviour:
@@ -22110,7 +22333,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_TargetDisplay: 0
 --- !u!1 &1714594310 stripped
 GameObject:
@@ -27812,7 +28035,7 @@ MonoBehaviour:
   particles: {fileID: 1877781890}
   meshRendererHelmet: {fileID: 779550473}
   meshRendererBody: {fileID: 403872989}
-  meshRendererSword: {fileID: 279868710}
+  meshRendererSword: {fileID: 800118183}
   exampleRef: {fileID: 593290940}
   inactive: 0
 --- !u!1 &1902353047
@@ -28201,7 +28424,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: Thank <color=#7FD6FC>you<color="white"> for taking the time to participate
-        in this evaluation
+        in this <color=#7FD6FC>evaluation.
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -28572,6 +28795,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2013972764}
   - component: {fileID: 2013972765}
+  - component: {fileID: 2013972766}
   m_Layer: 0
   m_Name: LeftEyeAnchor
   m_TagString: MainCamera
@@ -28645,6 +28869,50 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &2013972766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013972763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    quality: 3
+    frameInfluence: 0.1
+    jitterScale: 1
+    mipBias: 0
+    varianceClampScale: 0.9
+    contrastAdaptiveSharpening: 0
 --- !u!1 &2017259172 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6568449658917674784, guid: 1fd585f8769e1da4da1887487c24f064,
@@ -28919,7 +29187,7 @@ MonoBehaviour:
   _lutWeight: 1
   _flipLutY: 1
   serializedSurfaceGeometry: []
-  textureOpacity_: 0.281
+  textureOpacity_: 1
   edgeRenderingEnabled_: 0
   edgeColor_: {r: 0, g: 0, b: 0, a: 1}
   colorMapType: 0
@@ -29404,7 +29672,8 @@ PrefabInstance:
     - target: {fileID: 5245283905467361035, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_text
-      value: 'Now to the important questions: What actually makes a realistic sound?'
+      value: 'Now to the important questions: What actually makes a <color=#7FD6FC>realistic
+        sound<color=white>?'
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -29814,8 +30083,9 @@ PrefabInstance:
     - target: {fileID: 5245283905467361035, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_text
-      value: The shape of our ear is no coincidence. It allows frequencies from different
-        directions to be absorbed, enabling the brain to determine even better localization.
+      value: The shape of our ear is no coincidence. It allows <color=#7FD6FC>frequencies<color=white>
+        from different directions to be absorbed, enabling the brain to determine
+        even better localization.
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -29951,7 +30221,7 @@ GameObject:
   - component: {fileID: 2142684149}
   m_Layer: 0
   m_Name: Camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30082,6 +30352,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 92676816816101699, guid: 00d03013c2297da4db6b8a37e5d2df39,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 153969841439107158, guid: 00d03013c2297da4db6b8a37e5d2df39,
         type: 3}
       propertyPath: sciptedEvents.Array.size
@@ -30132,6 +30407,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 1309197825005083972, guid: 00d03013c2297da4db6b8a37e5d2df39,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1531377232456436696, guid: 00d03013c2297da4db6b8a37e5d2df39,
         type: 3}
       propertyPath: m_Name
@@ -30140,7 +30420,23 @@ PrefabInstance:
     - target: {fileID: 1531377232456436696, guid: 00d03013c2297da4db6b8a37e5d2df39,
         type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683619380428802069, guid: 00d03013c2297da4db6b8a37e5d2df39,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3979419782390265097, guid: 00d03013c2297da4db6b8a37e5d2df39,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663595202501916086, guid: 00d03013c2297da4db6b8a37e5d2df39,
+        type: 3}
+      propertyPath: m_text
+      value: The goal of this part is testing the <color=#7FD6FC>directional accuracy<color=white>
+        of the different spatializers.
       objectReference: {fileID: 0}
     - target: {fileID: 5371659518049075349, guid: 00d03013c2297da4db6b8a37e5d2df39,
         type: 3}
@@ -30192,11 +30488,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5460517828319887054, guid: 00d03013c2297da4db6b8a37e5d2df39,
+        type: 3}
+      propertyPath: m_text
+      value: Combined with <color=#7FD6FC>visual cues<color=white> the direction
+        of the audio source can be determined very easy...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5683758588232828199, guid: 00d03013c2297da4db6b8a37e5d2df39,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5813197876590378836, guid: 00d03013c2297da4db6b8a37e5d2df39,
         type: 3}
       propertyPath: outputChannelRouter
       value: 
       objectReference: {fileID: 1388272076}
+    - target: {fileID: 5849452917081702489, guid: 00d03013c2297da4db6b8a37e5d2df39,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060529282761652188, guid: 00d03013c2297da4db6b8a37e5d2df39,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209210537403564132, guid: 00d03013c2297da4db6b8a37e5d2df39,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6643019288494070695, guid: 00d03013c2297da4db6b8a37e5d2df39,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -30231,6 +30553,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6678972822327140885, guid: 00d03013c2297da4db6b8a37e5d2df39,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6873777732627102884, guid: 00d03013c2297da4db6b8a37e5d2df39,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7497180273166187561, guid: 00d03013c2297da4db6b8a37e5d2df39,
         type: 3}
@@ -30287,6 +30619,11 @@ PrefabInstance:
       propertyPath: directionVisualizer
       value: 
       objectReference: {fileID: 1162396915}
+    - target: {fileID: 8431311369495369582, guid: 00d03013c2297da4db6b8a37e5d2df39,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8720004171122875286, guid: 00d03013c2297da4db6b8a37e5d2df39,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -30321,6 +30658,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9129987703336850353, guid: 00d03013c2297da4db6b8a37e5d2df39,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30369,4 +30711,3 @@ SceneRoots:
   - {fileID: 1186969419}
   - {fileID: 856621824}
   - {fileID: 1789051252}
-  - {fileID: 1573500393}

@@ -45,8 +45,6 @@ public class HorrorEvent : MonoBehaviour
 
     public Lightsflicker lightsFlicker;
 
-    public Transform g;
-
 
 
     private void OnEnable()
@@ -54,7 +52,7 @@ public class HorrorEvent : MonoBehaviour
         GameManager.Instance.ShowRoomModel(2);
 
         ambience.SetActive(true);
-        lightsFlicker.StartFlicker();
+        //lightsFlicker.StartFlicker();
 
         /*
         EnableFog();
@@ -103,6 +101,7 @@ public class HorrorEvent : MonoBehaviour
         //DisableEyes();
         Invoke("DisableFog",2);
         Invoke("OpenCompleteWindow",4);
+        GameManager.Instance.ShowController();
     }
 
     public void EnableFog()
@@ -141,13 +140,6 @@ public class HorrorEvent : MonoBehaviour
         jumpscareSpring.transform.LookAt(new Vector3(camPos.x, 0, camPos.z));
         FMODUnity.RuntimeManager.PlayOneShot("event:/Spooky/Boing", jumpscareSpring.transform.position);
         Debug.Log("Boo");
-    }
-
-    private void Follow()
-    {
-        Vector3 lookDir = FindAnyObjectByType<FollowTarget>().transform.eulerAngles;
-        Vector3 camPos = FindAnyObjectByType<FollowTarget>().transform.position;
-        g.transform.position = new Vector3(camPos.x, 0, camPos.z) + new Vector3(Mathf.Sin(lookDir.y * Mathf.Deg2Rad), 0, Mathf.Cos(lookDir.y * Mathf.Deg2Rad));
     }
 
     private void DisableAmbience()
@@ -191,17 +183,17 @@ public class HorrorEvent : MonoBehaviour
         roomModel.SetActive(true);
         gameObject.SetActive(false);
         Destroy(jumpscareSpring);
-        GameManager.Instance.ShowController();
+        
     }
 
 
 
     private void Update()
     {
-        currentFogValue = 0.99f * currentFogValue + 0.01f * currentFogTarget;
+        currentFogValue = 0.98f * currentFogValue + 0.02f * currentFogTarget;
         passthroughBox.material.SetFloat("_Opacity", currentFogValue / maxFog);
         RenderSettings.fogDensity = currentFogValue;
-        light.intensity = 1-currentFogValue/maxFog;
+        light.intensity = Mathf.Pow(1-currentFogValue/maxFog,1) * 0.2f;
         //GameManager.Instance.SetPassthroughOpacity(1 - currentFogValue / maxFog);
 
 
