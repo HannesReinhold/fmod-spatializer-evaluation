@@ -11915,9 +11915,9 @@ MonoBehaviour:
   - {fileID: 39455202}
   - {fileID: 1440721956}
   - {fileID: 1993500811}
-  startEvent: 1
-  hideWindowsOnStart: 1
-  eventOnStart: 1
+  startEvent: 0
+  hideWindowsOnStart: 0
+  eventOnStart: 0
   additionalInfoWindow: {fileID: 1268538851}
   windowManager: {fileID: 823480774}
 --- !u!114 &823480777
@@ -30420,7 +30420,7 @@ PrefabInstance:
     - target: {fileID: 1531377232456436696, guid: 00d03013c2297da4db6b8a37e5d2df39,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1683619380428802069, guid: 00d03013c2297da4db6b8a37e5d2df39,
         type: 3}
