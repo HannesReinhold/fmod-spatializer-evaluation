@@ -52,7 +52,7 @@ public class HorrorEvent : MonoBehaviour
         GameManager.Instance.ShowRoomModel(2);
 
         ambience.SetActive(true);
-        lightsFlicker.StartFlicker();
+        //lightsFlicker.StartFlicker();
 
         /*
         EnableFog();
@@ -190,10 +190,10 @@ public class HorrorEvent : MonoBehaviour
 
     private void Update()
     {
-        currentFogValue = 0.99f * currentFogValue + 0.01f * currentFogTarget;
+        currentFogValue = 0.98f * currentFogValue + 0.02f * currentFogTarget;
         passthroughBox.material.SetFloat("_Opacity", currentFogValue / maxFog);
         RenderSettings.fogDensity = currentFogValue;
-        light.intensity = 1-currentFogValue/maxFog;
+        light.intensity = Mathf.Pow(1-currentFogValue/maxFog,1) * 0.2f;
         //GameManager.Instance.SetPassthroughOpacity(1 - currentFogValue / maxFog);
 
 

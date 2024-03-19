@@ -9,7 +9,7 @@ Library: C:\Users\IXLAB\Documents\GitHub\fmod-spatializer-evaluation\Temp\BurstO
 --assembly-defines=Assembly-CSharp;
 --assembly-defines=FMODUnity;
 --assembly-defines=FMODUnityResonance;
---assembly-defines=ixCalibration;
+--assembly-defines=Meta.XR.Audio;
 --assembly-defines=Meta.XR.BuildingBlocks;
 --assembly-defines=meta.xr.mrutilitykit;
 --assembly-defines=Mono.Security;
@@ -30,7 +30,6 @@ Library: C:\Users\IXLAB\Documents\GitHub\fmod-spatializer-evaluation\Temp\BurstO
 --assembly-defines=System.Runtime.Serialization;
 --assembly-defines=System.Xml;
 --assembly-defines=System.Xml.Linq;
---assembly-defines=Unity.AI.Navigation;
 --assembly-defines=Unity.Burst;
 --assembly-defines=Unity.Burst.Unsafe;
 --assembly-defines=Unity.InputSystem;
@@ -71,7 +70,7 @@ Library: C:\Users\IXLAB\Documents\GitHub\fmod-spatializer-evaluation\Temp\BurstO
 --assembly-defines=Assembly-CSharp;
 --assembly-defines=FMODUnity;
 --assembly-defines=FMODUnityResonance;
---assembly-defines=ixCalibration;
+--assembly-defines=Meta.XR.Audio;
 --assembly-defines=Meta.XR.BuildingBlocks;
 --assembly-defines=meta.xr.mrutilitykit;
 --assembly-defines=Mono.Security;
@@ -92,7 +91,6 @@ Library: C:\Users\IXLAB\Documents\GitHub\fmod-spatializer-evaluation\Temp\BurstO
 --assembly-defines=System.Runtime.Serialization;
 --assembly-defines=System.Xml;
 --assembly-defines=System.Xml.Linq;
---assembly-defines=Unity.AI.Navigation;
 --assembly-defines=Unity.Burst;
 --assembly-defines=Unity.Burst.Unsafe;
 --assembly-defines=Unity.InputSystem;
