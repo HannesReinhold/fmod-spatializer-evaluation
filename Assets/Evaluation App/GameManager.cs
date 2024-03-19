@@ -180,7 +180,7 @@ public class GameManager : MonoBehaviour
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Intro", transform.position);
         introductionObject.SetActive(true);
-        introductionObject.GetComponent<MainIntroductionManager>().ResetMenu();
+        if(sessionID!=0) introductionObject.GetComponent<MainIntroductionManager>().ResetMenu();
         subjectiveObject.SetActive(false);
         directionGuessingObject.SetActive(false);
         completeObject.SetActive(false);
