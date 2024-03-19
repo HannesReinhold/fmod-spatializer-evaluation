@@ -28,4 +28,14 @@ public class ServerGUI : MonoBehaviour
         if(eventLog!="") eventLogText.text = eventLog;
         Debug.Log("Update Log");
     }
+
+    public void NextPage(int next)
+    {
+        GameManager.Instance.NextPageEvent(next);
+    }
+
+    public void Restart()
+    {
+        GameManager.Instance.RestartEvent();
+    }
 }

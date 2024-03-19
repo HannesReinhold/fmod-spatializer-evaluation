@@ -30,21 +30,33 @@ public class ServerLogEvent : RealtimeComponent<ServerLogEventModel>
     {
         this.currentWindowManager = currentWindowManager;
         int pageNum = windowManagers[currentWindowManager].currentWindowIndex;
-        model.FireEvent(realtime.clientID, pageNum, additionalEvent);
+        model.FireEvent(realtime.clientID, pageNum, additionalEvent,0);
     }
 
     public void LogEvent(string additionalEvent)
     {
         int pageNum = windowManagers[currentWindowManager].currentWindowIndex;
-        model.FireEvent(realtime.clientID, pageNum, additionalEvent);
+        model.FireEvent(realtime.clientID, pageNum, additionalEvent,0);
+    }
+    public void NextPageEvent(int nextPage)
+    {
+        int pageNum = windowManagers[currentWindowManager].currentWindowIndex + nextPage;
+        if (pageNum >= windowManagers[currentWindowManager].windows.Count) return;
+        model.FireEvent(realtime.clientID, pageNum, "", nextPage);
     }
 
     // Called whenever our event fires
-    private void EventDidFire(int senderID, int pageNum, string eventLog)
+    private void EventDidFire(int senderID, int pageNum, string eventLog, int nextPage)
     {
         // Tell the particle system to trigger an explosion in response to the event
         Debug.Log("didFIre: "+pageNum);
         _serverGUI.UpdateLog(pageNum, eventLog);
+        if (nextPage != 0) 
+        {
+            if(nextPage==1) windowManagers[currentWindowManager].NextPage();
+            if (nextPage == -1) windowManagers[currentWindowManager].PreviousPage();
+            if (nextPage == -999) GameManager.Instance.Restart();
+        }
     }
 
     public void SetWindowManager(int index)

@@ -87,5 +87,25 @@ public class MainIntroductionManager : MonoBehaviour
         else windowManager.windows[windowManager.currentWindowIndex].GetComponent<PopupWindow>().Close();
     }
 
+    public void ResetMenu()
+    {
+        ResetEvents();
+        additionalInfoWindow.gameObject.SetActive(false);
+
+        GUIAudioManager.SetAmbientVolume(0.5f);
+
+        if (hideWindowsOnStart)
+        {
+            Invoke("HideAllWindows", 0.3f);
+        }
+
+        if (eventOnStart) StartEvent(startEvent);
+
+        Invoke("LogStart", 0.5f);
+
+        windowManager.ResetValues();
+        windowManager.OpenPage(0);
+    }
+
 
 }

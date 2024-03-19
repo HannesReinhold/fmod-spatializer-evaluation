@@ -180,6 +180,7 @@ public class GameManager : MonoBehaviour
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Intro", transform.position);
         introductionObject.SetActive(true);
+        introductionObject.GetComponent<MainIntroductionManager>().ResetMenu();
         subjectiveObject.SetActive(false);
         directionGuessingObject.SetActive(false);
         completeObject.SetActive(false);
@@ -232,7 +233,6 @@ public class GameManager : MonoBehaviour
         foreach (MeshRenderer r in roomModel.GetComponentsInChildren<Renderer>())
         {
             LeanTween.alpha(r.gameObject, 0, time);
-            Debug.Log("Set Alpha");
         }
 
     }
@@ -263,6 +263,16 @@ public class GameManager : MonoBehaviour
     public void LogServerEvent(string additionalEvent = "")
     {
         serverLog.LogEvent(additionalEvent);
+    }
+
+    public void NextPageEvent(int nextPage)
+    {
+        serverLog.NextPageEvent(nextPage);
+    }
+
+    public void RestartEvent()
+    {
+        serverLog.NextPageEvent(-999);
     }
 }
 

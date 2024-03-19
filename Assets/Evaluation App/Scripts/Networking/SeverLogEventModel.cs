@@ -46,6 +46,7 @@ public partial class ServerLogEventModel
     [RealtimeProperty(2, true)] private int _senderID;
     [RealtimeProperty(3, true)] private int _pageNum;
     [RealtimeProperty(4, true)] private string _eventLog;
+    [RealtimeProperty(5, true)] private int _nextPage;
 
 
 }
@@ -109,12 +110,27 @@ public partial class ServerLogEventModel : RealtimeModel
         }
     }
 
+    public int nextPage
+    {
+        get
+        {
+            return _nextPageProperty.value;
+        }
+        set
+        {
+            if (_nextPageProperty.value == value) return;
+            _nextPageProperty.value = value;
+            InvalidateReliableLength();
+        }
+    }
+
     public enum PropertyID : uint
     {
         Trigger = 1,
         SenderID = 2,
         PageNum = 3,
         EventLog = 4,
+        NextPage,
 
     }
 
@@ -128,6 +144,8 @@ public partial class ServerLogEventModel : RealtimeModel
 
     private ReliableProperty<string> _eventLogProperty;
 
+    private ReliableProperty<int> _nextPageProperty;
+
     #endregion
 
     public ServerLogEventModel() : base(null)
@@ -136,6 +154,7 @@ public partial class ServerLogEventModel : RealtimeModel
         _senderIDProperty = new ReliableProperty<int>(2, _senderID);
         _pageNumProperty = new ReliableProperty<int>(3, _pageNum);
         _eventLogProperty = new ReliableProperty<string>(4, _eventLog);
+        _nextPageProperty = new ReliableProperty<int>(5, _nextPage);
 
         SubscribeEventCallback(Normal.Realtime.RealtimeModelEvent.OnDidRead, DidRead);
     }
@@ -146,6 +165,7 @@ public partial class ServerLogEventModel : RealtimeModel
         _senderIDProperty.UnsubscribeCallback();
         _pageNumProperty.UnsubscribeCallback();
         _eventLogProperty.UnsubscribeCallback();
+        _nextPageProperty.UnsubscribeCallback();
     }
 
     protected override int WriteLength(StreamContext context)
@@ -155,6 +175,7 @@ public partial class ServerLogEventModel : RealtimeModel
         length += _senderIDProperty.WriteLength(context);
         length += _pageNumProperty.WriteLength(context);
         length += _eventLogProperty.WriteLength(context);
+        length += _nextPageProperty.WriteLength(context);
         return length;
     }
 
@@ -165,6 +186,7 @@ public partial class ServerLogEventModel : RealtimeModel
         writes |= _senderIDProperty.Write(stream, context);
         writes |= _pageNumProperty.Write(stream, context);
         writes |= _eventLogProperty.Write(stream, context);
+        writes |= _nextPageProperty.Write(stream, context);
         if (writes) InvalidateContextLength(context);
     }
 
@@ -196,6 +218,11 @@ public partial class ServerLogEventModel : RealtimeModel
                         changed = _eventLogProperty.Read(stream, context);
                         break;
                     }
+                case (uint)PropertyID.NextPage:
+                    {
+                        changed = _nextPageProperty.Read(stream, context);
+                        break;
+                    }
                 default:
                     {
                         stream.SkipProperty();
@@ -216,19 +243,21 @@ public partial class ServerLogEventModel : RealtimeModel
         _senderID = senderID;
         _pageNum = pageNum;
         _eventLog = eventLog;
+        _nextPage = nextPage;
     }
-    public void FireEvent(int senderID, int pageNum, string eventLog)
+    public void FireEvent(int senderID, int pageNum, string eventLog, int nextPage)
     {
         trigger = 1;
         this.senderID = senderID;
         this.pageNum = pageNum;
         this.eventLog = eventLog;
-        Debug.Log("Fire: "+pageNum);
+        this.nextPage = nextPage;
+        Debug.Log("Fire: "+pageNum + "next: "+nextPage);
         //eventDidFire(senderID);
     }
 
     // An event that consumers of this model can subscribe to in order to respond to the event
-    public delegate void EventHandler(int senderID, int pageNum, string eventLog);
+    public delegate void EventHandler(int senderID, int pageNum, string eventLog, int nextPage);
     public event EventHandler eventDidFire;
 
     // A RealtimeCallback method that fires whenever we read any values from the server
@@ -238,7 +267,7 @@ public partial class ServerLogEventModel : RealtimeModel
         Debug.Log("Read: " + pageNum);
         if (eventDidFire != null && trigger == 1)
         {
-            eventDidFire(senderID, pageNum, eventLog);
+            eventDidFire(senderID, pageNum, eventLog, nextPage);
             trigger = 0;
         }
     }
