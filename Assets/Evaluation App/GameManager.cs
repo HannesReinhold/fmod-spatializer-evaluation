@@ -274,6 +274,16 @@ public class GameManager : MonoBehaviour
     {
         serverLog.NextPageEvent(-999);
     }
+
+    public void SkipIntroductionEvent()
+    {
+        serverLog.NextPageEvent(-100);
+    }
+
+    public void SkipIntroduction()
+    {
+        StartSubjectiveEvaluation();
+    }
 }
 
 

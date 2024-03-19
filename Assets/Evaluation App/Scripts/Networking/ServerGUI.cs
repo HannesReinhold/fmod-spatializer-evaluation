@@ -6,6 +6,7 @@ using UnityEngine;
 public class ServerGUI : MonoBehaviour
 {
     public TextMeshProUGUI pageNumText;
+    public TextMeshProUGUI windowManagerNumText;
     public TextMeshProUGUI eventLogText;
 
 
@@ -21,10 +22,11 @@ public class ServerGUI : MonoBehaviour
         
     }
 
-    public void UpdateLog(int pageNum, string eventLog)
+    public void UpdateLog(int pageNum, string eventLog, int windowManagerNum)
     {
 
         pageNumText.text = pageNum.ToString();
+        windowManagerNumText.text = windowManagerNum.ToString();
         if(eventLog!="") eventLogText.text = eventLog;
         Debug.Log("Update Log");
     }
@@ -37,5 +39,10 @@ public class ServerGUI : MonoBehaviour
     public void Restart()
     {
         GameManager.Instance.RestartEvent();
+    }
+
+    public void SkipIntroduction()
+    {
+        GameManager.Instance.SkipIntroduction();
     }
 }

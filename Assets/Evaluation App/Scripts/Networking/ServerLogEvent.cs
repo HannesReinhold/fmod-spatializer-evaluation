@@ -41,7 +41,14 @@ public class ServerLogEvent : RealtimeComponent<ServerLogEventModel>
     public void NextPageEvent(int nextPage)
     {
         int pageNum = windowManagers[currentWindowManager].currentWindowIndex + nextPage;
-        if (pageNum >= windowManagers[currentWindowManager].windows.Count) return;
+        if (pageNum >= windowManagers[currentWindowManager].windows.Count)
+        {
+            pageNum = 2;
+        }
+        if (pageNum <0)
+        {
+            pageNum = -2;
+        }
         model.FireEvent(realtime.clientID, pageNum, "", nextPage);
     }
 
@@ -50,13 +57,34 @@ public class ServerLogEvent : RealtimeComponent<ServerLogEventModel>
     {
         // Tell the particle system to trigger an explosion in response to the event
         Debug.Log("didFIre: "+pageNum);
-        _serverGUI.UpdateLog(pageNum, eventLog);
+        
         if (nextPage != 0) 
         {
             if(nextPage==1) windowManagers[currentWindowManager].NextPage();
             if (nextPage == -1) windowManagers[currentWindowManager].PreviousPage();
-            if (nextPage == -999) GameManager.Instance.Restart();
+            if (nextPage == 2)
+            {
+                if(currentWindowManager<windowManagers.Count-1)currentWindowManager++;
+                windowManagers[currentWindowManager].OpenPage(0);
+            }
+            if (nextPage == -2)
+            {
+                if(currentWindowManager>0) currentWindowManager--;
+                windowManagers[currentWindowManager].OpenPage(windowManagers[currentWindowManager].windows.Count-1);
+            }
+            if (nextPage == -999)
+            {
+                GameManager.Instance.Restart();
+                currentWindowManager = 0;
+            }
+            if (nextPage == -100)
+            {
+                currentWindowManager = 1;
+                GameManager.Instance.SkipIntroduction();
+                
+            }
         }
+        _serverGUI.UpdateLog(pageNum, eventLog, currentWindowManager);
     }
 
     public void SetWindowManager(int index)
