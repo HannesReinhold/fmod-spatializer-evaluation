@@ -2316,9 +2316,9 @@ PrefabInstance:
     - target: {fileID: 5245283905467361035, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_text
-      value: The interaural time difference describes the fact that sound waves reach
-        the ears at different times. The ear facing the source will hear the sound
-        a little earlier.
+      value: The <color=#7FD6FC>interaural time difference<color=white> describes
+        the fact that sound waves reach the ears at different times. The ear facing
+        the source will hear the sound a little earlier.
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -2564,6 +2564,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 711319685903971971, guid: a1541d2fad318d243815afa312605171,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 784101148970578006, guid: a1541d2fad318d243815afa312605171,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -2682,6 +2687,11 @@ PrefabInstance:
     - target: {fileID: 951068451019154477, guid: a1541d2fad318d243815afa312605171,
         type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1039754891659320462, guid: a1541d2fad318d243815afa312605171,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1077183034740863662, guid: a1541d2fad318d243815afa312605171,
@@ -2972,7 +2982,7 @@ PrefabInstance:
     - target: {fileID: 3238308880239880802, guid: a1541d2fad318d243815afa312605171,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3238308880239880804, guid: a1541d2fad318d243815afa312605171,
         type: 3}
@@ -3007,7 +3017,12 @@ PrefabInstance:
     - target: {fileID: 3286961242523291322, guid: a1541d2fad318d243815afa312605171,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330615107806965374, guid: a1541d2fad318d243815afa312605171,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3436395146984868854, guid: a1541d2fad318d243815afa312605171,
         type: 3}
@@ -3022,6 +3037,11 @@ PrefabInstance:
     - target: {fileID: 3850672328498185807, guid: a1541d2fad318d243815afa312605171,
         type: 3}
       propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3871351017175657098, guid: a1541d2fad318d243815afa312605171,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3940596950687256802, guid: a1541d2fad318d243815afa312605171,
@@ -3919,6 +3939,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7670324569527017366, guid: a1541d2fad318d243815afa312605171,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7865792380278762390, guid: a1541d2fad318d243815afa312605171,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -3949,6 +3974,11 @@ PrefabInstance:
       propertyPath: m_PresetInfoIsWorld
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7993251765733079278, guid: a1541d2fad318d243815afa312605171,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8026268959823601566, guid: a1541d2fad318d243815afa312605171,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -3973,6 +4003,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8156378933347316220, guid: a1541d2fad318d243815afa312605171,
+        type: 3}
+      propertyPath: m_text
+      value: The aim of this evaluation is to compare the spatializers based on different
+        <color=#7FD6FC>aspects<color=white>.
       objectReference: {fileID: 0}
     - target: {fileID: 8227269312864074129, guid: a1541d2fad318d243815afa312605171,
         type: 3}
@@ -4033,6 +4069,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479869921322735236, guid: a1541d2fad318d243815afa312605171,
+        type: 3}
+      propertyPath: m_text
+      value: The first thing you'll notice are the emerging <color=#7FD6FC>virtual
+        speakers<color=white>. The sound will be played from these positions.
       objectReference: {fileID: 0}
     - target: {fileID: 8565609309878753352, guid: a1541d2fad318d243815afa312605171,
         type: 3}
@@ -6004,9 +6046,9 @@ PrefabInstance:
     - target: {fileID: 5245283905467361035, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_text
-      value: The loudness also differs from one ear to the other. A sound shadow
-        is created by the head, which means that the ear facing away hears the sound
-        more quietly.
+      value: The <color=#7FD6FC>loudness<color=white> also differs from one ear to
+        the other. A sound shadow is created by the head, which means that the ear
+        facing away hears the sound more quietly.
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -7037,7 +7079,7 @@ PrefabInstance:
     - target: {fileID: 6275210443843268121, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8433668495210305521, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -7202,9 +7244,9 @@ PrefabInstance:
     - target: {fileID: 5245283905467361035, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_text
-      value: When the sound hits a surface, part of it is reflected. If this happens
-        over a longer period of time, a reverberation builds up. This is best observed
-        in a church.
+      value: When the sound hits a surface, part of it is <color=#7FD6FC>reflected<color=white>.
+        If this happens over a longer period of time, a reverberation builds up.
+        This is best observed in a church.
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -7627,7 +7669,7 @@ PrefabInstance:
     - target: {fileID: 5245283905467361035, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_text
-      value: ... to hear an attack from behind!
+      value: ... to hear an attack from <color=#7FD6FC>behind<color=white>!
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -8799,8 +8841,8 @@ PrefabInstance:
     - target: {fileID: 5245283905467361035, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_text
-      value: In the Direction Guessing Game, your task is to locate an unknown audio
-        source as accurately as possible, so listen carefully.
+      value: In the Direction Guessing Game, your task is to <color=#7FD6FC>locate<color=white>
+        an unknown audio source as accurately as possible, so listen carefully.
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -9801,6 +9843,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882046529134176048, guid: 1a0466d323790c54ab6e8501a74ce61f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8433668495210305521, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -11069,7 +11116,7 @@ PrefabInstance:
     - target: {fileID: 2345778413083533527, guid: 92f88015bbaab1f47b2758b238242831,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2345778413083533544, guid: 92f88015bbaab1f47b2758b238242831,
         type: 3}
@@ -12250,7 +12297,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &856621824
 Transform:
   m_ObjectHideFlags: 0
@@ -12962,6 +13009,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3696582585919489299, guid: 1a0466d323790c54ab6e8501a74ce61f,
+        type: 3}
+      propertyPath: m_text
+      value: START EVALUTION
+      objectReference: {fileID: 0}
     - target: {fileID: 4865935044597450904, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: openDelay
@@ -12997,6 +13049,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6952059521770493501, guid: 1a0466d323790c54ab6e8501a74ce61f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 6952059521770493501, guid: 1a0466d323790c54ab6e8501a74ce61f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 8433668495210305521, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -13967,8 +14029,8 @@ PrefabInstance:
     - target: {fileID: 5245283905467361035, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_text
-      value: To do this, we look at various sound phenomena from the real world that
-        we can use for the virtual sound experience.
+      value: To do this, we look at various <color=#7FD6FC>sound phenomena<color=white>
+        from the real world that we can use for the virtual sound experience.
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -15352,8 +15414,8 @@ PrefabInstance:
     - target: {fileID: 5245283905467361035, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_text
-      value: The aim of the subjective evaluation is the direct comparison of different
-        spatializers with the real world.
+      value: The aim of the subjective evaluation is the direct <color=#7FD6FC>comparison
+        of different spatializers<color=white> with the real world.
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -15534,7 +15596,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: Horror games thrive on a creepy atmosphere. So listen carefully to your
-        surroundings. It could be the sound of a monster...
+        <color=#7FD6FC>surroundings<color=white>. It could be the sound of a monster...
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -16232,8 +16294,8 @@ PrefabInstance:
     - target: {fileID: 5245283905467361035, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_text
-      value: Air also slowly dampens sound. This means that the longer sound travels,
-        the quieter and more muffled it becomes.
+      value: Air also slowly <color=#7FD6FC>dampens<color=white> sound. This means
+        that the longer sound travels, the quieter and more muffled it becomes.
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -16433,8 +16495,9 @@ PrefabInstance:
     - target: {fileID: 5245283905467361035, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_text
-      value: 'I have divided this into 2 parts: Subjective evaluation and a mini-game,
-        more on that in a moment.'
+      value: 'I have divided this into 2 parts: <color=#7FD6FC>Subjective<color=white>
+        evaluation and a <color=#7FD6FC>mini-game<color=white>, more on that in a
+        moment.'
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -21189,8 +21252,8 @@ PrefabInstance:
     - target: {fileID: 5245283905467361035, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_text
-      value: 'One of the key aspects of immersive audio is knowing, where a sound
-        is coming from.
+      value: 'One of the key aspects of immersive audio is knowing, <color=#7FD6FC>where<color=white>
+        a sound is coming from.
 
 '
       objectReference: {fileID: 0}
@@ -29519,7 +29582,8 @@ PrefabInstance:
     - target: {fileID: 5245283905467361035, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_text
-      value: 'Now to the important questions: What actually makes a realistic sound?'
+      value: 'Now to the important questions: What actually makes a <color=#7FD6FC>realistic
+        sound<color=white>?'
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -29929,8 +29993,9 @@ PrefabInstance:
     - target: {fileID: 5245283905467361035, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
       propertyPath: m_text
-      value: The shape of our ear is no coincidence. It allows frequencies from different
-        directions to be absorbed, enabling the brain to determine even better localization.
+      value: The shape of our ear is no coincidence. It allows <color=#7FD6FC>frequencies<color=white>
+        from different directions to be absorbed, enabling the brain to determine
+        even better localization.
       objectReference: {fileID: 0}
     - target: {fileID: 5736643433895903468, guid: 1a0466d323790c54ab6e8501a74ce61f,
         type: 3}
@@ -30197,6 +30262,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 92676816816101699, guid: 00d03013c2297da4db6b8a37e5d2df39,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 153969841439107158, guid: 00d03013c2297da4db6b8a37e5d2df39,
         type: 3}
       propertyPath: sciptedEvents.Array.size
@@ -30247,6 +30317,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 1309197825005083972, guid: 00d03013c2297da4db6b8a37e5d2df39,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1531377232456436696, guid: 00d03013c2297da4db6b8a37e5d2df39,
         type: 3}
       propertyPath: m_Name
@@ -30256,6 +30331,22 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683619380428802069, guid: 00d03013c2297da4db6b8a37e5d2df39,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3979419782390265097, guid: 00d03013c2297da4db6b8a37e5d2df39,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663595202501916086, guid: 00d03013c2297da4db6b8a37e5d2df39,
+        type: 3}
+      propertyPath: m_text
+      value: The goal of this part is testing the <color=#7FD6FC>directional accuracy<color=white>
+        of the different spatializers.
       objectReference: {fileID: 0}
     - target: {fileID: 5371659518049075349, guid: 00d03013c2297da4db6b8a37e5d2df39,
         type: 3}
@@ -30307,11 +30398,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5460517828319887054, guid: 00d03013c2297da4db6b8a37e5d2df39,
+        type: 3}
+      propertyPath: m_text
+      value: Combined with <color=#7FD6FC>visual cues<color=white> the direction
+        of the audio source can be determined very easy...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5683758588232828199, guid: 00d03013c2297da4db6b8a37e5d2df39,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5813197876590378836, guid: 00d03013c2297da4db6b8a37e5d2df39,
         type: 3}
       propertyPath: outputChannelRouter
       value: 
       objectReference: {fileID: 1388272076}
+    - target: {fileID: 5849452917081702489, guid: 00d03013c2297da4db6b8a37e5d2df39,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060529282761652188, guid: 00d03013c2297da4db6b8a37e5d2df39,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209210537403564132, guid: 00d03013c2297da4db6b8a37e5d2df39,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6643019288494070695, guid: 00d03013c2297da4db6b8a37e5d2df39,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -30346,6 +30463,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6678972822327140885, guid: 00d03013c2297da4db6b8a37e5d2df39,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6873777732627102884, guid: 00d03013c2297da4db6b8a37e5d2df39,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7497180273166187561, guid: 00d03013c2297da4db6b8a37e5d2df39,
         type: 3}
@@ -30402,6 +30529,11 @@ PrefabInstance:
       propertyPath: directionVisualizer
       value: 
       objectReference: {fileID: 1162396915}
+    - target: {fileID: 8431311369495369582, guid: 00d03013c2297da4db6b8a37e5d2df39,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8720004171122875286, guid: 00d03013c2297da4db6b8a37e5d2df39,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -30436,6 +30568,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9129987703336850353, guid: 00d03013c2297da4db6b8a37e5d2df39,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
