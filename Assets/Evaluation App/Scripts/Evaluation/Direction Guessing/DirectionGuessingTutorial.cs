@@ -170,6 +170,7 @@ public class DirectionGuessingTutorial : MonoBehaviour
         Invoke("ShowScore", 2);
 
         directionVisualizer.CloseCrosshair();
+        GameManager.Instance.LogServerEvent("Direction Tutorial Shoot");
     }
 
     public void Vib()
