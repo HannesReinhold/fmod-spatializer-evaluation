@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f721a9a9-2c68-4275-836d-f300614d997c}">
+		<property name="assetPath">
+			<value>Subjective/MediumRoom/frying-in-a-pan-6017.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>24</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>42.648000000000003</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{0df577d9-5fd9-4530-a338-422ae9ff4af6}</destination>
+		</relationship>
+	</object>
+</objects>

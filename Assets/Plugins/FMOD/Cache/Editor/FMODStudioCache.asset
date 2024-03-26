@@ -54,6 +54,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1202
+--- !u!114 &-8910848314094553175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/MediumRoom/Window3
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/MediumRoom/Window3
+  Guid:
+    Data1: 1894291086
+    Data2: 1297205381
+    Data3: 786483112
+    Data4: -282378127
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 51816
 --- !u!114 &-8906639538919868344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,6 +189,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 400
+--- !u!114 &-8570477278275654448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/LargeRoom/Talking1
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/LargeRoom/Talking1
+  Guid:
+    Data1: 310953082
+    Data2: 1124117330
+    Data3: 105522333
+    Data4: 170389349
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28000
 --- !u!114 &-8109450433577918858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -189,6 +243,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1600
+--- !u!114 &-7929371990016264134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/SmallRoom/RadioResonance
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/SmallRoom/RadioResonance
+  Guid:
+    Data1: -169681063
+    Data2: 1202887316
+    Data3: -2006988662
+    Data4: 1472906490
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 83568
+--- !u!114 &-7858357412084625600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/SmallRoom/PhoneResonance
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/SmallRoom/PhoneResonance
+  Guid:
+    Data1: -116034067
+    Data2: 1157851408
+    Data3: 260695940
+    Data4: 1155953243
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 23640
 --- !u!114 &-7765526570378554225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -243,6 +351,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 460
+--- !u!114 &-7365419869493327838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/LargeRoom/Talking1 6
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/LargeRoom/Talking1 6
+  Guid:
+    Data1: 1229853390
+    Data2: 1265795108
+    Data3: 1572676012
+    Data4: -768702655
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28000
+--- !u!114 &-7283772514309094448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/MediumRoom/FirePlace
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/MediumRoom/FirePlace
+  Guid:
+    Data1: -220733759
+    Data2: 1212996960
+    Data3: -84622199
+    Data4: -1419942102
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 83568
 --- !u!114 &-7059100043255068651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -378,6 +540,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1000
+--- !u!114 &-6693823672978482396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/LargeRoom/Talking1 2
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/LargeRoom/Talking1 2
+  Guid:
+    Data1: 1450716650
+    Data2: 1083971428
+    Data3: 1164221830
+    Data4: -1977743516
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28000
+--- !u!114 &-6632166625986103931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/LargeRoom/Talking1 5
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/LargeRoom/Talking1 5
+  Guid:
+    Data1: -1275710946
+    Data2: 1273465654
+    Data3: -1840635519
+    Data4: 2100069788
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28000
 --- !u!114 &-6096219342284218610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -432,6 +648,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 400
+--- !u!114 &-6036506791226502361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/SmallRoom/ComputerResonance
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/SmallRoom/ComputerResonance
+  Guid:
+    Data1: 1169142056
+    Data2: 1165847627
+    Data3: -114263165
+    Data4: -181890570
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 16000
 --- !u!114 &-5300859584306282125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -459,6 +702,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 7418
+--- !u!114 &-4682979293962969845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/MediumRoom/Plant1
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/MediumRoom/Plant1
+  Guid:
+    Data1: -1161399859
+    Data2: 1264838146
+    Data3: 425662874
+    Data4: 966112798
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10752
 --- !u!114 &-4443871963397813831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -513,6 +783,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2600
+--- !u!114 &-4111455128006153668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/MediumRoom/Plant2
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/MediumRoom/Plant2
+  Guid:
+    Data1: 580953705
+    Data2: 1139968724
+    Data3: 1793502365
+    Data4: -364262829
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10752
 --- !u!114 &-3840373869099680542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -540,6 +837,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 180
+--- !u!114 &-3605501515641426076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/LargeRoom/Talking1 4
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/LargeRoom/Talking1 4
+  Guid:
+    Data1: 195368151
+    Data2: 1210350005
+    Data3: 1882663839
+    Data4: 1094642899
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28000
 --- !u!114 &-3435811948265714016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -567,6 +891,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3000
+--- !u!114 &-2781016323514553756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/MediumRoom/TV
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/MediumRoom/TV
+  Guid:
+    Data1: 1104098036
+    Data2: 1275731223
+    Data3: 49476513
+    Data4: 331461776
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 75000
 --- !u!114 &-2677669894762904752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -609,12 +960,12 @@ MonoBehaviour:
   Path: spatializer-evaluation/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638463782284661459
+  lastModified: 638470800830636358
   FileSizes:
   - Name: Desktop
-    Value: 5038
+    Value: 6260
   - Name: Mobile
-    Value: 5038
+    Value: 6260
   Exists: 1
 --- !u!114 &-2414057735993236666
 MonoBehaviour:
@@ -778,6 +1129,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1906
+--- !u!114 &-1265574210821182601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/SmallRoom/DoorResonance
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/SmallRoom/DoorResonance
+  Guid:
+    Data1: -533039869
+    Data2: 1128714183
+    Data3: 1592968840
+    Data4: -31383769
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 29200
 --- !u!114 &-1097822722909772227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -820,12 +1198,12 @@ MonoBehaviour:
   Path: spatializer-evaluation/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638464502968359963
+  lastModified: 638470800830556356
   FileSizes:
   - Name: Desktop
-    Value: 19727552
+    Value: 34115552
   - Name: Mobile
-    Value: 40688320
+    Value: 68643712
   Exists: 1
 --- !u!114 &-1009457416418514413
 MonoBehaviour:
@@ -1149,14 +1527,67 @@ MonoBehaviour:
   - {fileID: 862854009770620834}
   - {fileID: -2414057735993236666}
   - {fileID: 2257847234481014641}
+  - {fileID: -1265574210821182601}
+  - {fileID: -6036506791226502361}
+  - {fileID: -7929371990016264134}
+  - {fileID: 8173161469832836407}
+  - {fileID: 4915040658813966815}
+  - {fileID: -7858357412084625600}
+  - {fileID: 2004938414666722706}
+  - {fileID: 5554499825033587009}
+  - {fileID: 5015668101381956619}
+  - {fileID: 6954606353611463424}
+  - {fileID: -4111455128006153668}
+  - {fileID: -8910848314094553175}
+  - {fileID: 2251386191522747392}
+  - {fileID: 5247969386181992308}
+  - {fileID: -7283772514309094448}
+  - {fileID: -4682979293962969845}
+  - {fileID: -2781016323514553756}
+  - {fileID: -6632166625986103931}
+  - {fileID: 6251293930635342384}
+  - {fileID: -8570477278275654448}
+  - {fileID: 152143331934501147}
+  - {fileID: 6654129441636547399}
+  - {fileID: -7365419869493327838}
+  - {fileID: -3605501515641426076}
+  - {fileID: -6693823672978482396}
+  - {fileID: 7962236411581906492}
   EditorParameters:
   - {fileID: 1985558313047513383}
   MasterBanks:
   - {fileID: -1074333314047361534}
   StringsBanks:
   - {fileID: -2559924674273271750}
-  cacheTime: 638464502968359963
+  cacheTime: 638470800830636358
   cacheVersion: 131616
+--- !u!114 &152143331934501147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/LargeRoom/Talking1 3
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/LargeRoom/Talking1 3
+  Guid:
+    Data1: -1743102827
+    Data2: 1314791567
+    Data3: -171242564
+    Data4: -1231180728
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28000
 --- !u!114 &738891158024644738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1505,6 +1936,33 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &2004938414666722706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/SmallRoom/PlantResonance
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/SmallRoom/PlantResonance
+  Guid:
+    Data1: 315436023
+    Data2: 1277230379
+    Data3: 1825770123
+    Data4: -1125993458
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 26800
 --- !u!114 &2059843772688205690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1559,6 +2017,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 7058
+--- !u!114 &2251386191522747392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/MediumRoom/Window2
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/MediumRoom/Window2
+  Guid:
+    Data1: -695802961
+    Data2: 1292802880
+    Data3: 86288528
+    Data4: 1637373123
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 48000
 --- !u!114 &2257847234481014641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1911,6 +2396,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 15046
+--- !u!114 &4915040658813966815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/SmallRoom/KeyboardResonance
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/SmallRoom/KeyboardResonance
+  Guid:
+    Data1: -177661032
+    Data2: 1302832981
+    Data3: 1473395843
+    Data4: 449322712
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 26000
 --- !u!114 &4937758169932852534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1938,6 +2450,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 514
+--- !u!114 &5015668101381956619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/MediumRoom/Kitchen
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/MediumRoom/Kitchen
+  Guid:
+    Data1: -198010311
+    Data2: 1154929495
+    Data3: 1855199149
+    Data4: 1117109504
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 42648
 --- !u!114 &5128825311492569735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1992,6 +2531,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 62000
+--- !u!114 &5247969386181992308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/MediumRoom/Window1
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/MediumRoom/Window1
+  Guid:
+    Data1: -1421810498
+    Data2: 1341673474
+    Data3: 1922409148
+    Data4: 588403497
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 51816
 --- !u!114 &5410023251216637021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2046,6 +2612,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 45847
+--- !u!114 &5554499825033587009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/MediumRoom/Radio
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/MediumRoom/Radio
+  Guid:
+    Data1: 1634437166
+    Data2: 1168140948
+    Data3: -276097906
+    Data4: 2072501757
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 83568
 --- !u!114 &6064754356552416051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2154,6 +2747,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 400
+--- !u!114 &6251293930635342384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/LargeRoom/Priest
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/LargeRoom/Priest
+  Guid:
+    Data1: -44948667
+    Data2: 1076732806
+    Data3: 234429862
+    Data4: -1127284818
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 56737
 --- !u!114 &6556924476372057990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2181,6 +2801,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 6086
+--- !u!114 &6654129441636547399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/LargeRoom/Organ
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/LargeRoom/Organ
+  Guid:
+    Data1: 1491097021
+    Data2: 1260505801
+    Data3: -1440653408
+    Data4: 1627196902
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 82152
 --- !u!114 &6864012402020325602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2235,6 +2882,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 29560
+--- !u!114 &6954606353611463424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/MediumRoom/Talking
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/MediumRoom/Talking
+  Guid:
+    Data1: -388694709
+    Data2: 1246571692
+    Data3: -1510431325
+    Data4: 2115792614
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 68976
 --- !u!114 &6982582068391904623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2451,6 +3125,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 66000
+--- !u!114 &7962236411581906492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/LargeRoom/Outside
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/LargeRoom/Outside
+  Guid:
+    Data1: 92967659
+    Data2: 1229508426
+    Data3: -1906653272
+    Data4: -1743020561
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 58800
+--- !u!114 &8173161469832836407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/SmallRoom/WindowResonance
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/SmallRoom/WindowResonance
+  Guid:
+    Data1: -1082714240
+    Data2: 1106724265
+    Data3: -1714580083
+    Data4: -1709811838
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 40724
 --- !u!114 &8367618097714261625
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -22,9 +22,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{67061e30-0d0c-49b0-a66f-751b9fce74c9}" />
 	<object class="PluginEffect" id="{e2e0b644-6d56-4077-a861-0fe2bc477be2}">
-		<property name="bypass">
-			<value>true</value>
-		</property>
 		<relationship name="plugin">
 			<destination>{3ff52a4e-c0f7-4bbe-831d-33f2324df988}</destination>
 		</relationship>
@@ -95,7 +92,7 @@
 			<value>Room Width</value>
 		</property>
 		<property name="value">
-			<value>8</value>
+			<value>4.5999999</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,0.000000)(1.000000,5.000000)(2.000000,10.000000)(3.000000,20.000000)(4.000000,50.000000)(5.000000,200.000000)}</value>
@@ -106,7 +103,7 @@
 			<value>Room Height</value>
 		</property>
 		<property name="value">
-			<value>3</value>
+			<value>3.60000014</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,0.000000)(1.000000,5.000000)(2.000000,10.000000)(3.000000,20.000000)(4.000000,50.000000)(5.000000,200.000000)}</value>
@@ -117,7 +114,7 @@
 			<value>Room Length</value>
 		</property>
 		<property name="value">
-			<value>5</value>
+			<value>5.4000001</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,0.000000)(1.000000,5.000000)(2.000000,10.000000)(3.000000,20.000000)(4.000000,50.000000)(5.000000,200.000000)}</value>
@@ -161,7 +158,7 @@
 			<value>Refl. Down</value>
 		</property>
 		<property name="value">
-			<value>0.899999976</value>
+			<value>0.569999993</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,0.000000)(1.000000,0.970000)}</value>
@@ -183,7 +180,7 @@
 			<value>Refl. Front</value>
 		</property>
 		<property name="value">
-			<value>0.899999976</value>
+			<value>0.555000007</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,0.000000)(1.000000,0.970000)}</value>
@@ -224,7 +221,7 @@
 			<value>Wet Level</value>
 		</property>
 		<property name="value">
-			<value>20</value>
+			<value>5</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,-60.000000)(1.000000,-40.000000)(2.000000,-20.000000)(3.000000,-12.000000)(4.000000,-6.000000)(5.000000,-2.000000)(6.000000,0.000000)(7.000000,2.000000)(8.000000,6.000000)(9.000000,12.000000)(10.000000,20.000000)}</value>
