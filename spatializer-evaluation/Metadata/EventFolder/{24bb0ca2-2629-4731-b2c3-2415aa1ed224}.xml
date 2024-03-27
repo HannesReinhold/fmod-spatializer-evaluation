@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{24bb0ca2-2629-4731-b2c3-2415aa1ed224}">
+		<property name="name">
+			<value>Oculus</value>
+		</property>
+		<relationship name="folder">
+			<destination>{a3fb4c83-99a0-4f78-b440-82f4d63cf832}</destination>
+		</relationship>
+	</object>
+</objects>

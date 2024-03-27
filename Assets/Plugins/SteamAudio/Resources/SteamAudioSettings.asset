@@ -24,15 +24,15 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   maxOcclusionSamples: 16
-  realTimeRays: 4096
+  realTimeRays: 1024
   realTimeBounces: 4
-  realTimeDuration: 1
+  realTimeDuration: 1.15
   realTimeAmbisonicOrder: 1
   realTimeMaxSources: 32
   realTimeCPUCoresPercentage: 5
   realTimeIrradianceMinDistance: 1
   bakeConvolution: 1
-  bakeParametric: 0
+  bakeParametric: 1
   bakingRays: 16384
   bakingBounces: 16
   bakingDuration: 1

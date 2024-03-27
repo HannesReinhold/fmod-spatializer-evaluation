@@ -8,7 +8,7 @@
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{a46b127b-d413-46ea-afdc-313dc328a3cd}</destination>
+			<destination>{73d64962-8fc5-48f9-a71f-ea8c7f875c9a}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{beb46bc9-386a-45ab-b320-9a5508390a2d}</destination>
@@ -53,7 +53,7 @@
 			<destination>{ef04e9bd-cd32-4499-acc8-5272f925b41e}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{9a31f5de-f728-459c-b8cf-0bea968b5bee}</destination>
+			<destination>{a2bb29fd-7abe-40d3-bf7c-75b87278be8b}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{aa685ec7-09ce-43fa-b489-49c625c6392b}" />
@@ -285,7 +285,6 @@
 		<property name="name">
 			<value>Attenuation Ran</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-6</value>
 		</property>
@@ -294,7 +293,6 @@
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -330,7 +328,6 @@
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>
@@ -339,7 +336,6 @@
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -397,7 +393,6 @@
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>
