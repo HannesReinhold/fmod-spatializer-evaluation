@@ -46,7 +46,7 @@ MonoBehaviour:
   bakingPathRange: 1000
   bakedPathingCPUCoresPercentage: 50
   simulationUpdateInterval: 0.1
-  reflectionEffectType: 0
+  reflectionEffectType: 1
   hybridReverbTransitionTime: 1
   hybridReverbOverlapPercent: 25
   deviceType: 2

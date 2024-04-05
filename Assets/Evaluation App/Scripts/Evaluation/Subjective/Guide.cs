@@ -12,6 +12,8 @@ public class Guide : MonoBehaviour
 
     public List<ToggleGroup> toggleGroups;
 
+    SubjectiveRoundManager roundManager = new SubjectiveRoundManager();
+
 
 
     // Start is called before the first frame update
@@ -19,6 +21,8 @@ public class Guide : MonoBehaviour
     {
         windowManager.OpenPage(0);
         //OpenRoom(0);
+        
+        roundManager.ShuffleRounds();
     }
 
     // Update is called once per frame
