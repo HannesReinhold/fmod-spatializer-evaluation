@@ -1,0 +1,213 @@
+{
+  "main": {
+    "id": "24bd11fdc0d8997d",
+    "type": "split",
+    "children": [
+      {
+        "id": "78bdd55c2c687770",
+        "type": "tabs",
+        "dimension": 72.90969899665552,
+        "children": [
+          {
+            "id": "00b9e6e7ff46c320",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Approach/Comparison approach.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2e576d2929ae2871",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Approach/Comparison approach.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e45193ca21df26e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Approach/Directional Accuracy Test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "b9d3a1f2de50b109",
+        "type": "tabs",
+        "dimension": 27.09030100334448,
+        "children": [
+          {
+            "id": "c743a62110620886",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ce35bfe2bbaad12d",
+    "type": "split",
+    "children": [
+      {
+        "id": "641f4b8723af2bdf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b6a58e574faf81fc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c28944f376cd1f6d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5de2b7e00122cf65",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 336.5
+  },
+  "right": {
+    "id": "9e1cdc6cca7f696a",
+    "type": "split",
+    "children": [
+      {
+        "id": "d834295ffd146ab8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8f6ffc337c37f7d0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5ca677f64b71db8c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f885cbbc80fa7304",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4903d22ed3666889",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c743a62110620886",
+  "lastOpenFiles": [
+    "Approach/Directional Accuracy Test.md",
+    "Approach/Comparison approach.md",
+    "Useful Papers/EMPTY - 3D Localisation of Sound Sources in VR.md",
+    "Approach/Introduction.md",
+    "Bachelor Thesis - VR Spatializer Comparison.md",
+    "Approach/Gather Personal Data.md",
+    "Approach/Subjective Comparison.md",
+    "Untitled",
+    "Approach",
+    "Useful Papers/EMPTY - The Effect of Audio-Visual Room Divergence on the Localization of Real Sound Sources in VR.md",
+    "Useful Papers/EMPTY - Localization of real and virtual sound sources.md",
+    "Useful Papers/EMPTY - Subjective Evaluation of auralization of physics-based room.md",
+    "Useful Papers/EMPTY - Subjective Evaluation of an Olfaction Enhanced Immersive Virtual Reality Enviroment.md",
+    "Useful Papers/EMPTY - Static and dynamic sound source localization in a virtual room.md",
+    "Useful Papers/EMPTY - Spatial audio quality in regard to 3D video.md",
+    "Useful Papers/EMPTY - Objective and perceptive evaluations of high-resolution room acoustic simulations and auralizations.md",
+    "Useful Papers/EMPTY - Improving spatial perception through sound field simulation in VR.md",
+    "Useful Papers/EMPTY - Comparison of headphones and equalization for virtual auditory source localization.md",
+    "Useful Papers/EMPTY - Comparing Direct and Indirect Methods of Audio Quality Evaluation.md",
+    "Useful Papers/EMPTY - Comparing 3 methods for sound quality evaluation with respect to speed and accuracy.md",
+    "Useful Papers/EMPTY - A Spatial Audio Quality Inventory.md",
+    "Useful Papers/EMPTY - A multi-attribute subjective evaluation method on binaural 3D audio.md",
+    "Useful Papers",
+    "Welcome.md"
+  ]
+}

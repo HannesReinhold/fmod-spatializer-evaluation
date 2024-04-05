@@ -1,0 +1,8 @@
+[[EMPTY - Subjective Evaluation of auralization of physics-based room]]
+[[EMPTY - Subjective Evaluation of an Olfaction Enhanced Immersive Virtual Reality Enviroment]]
+[[EMPTY - Spatial audio quality in regard to 3D video]]
+[[EMPTY - Objective and perceptive evaluations of high-resolution room acoustic simulations and auralizations]]
+[[EMPTY - A multi-attribute subjective evaluation method on binaural 3D audio]]
+[[EMPTY - A Spatial Audio Quality Inventory]]
+[[EMPTY - Comparing 3 methods for sound quality evaluation with respect to speed and accuracy]]
+[[EMPTY - Comparing Direct and Indirect Methods of Audio Quality Evaluation]]
