@@ -6,54 +6,9 @@
       {
         "id": "78bdd55c2c687770",
         "type": "tabs",
-        "dimension": 72.90969899665552,
         "children": [
           {
             "id": "00b9e6e7ff46c320",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Approach/Comparison approach.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2e576d2929ae2871",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Approach/Comparison approach.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e45193ca21df26e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Approach/Directional Accuracy Test.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "b9d3a1f2de50b109",
-        "type": "tabs",
-        "dimension": 27.09030100334448,
-        "children": [
-          {
-            "id": "c743a62110620886",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -110,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5
+    "width": 734.5
   },
   "right": {
     "id": "9e1cdc6cca7f696a",
@@ -183,30 +138,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c743a62110620886",
+  "active": "00b9e6e7ff46c320",
   "lastOpenFiles": [
-    "Approach/Directional Accuracy Test.md",
     "Approach/Comparison approach.md",
-    "Useful Papers/EMPTY - 3D Localisation of Sound Sources in VR.md",
-    "Approach/Introduction.md",
     "Bachelor Thesis - VR Spatializer Comparison.md",
+    "Useful Papers/Directional/TODO - Static and dynamic sound source localization in a virtual room.md",
+    "Useful Papers/Directional/TODO - Locating virtual sources at arbitrary distances.md",
+    "Useful Papers/Directional/TODO - Localization of real and virtual sound sources.md",
+    "Useful Papers/Directional/TODO - Comparison of headphones and equalization for virtual auditory source localization.md",
+    "Useful Papers/Directional/3D Localisation of Sound Sources in VR.md",
+    "Approach/Introduction.md",
     "Approach/Gather Personal Data.md",
+    "Approach/Directional Accuracy Test.md",
+    "Pasted image 20240515122940.png",
+    "Pasted image 20240515122928.png",
+    "Useful Papers/Untitled",
+    "Useful Papers/Directional",
+    "Useful Papers/Subjective",
+    "Useful Papers/Subjective/EMPTY - A multi-attribute subjective evaluation method on binaural 3D audio.md",
     "Approach/Subjective Comparison.md",
     "Untitled",
     "Approach",
-    "Useful Papers/EMPTY - The Effect of Audio-Visual Room Divergence on the Localization of Real Sound Sources in VR.md",
-    "Useful Papers/EMPTY - Localization of real and virtual sound sources.md",
-    "Useful Papers/EMPTY - Subjective Evaluation of auralization of physics-based room.md",
-    "Useful Papers/EMPTY - Subjective Evaluation of an Olfaction Enhanced Immersive Virtual Reality Enviroment.md",
-    "Useful Papers/EMPTY - Static and dynamic sound source localization in a virtual room.md",
-    "Useful Papers/EMPTY - Spatial audio quality in regard to 3D video.md",
-    "Useful Papers/EMPTY - Objective and perceptive evaluations of high-resolution room acoustic simulations and auralizations.md",
-    "Useful Papers/EMPTY - Improving spatial perception through sound field simulation in VR.md",
-    "Useful Papers/EMPTY - Comparison of headphones and equalization for virtual auditory source localization.md",
-    "Useful Papers/EMPTY - Comparing Direct and Indirect Methods of Audio Quality Evaluation.md",
-    "Useful Papers/EMPTY - Comparing 3 methods for sound quality evaluation with respect to speed and accuracy.md",
-    "Useful Papers/EMPTY - A Spatial Audio Quality Inventory.md",
-    "Useful Papers/EMPTY - A multi-attribute subjective evaluation method on binaural 3D audio.md",
+    "Useful Papers/Subjective/EMPTY - The Effect of Audio-Visual Room Divergence on the Localization of Real Sound Sources in VR.md",
+    "Useful Papers/Subjective/EMPTY - Subjective Evaluation of auralization of physics-based room.md",
+    "Useful Papers/Subjective/EMPTY - Subjective Evaluation of an Olfaction Enhanced Immersive Virtual Reality Enviroment.md",
+    "Useful Papers/Subjective/EMPTY - Spatial audio quality in regard to 3D video.md",
+    "Useful Papers/Subjective/EMPTY - Objective and perceptive evaluations of high-resolution room acoustic simulations and auralizations.md",
+    "Useful Papers/Subjective/EMPTY - Improving spatial perception through sound field simulation in VR.md",
+    "Useful Papers/Subjective/EMPTY - Comparing Direct and Indirect Methods of Audio Quality Evaluation.md",
+    "Useful Papers/Subjective/EMPTY - Comparing 3 methods for sound quality evaluation with respect to speed and accuracy.md",
+    "Useful Papers/Subjective/EMPTY - A Spatial Audio Quality Inventory.md",
     "Useful Papers",
     "Welcome.md"
   ]
