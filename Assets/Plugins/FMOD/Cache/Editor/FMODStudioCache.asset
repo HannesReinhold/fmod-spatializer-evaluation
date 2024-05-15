@@ -1,3 +1,5839 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:db69d99fc3ac4410c9efd735782f997ddbd9a6af985d832fe3f7fe7685e31e78
-size 122337
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9196106363429389608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Spooky/SpookyAmbience
+  m_EditorClassIdentifier: 
+  Path: event:/Spooky/SpookyAmbience
+  Guid:
+    Data1: 435448345
+    Data2: 1150268983
+    Data3: 1321315519
+    Data4: 1846679769
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 45847
+--- !u!114 &-9123179445291231576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Resonance/Scanner 2
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Resonance/Scanner 2
+  Guid:
+    Data1: 155419782
+    Data2: 1262337013
+    Data3: 289729976
+    Data4: 1672744048
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1260
+--- !u!114 &-8917516329148380368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/IndustryRobotArm/RobotArmVelocity
+  m_EditorClassIdentifier: 
+  Name: RobotArmVelocity
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2730915589
+    data2: 1940664539
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-8750055038890317039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Clicking/RobotArmVelocity
+  m_EditorClassIdentifier: 
+  Name: RobotArmVelocity
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2730915589
+    data2: 1940664539
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-8739502532673288543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GlobalVolume
+  m_EditorClassIdentifier: 
+  Name: GlobalVolume
+  StudioPath: parameter:/GlobalVolume
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1528595764
+    data2: 1088257641
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8690652565154990234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Oculus/IndustryRobotArm
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Oculus/IndustryRobotArm
+  Guid:
+    Data1: 816187937
+    Data2: 1229765521
+    Data3: 1272445321
+    Data4: -466562139
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -2172421388783919805}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1360
+--- !u!114 &-8556059832000138429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Spooky/Plop
+  m_EditorClassIdentifier: 
+  Path: event:/Spooky/Plop
+  Guid:
+    Data1: -2019404170
+    Data2: 1111692533
+    Data3: -357931866
+    Data4: -1339730678
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &-8487990674985106170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Long/BeatTest/SteamBeat
+  m_EditorClassIdentifier: 
+  Path: event:/Long/BeatTest/SteamBeat
+  Guid:
+    Data1: 1145745761
+    Data2: 1200952795
+    Data3: -862293112
+    Data4: 157081917
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1906
+--- !u!114 &-8376934744623804423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Knight/SwordSwing/Swing2
+  m_EditorClassIdentifier: 
+  Path: event:/Knight/SwordSwing/Swing2
+  Guid:
+    Data1: 1345941639
+    Data2: 1113910241
+    Data3: -985604701
+    Data4: 657169653
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2481
+--- !u!114 &-8335380850596697235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Oculus/O_Cymbals
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Oculus/O_Cymbals
+  Guid:
+    Data1: 992194396
+    Data2: 1091845315
+    Data3: 1033944449
+    Data4: -1998221490
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &-8272836504020641328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Resonance/Release
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Resonance/Release
+  Guid:
+    Data1: 1381408177
+    Data2: 1095074767
+    Data3: -1547085390
+    Data4: -235429319
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 880
+--- !u!114 &-8139510254242702626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Resonance/Grab
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Resonance/Grab
+  Guid:
+    Data1: 1501060665
+    Data2: 1130642982
+    Data3: 487173805
+    Data4: 536112798
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 900
+--- !u!114 &-8112411718278403422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Oculus/O_Piano
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Oculus/O_Piano
+  Guid:
+    Data1: -1774514341
+    Data2: 1148153023
+    Data3: -986511196
+    Data4: -1078777530
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &-7947719463402397646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Steam/Release
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Steam/Release
+  Guid:
+    Data1: -1858004588
+    Data2: 1238999618
+    Data3: -1782465621
+    Data4: 1284435314
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 880
+--- !u!114 &-7564557222216200171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Spooky/Boing
+  m_EditorClassIdentifier: 
+  Path: event:/Spooky/Boing
+  Guid:
+    Data1: 2095228559
+    Data2: 1272001407
+    Data3: -397083228
+    Data4: 336271096
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1776
+--- !u!114 &-7492404651263323339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Oculus/Grab
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Oculus/Grab
+  Guid:
+    Data1: 1890630874
+    Data2: 1294655937
+    Data3: -1100620148
+    Data4: -510357888
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 900
+--- !u!114 &-7385237261374678290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Steam/Scanner 2
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Steam/Scanner 2
+  Guid:
+    Data1: -1689591323
+    Data2: 1272597477
+    Data3: 1818453906
+    Data4: 857911153
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1260
+--- !u!114 &-7278239885893054906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Resonance/R_Horn 3
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Resonance/R_Horn 3
+  Guid:
+    Data1: 1389606795
+    Data2: 1292958158
+    Data3: 108193168
+    Data4: -994234412
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &-7247689176602079957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Resonance/R_Horn 2
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Resonance/R_Horn 2
+  Guid:
+    Data1: 1939523567
+    Data2: 1101964850
+    Data3: 933622149
+    Data4: -1394679164
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &-7219432559330378458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Steam/S_Violin 3
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Steam/S_Violin 3
+  Guid:
+    Data1: 1222710766
+    Data2: 1156701216
+    Data3: 836723361
+    Data4: -1523996326
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &-7198257990652682891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Luigi 3
+  m_EditorClassIdentifier: 
+  Path: event:/Luigi 3
+  Guid:
+    Data1: 1742479198
+    Data2: 1196630181
+    Data3: 345331628
+    Data4: 524719530
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4989
+--- !u!114 &-7043032724433648996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Steam/S_Viola 1
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Steam/S_Viola 1
+  Guid:
+    Data1: -20534243
+    Data2: 1239953939
+    Data3: -1548969087
+    Data4: 207119952
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &-7019687341074110623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Spooky/Monster/MonsterSound4
+  m_EditorClassIdentifier: 
+  Path: event:/Spooky/Monster/MonsterSound4
+  Guid:
+    Data1: 337318851
+    Data2: 1268201057
+    Data3: 849299874
+    Data4: 658251212
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 950
+--- !u!114 &-6971089928988541795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Steam/S_Violin 2
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Steam/S_Violin 2
+  Guid:
+    Data1: -1645447563
+    Data2: 1090973763
+    Data3: -641885801
+    Data4: -1643058083
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &-6949080454337863127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Resonance/R_Cello
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Resonance/R_Cello
+  Guid:
+    Data1: 62371922
+    Data2: 1272425504
+    Data3: -1046932326
+    Data4: -1719537136
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &-6901064405482592788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Resonance/R_Violin 3
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Resonance/R_Violin 3
+  Guid:
+    Data1: -1358807421
+    Data2: 1185964539
+    Data3: -1727439967
+    Data4: 1256657321
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &-6805579578173917211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Spooky/Whispering
+  m_EditorClassIdentifier: 
+  Path: event:/Spooky/Whispering
+  Guid:
+    Data1: 1890694787
+    Data2: 1264495724
+    Data3: -501554759
+    Data4: 1392213668
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 22224
+--- !u!114 &-6654086741601912148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Outro
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Outro
+  Guid:
+    Data1: -664439354
+    Data2: 1222250923
+    Data3: 1401831828
+    Data4: -768983275
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9273
+--- !u!114 &-6614418640085364554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Steam/S_DoubleBass
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Steam/S_DoubleBass
+  Guid:
+    Data1: 835675645
+    Data2: 1268457642
+    Data3: -423397980
+    Data4: -1316533540
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &-6515402958051910982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Oculus/Fire Swoosh
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Oculus/Fire Swoosh
+  Guid:
+    Data1: -1805196642
+    Data2: 1137880479
+    Data3: 2146820533
+    Data4: -1175468603
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2700
+--- !u!114 &-6462572786117821597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Resonance/R_Pizzicato 2
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Resonance/R_Pizzicato 2
+  Guid:
+    Data1: -28033201
+    Data2: 1341388914
+    Data3: 1745290661
+    Data4: 2083959665
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &-6297601293297393272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Oculus/Conveyor Belt 1
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Oculus/Conveyor Belt 1
+  Guid:
+    Data1: -1840795806
+    Data2: 1265820411
+    Data3: 572548767
+    Data4: 132563472
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 27440
+--- !u!114 &-6172635843979222133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/Event03/Event3_Oculus
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/Event03/Event3_Oculus
+  Guid:
+    Data1: -2067781118
+    Data2: 1330640251
+    Data3: 485749158
+    Data4: -37591488
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 29560
+--- !u!114 &-6080498155214970288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Resonance/R_Cymbals
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Resonance/R_Cymbals
+  Guid:
+    Data1: -277123203
+    Data2: 1126588484
+    Data3: -995014738
+    Data4: 229556489
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &-5949298885855269949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Events/WallEmerging1 2
+  m_EditorClassIdentifier: 
+  Path: event:/Events/WallEmerging1 2
+  Guid:
+    Data1: -1622896358
+    Data2: 1105224343
+    Data3: -2048237406
+    Data4: 2000457021
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6086
+--- !u!114 &-5630996755419858142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DirectionGame/Hint 3/Hint_3_Steam
+  m_EditorClassIdentifier: 
+  Path: event:/DirectionGame/Hint 3/Hint_3_Steam
+  Guid:
+    Data1: -841941038
+    Data2: 1320234516
+    Data3: -866065226
+    Data4: 1157880796
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1209
+--- !u!114 &-5578743166995567891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Luigi
+  m_EditorClassIdentifier: 
+  Path: event:/Luigi
+  Guid:
+    Data1: -1162039069
+    Data2: 1336987319
+    Data3: 1108570256
+    Data4: 164259489
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4989
+--- !u!114 &-5493154616145218803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Resonance/R_Viola 2
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Resonance/R_Viola 2
+  Guid:
+    Data1: -134548484
+    Data2: 1150903783
+    Data3: 1629180595
+    Data4: 1859689569
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &-5433777513996821492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Steam/Fire Swoosh
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Steam/Fire Swoosh
+  Guid:
+    Data1: 1947649864
+    Data2: 1084737805
+    Data3: 771718032
+    Data4: 467549481
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2700
+--- !u!114 &-5361675808040324589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Steam/S_Horn 3
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Steam/S_Horn 3
+  Guid:
+    Data1: 486636777
+    Data2: 1119060719
+    Data3: -965383022
+    Data4: 946434735
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &-5332516309148829714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/IndustryRobotArm 3/RobotArmVelocity
+  m_EditorClassIdentifier: 
+  Name: RobotArmVelocity
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2730915589
+    data2: 1940664539
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-5319541173199818205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Steam/S_Horn 2
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Steam/S_Horn 2
+  Guid:
+    Data1: -1240829278
+    Data2: 1210236206
+    Data3: -1468764747
+    Data4: -1989870305
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &-5278839316651058714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TestOculus
+  m_EditorClassIdentifier: 
+  Path: event:/TestOculus
+  Guid:
+    Data1: 1773778610
+    Data2: 1145075868
+    Data3: -669462108
+    Data4: -1448128507
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 50000
+--- !u!114 &-5176212278046579089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Oculus/Fire Ambient
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Oculus/Fire Ambient
+  Guid:
+    Data1: 1404631413
+    Data2: 1256639363
+    Data3: -385576273
+    Data4: 1816605589
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 15203
+--- !u!114 &-5174493928466812952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/SlideOpen
+  m_EditorClassIdentifier: 
+  Path: event:/UI/SlideOpen
+  Guid:
+    Data1: 409621428
+    Data2: 1143094705
+    Data3: 1900753811
+    Data4: -93787797
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 482
+--- !u!114 &-5169986742412273326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Knight/KnightTheme
+  m_EditorClassIdentifier: 
+  Path: event:/Knight/KnightTheme
+  Guid:
+    Data1: -150917659
+    Data2: 1154225151
+    Data3: -1802286173
+    Data4: 912225026
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7058
+--- !u!114 &-4964081215711142201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Spooky/Cues/HorrorCue1
+  m_EditorClassIdentifier: 
+  Path: event:/Spooky/Cues/HorrorCue1
+  Guid:
+    Data1: -1504388884
+    Data2: 1156976894
+    Data3: 1573591706
+    Data4: 222368193
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &-4765379546078286037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/Event02/Event2_Oculus
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/Event02/Event2_Oculus
+  Guid:
+    Data1: -1563194996
+    Data2: 1168285651
+    Data3: -1550291308
+    Data4: -484899351
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 62000
+--- !u!114 &-4756317885121899782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Intro
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Intro
+  Guid:
+    Data1: 1473555917
+    Data2: 1177847211
+    Data3: -1918294342
+    Data4: -1515213090
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7418
+--- !u!114 &-4703567768026779402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Resonance/R_Viola 3
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Resonance/R_Viola 3
+  Guid:
+    Data1: -872086799
+    Data2: 1226937046
+    Data3: -1351716441
+    Data4: -1414613502
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &-4673459055084596322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Spooky/Heartbeat
+  m_EditorClassIdentifier: 
+  Path: event:/Spooky/Heartbeat
+  Guid:
+    Data1: 2024550598
+    Data2: 1251408137
+    Data3: -1086846788
+    Data4: -353950031
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 15046
+--- !u!114 &-4598325677913091169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Oculus/Scanner 2
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Oculus/Scanner 2
+  Guid:
+    Data1: 43249993
+    Data2: 1174186131
+    Data3: 859525291
+    Data4: -1689336392
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1260
+--- !u!114 &-4585416890456838089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Steam/S_Viola 3
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Steam/S_Viola 3
+  Guid:
+    Data1: -2124059015
+    Data2: 1205699436
+    Data3: -2045906012
+    Data4: -1328425477
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &-4537408783939241550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Resonance/R_Drums
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Resonance/R_Drums
+  Guid:
+    Data1: 1015383256
+    Data2: 1131953116
+    Data3: -1315137381
+    Data4: -1917707368
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &-4363383938059919877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Spooky/Tension
+  m_EditorClassIdentifier: 
+  Path: event:/Spooky/Tension
+  Guid:
+    Data1: 1573798225
+    Data2: 1240420236
+    Data3: -159627373
+    Data4: 2133537072
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10004
+--- !u!114 &-4166364888341555076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Knight/SwordSwing/Swing1
+  m_EditorClassIdentifier: 
+  Path: event:/Knight/SwordSwing/Swing1
+  Guid:
+    Data1: 1873227781
+    Data2: 1207142831
+    Data3: -273721683
+    Data4: -1312937568
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2481
+--- !u!114 &-4101459946574040134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/Event04/Event4_Oculus
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/Event04/Event4_Oculus
+  Guid:
+    Data1: 75573734
+    Data2: 1167947652
+    Data3: 1096329886
+    Data4: -408409967
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 66000
+--- !u!114 &-4078409292101044887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Steam/S_Pizzicato 1
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Steam/S_Pizzicato 1
+  Guid:
+    Data1: 290467793
+    Data2: 1237622515
+    Data3: -675117171
+    Data4: -63986984
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &-4053155624532114413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Steam/S_Violin 1
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Steam/S_Violin 1
+  Guid:
+    Data1: -351727244
+    Data2: 1285673076
+    Data3: 823204242
+    Data4: -379782151
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &-3950137506499512129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Resonance/R_Pizzicato 1
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Resonance/R_Pizzicato 1
+  Guid:
+    Data1: 1481615200
+    Data2: 1260217452
+    Data3: 315476629
+    Data4: 387703135
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &-3948237081467760363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/KnightWalking/KnightWalkingVolume
+  m_EditorClassIdentifier: 
+  Name: KnightWalkingVolume
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 1448470370
+    data2: 2867541272
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-3873254981692724041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Impacts/Boom_Steam
+  m_EditorClassIdentifier: 
+  Path: event:/Impacts/Boom_Steam
+  Guid:
+    Data1: -1849333638
+    Data2: 1121343016
+    Data3: -1783468922
+    Data4: 511157546
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1202
+--- !u!114 &-3743343511188174637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/IndustryRobotArm 3/RobotArmVelocity
+  m_EditorClassIdentifier: 
+  Name: RobotArmVelocity
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2730915589
+    data2: 1940664539
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-3728078833622907549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Gunshot
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Gunshot
+  Guid:
+    Data1: 827546476
+    Data2: 1232223636
+    Data3: -137623112
+    Data4: -1658911185
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1125
+--- !u!114 &-3592965138404656334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/Event04/Event4_Own
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/Event04/Event4_Own
+  Guid:
+    Data1: 275403070
+    Data2: 1249053844
+    Data3: 1682409387
+    Data4: -215095380
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 66000
+--- !u!114 &-3576221288697007290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Oculus/Release
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Oculus/Release
+  Guid:
+    Data1: 1618619857
+    Data2: 1243355315
+    Data3: -1577687393
+    Data4: 1741975501
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 880
+--- !u!114 &-3570671898927681773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Resonance/R_Piano
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Resonance/R_Piano
+  Guid:
+    Data1: -433544935
+    Data2: 1106429109
+    Data3: -1731943018
+    Data4: -246268714
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &-3448721494987715635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Resonance/Fire Swoosh
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Resonance/Fire Swoosh
+  Guid:
+    Data1: -980176662
+    Data2: 1209642704
+    Data3: -1832450924
+    Data4: -703887565
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2700
+--- !u!114 &-3448532758234085553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/IndustryRobotArm/RobotArmVelocity
+  m_EditorClassIdentifier: 
+  Name: RobotArmVelocity
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2730915589
+    data2: 1940664539
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-3300446216542515627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Oculus/O_Horn 2
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Oculus/O_Horn 2
+  Guid:
+    Data1: 542607043
+    Data2: 1117727916
+    Data3: 1578618275
+    Data4: 2131128970
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &-3257296059694400491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Resonance/Conveyor Belt 2
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Resonance/Conveyor Belt 2
+  Guid:
+    Data1: 1189545537
+    Data2: 1319262587
+    Data3: 602966928
+    Data4: -2064395708
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 27440
+--- !u!114 &-3124299462716174573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Knight/SwordSwing/Swing3
+  m_EditorClassIdentifier: 
+  Path: event:/Knight/SwordSwing/Swing3
+  Guid:
+    Data1: -154271632
+    Data2: 1224995080
+    Data3: -2026874702
+    Data4: 1724470065
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2481
+--- !u!114 &-3029900258792998372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AmbientVolume
+  m_EditorClassIdentifier: 
+  Name: AmbientVolume
+  StudioPath: parameter:/AmbientVolume
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 1574726754
+    data2: 3378259294
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-2993693743891170201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Luigi 2
+  m_EditorClassIdentifier: 
+  Path: event:/Luigi 2
+  Guid:
+    Data1: -69506251
+    Data2: 1221987623
+    Data3: -1828690296
+    Data4: 1595408751
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4989
+--- !u!114 &-2952815066411733694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Resonance/R_DoubleBass
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Resonance/R_DoubleBass
+  Guid:
+    Data1: -1408094414
+    Data2: 1234303977
+    Data3: -305084513
+    Data4: 1264610224
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &-2944685690137148986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/Event01/Event1_Steam
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/Event01/Event1_Steam
+  Guid:
+    Data1: -1827151237
+    Data2: 1109791135
+    Data3: 1598354564
+    Data4: -1553603258
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 62000
+--- !u!114 &-2900845122526499739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SteamVolume
+  m_EditorClassIdentifier: 
+  Name: SteamVolume
+  StudioPath: parameter:/SteamVolume
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 743995897
+    data2: 1893935900
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-2764607891945407095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Spooky/Monster/MonsterSneaking1
+  m_EditorClassIdentifier: 
+  Path: event:/Spooky/Monster/MonsterSneaking1
+  Guid:
+    Data1: 1120008666
+    Data2: 1341001485
+    Data3: -1521426776
+    Data4: 1229875489
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 80
+--- !u!114 &-2736472632094065037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DirectionGame/Hint 1/Hint_1_Oculus
+  m_EditorClassIdentifier: 
+  Path: event:/DirectionGame/Hint 1/Hint_1_Oculus
+  Guid:
+    Data1: -1272315626
+    Data2: 1155795682
+    Data3: 358162325
+    Data4: 905312367
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
+--- !u!114 &-2559924674273271750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: spatializer-evaluation/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638513839289859633
+  FileSizes:
+  - Name: Desktop
+    Value: 9738
+  - Name: Mobile
+    Value: 9738
+  Exists: 1
+--- !u!114 &-2521174921069365823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/Event01/Event1_Oculus
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/Event01/Event1_Oculus
+  Guid:
+    Data1: -2012294696
+    Data2: 1124836806
+    Data3: -238384738
+    Data4: 1340280875
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 62000
+--- !u!114 &-2368154910526085936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Spooky/Monster/MonsterSound1
+  m_EditorClassIdentifier: 
+  Path: event:/Spooky/Monster/MonsterSound1
+  Guid:
+    Data1: 950760044
+    Data2: 1262755933
+    Data3: -1698417474
+    Data4: 893034651
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3000
+--- !u!114 &-2180472244437263104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Resonance/IndustryRobotArm 3
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Resonance/IndustryRobotArm 3
+  Guid:
+    Data1: 1754135051
+    Data2: 1208163646
+    Data3: 1306790565
+    Data4: 1781964081
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -2146112713323223798}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 44497
+--- !u!114 &-2172421388783919805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/IndustryRobotArm/RobotArmVelocity
+  m_EditorClassIdentifier: 
+  Name: RobotArmVelocity
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2730915589
+    data2: 1940664539
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-2146112713323223798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/IndustryRobotArm 3/RobotArmVelocity
+  m_EditorClassIdentifier: 
+  Name: RobotArmVelocity
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2730915589
+    data2: 1940664539
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-2129459892268162666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TestResonance
+  m_EditorClassIdentifier: 
+  Path: event:/TestResonance
+  Guid:
+    Data1: -1774137762
+    Data2: 1081663877
+    Data3: -261374819
+    Data4: -1888356330
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 50000
+--- !u!114 &-2099873859965068941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Long/BeatTest/OculusBeat
+  m_EditorClassIdentifier: 
+  Path: event:/Long/BeatTest/OculusBeat
+  Guid:
+    Data1: -142652705
+    Data2: 1162967773
+    Data3: 116605367
+    Data4: -939784466
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1906
+--- !u!114 &-1940101021029177900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/Event03/Event3_Own
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/Event03/Event3_Own
+  Guid:
+    Data1: -1469173203
+    Data2: 1334160676
+    Data3: 1192502673
+    Data4: 1235604996
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 29560
+--- !u!114 &-1938007223040111038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Resonance/R_Horn 1
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Resonance/R_Horn 1
+  Guid:
+    Data1: 643325514
+    Data2: 1189740128
+    Data3: 527873211
+    Data4: 984722441
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &-1881616390176962356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/IndustryRobotArm 2/RobotArmVelocity
+  m_EditorClassIdentifier: 
+  Name: RobotArmVelocity
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2730915589
+    data2: 1940664539
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-1868333464163245456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Spooky/Monster/MonsterSneaking3
+  m_EditorClassIdentifier: 
+  Path: event:/Spooky/Monster/MonsterSneaking3
+  Guid:
+    Data1: 789389632
+    Data2: 1311666447
+    Data3: -819978605
+    Data4: -929026337
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 460
+--- !u!114 &-1838351437640089962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Oculus/O_Pizzicato 1
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Oculus/O_Pizzicato 1
+  Guid:
+    Data1: 1288050329
+    Data2: 1163878403
+    Data3: 1652299428
+    Data4: 869183169
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &-1637352271483938315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DirectionGame/Hint 3/Hint_3_Resonance
+  m_EditorClassIdentifier: 
+  Path: event:/DirectionGame/Hint 3/Hint_3_Resonance
+  Guid:
+    Data1: 1242662177
+    Data2: 1141495675
+    Data3: -1764909384
+    Data4: -1091795167
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1209
+--- !u!114 &-1533763819512710070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Oculus/Siren
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Oculus/Siren
+  Guid:
+    Data1: -550299753
+    Data2: 1323752784
+    Data3: -1432788330
+    Data4: -708540039
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1200
+--- !u!114 &-1293760554647736872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Long/FMODLong
+  m_EditorClassIdentifier: 
+  Path: event:/Long/FMODLong
+  Guid:
+    Data1: 711665556
+    Data2: 1314960585
+    Data3: 78510262
+    Data4: 1952934413
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 154488
+--- !u!114 &-1184299001545437927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Steam/Fire Ambient
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Steam/Fire Ambient
+  Guid:
+    Data1: -1057292976
+    Data2: 1150475690
+    Data3: -978071122
+    Data4: 1935455564
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 15203
+--- !u!114 &-1074333314047361534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: spatializer-evaluation/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638513839289714639
+  FileSizes:
+  - Name: Desktop
+    Value: 55415616
+  - Name: Mobile
+    Value: 121447008
+  Exists: 1
+--- !u!114 &-931915951465177594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Steam/Siren
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Steam/Siren
+  Guid:
+    Data1: 1953918129
+    Data2: 1112847918
+    Data3: 2054588804
+    Data4: 176102643
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1200
+--- !u!114 &-819602408806443854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Oculus/O_DoubleBass
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Oculus/O_DoubleBass
+  Guid:
+    Data1: -1874431716
+    Data2: 1172395189
+    Data3: -564271987
+    Data4: -1714739534
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &-796958980618328950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Resonance/Clicking
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Resonance/Clicking
+  Guid:
+    Data1: -1614221627
+    Data2: 1215752919
+    Data3: 360309400
+    Data4: 1552664959
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 5820911307229152451}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 40
+--- !u!114 &-786784876649443980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DirectionGame/Hint 1/Hint_1_Steam
+  m_EditorClassIdentifier: 
+  Path: event:/DirectionGame/Hint 1/Hint_1_Steam
+  Guid:
+    Data1: -88364426
+    Data2: 1081428025
+    Data3: 442253740
+    Data4: 771646228
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
+--- !u!114 &-728139194172751556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Steam/IndustryRobotArm
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Steam/IndustryRobotArm
+  Guid:
+    Data1: 1797845139
+    Data2: 1135420285
+    Data3: 1068667327
+    Data4: 1889332842
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -3448532758234085553}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1360
+--- !u!114 &-604158703053585977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Events/WallEmerging1
+  m_EditorClassIdentifier: 
+  Path: event:/Events/WallEmerging1
+  Guid:
+    Data1: -1823102856
+    Data2: 1162181661
+    Data3: -1241919053
+    Data4: 272193818
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6086
+--- !u!114 &-426932383773159247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Long/SteamLong
+  m_EditorClassIdentifier: 
+  Path: event:/Long/SteamLong
+  Guid:
+    Data1: -665696235
+    Data2: 1334943120
+    Data3: -883056229
+    Data4: -407864246
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 154488
+--- !u!114 &-354844769703378951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Resonance/IndustryRobotArm
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Resonance/IndustryRobotArm
+  Guid:
+    Data1: -2003231903
+    Data2: 1231865923
+    Data3: -2098972524
+    Data4: 685504954
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -8917516329148380368}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1360
+--- !u!114 &-230204466036309128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cues/Hint1
+  m_EditorClassIdentifier: 
+  Path: event:/Cues/Hint1
+  Guid:
+    Data1: -332999644
+    Data2: 1333372061
+    Data3: -1205412966
+    Data4: -416339619
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 800
+--- !u!114 &-209441344974565201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Oculus/O_Violin 2
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Oculus/O_Violin 2
+  Guid:
+    Data1: 1533635673
+    Data2: 1143091886
+    Data3: -395712578
+    Data4: 1842083279
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &-104228429188442384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Oculus/O_Drums
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Oculus/O_Drums
+  Guid:
+    Data1: -1894304977
+    Data2: 1320531265
+    Data3: -1507326074
+    Data4: 1058385501
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -2559924674273271750}
+  - {fileID: -1074333314047361534}
+  EditorEvents:
+  - {fileID: -6172635843979222133}
+  - {fileID: -4166364888341555076}
+  - {fileID: 5940174241408093513}
+  - {fileID: 4883310809452506462}
+  - {fileID: 7479825970604838038}
+  - {fileID: 7645656336161871717}
+  - {fileID: 7383482200136607164}
+  - {fileID: -426932383773159247}
+  - {fileID: -2736472632094065037}
+  - {fileID: 2800751855408040803}
+  - {fileID: 6159887233388535832}
+  - {fileID: -9196106363429389608}
+  - {fileID: -3570671898927681773}
+  - {fileID: -5949298885855269949}
+  - {fileID: -819602408806443854}
+  - {fileID: -7043032724433648996}
+  - {fileID: -1637352271483938315}
+  - {fileID: 8594449530906272134}
+  - {fileID: 3412092683330008504}
+  - {fileID: -230204466036309128}
+  - {fileID: 1783989546034011861}
+  - {fileID: 595485306914799662}
+  - {fileID: -1940101021029177900}
+  - {fileID: 7788275756892538644}
+  - {fileID: -104228429188442384}
+  - {fileID: -2952815066411733694}
+  - {fileID: -2993693743891170201}
+  - {fileID: 3146063704422590710}
+  - {fileID: -3592965138404656334}
+  - {fileID: -1868333464163245456}
+  - {fileID: 7396349995633088710}
+  - {fileID: -1938007223040111038}
+  - {fileID: 6144391525945441593}
+  - {fileID: -6462572786117821597}
+  - {fileID: 2085964020090988958}
+  - {fileID: -4363383938059919877}
+  - {fileID: -6949080454337863127}
+  - {fileID: 4158684660423159817}
+  - {fileID: -209441344974565201}
+  - {fileID: -8112411718278403422}
+  - {fileID: -8335380850596697235}
+  - {fileID: 8824914148997360221}
+  - {fileID: 5075412752751303480}
+  - {fileID: -7198257990652682891}
+  - {fileID: -2129459892268162666}
+  - {fileID: -3950137506499512129}
+  - {fileID: 4644864172433684026}
+  - {fileID: 3360390571101021613}
+  - {fileID: -8487990674985106170}
+  - {fileID: 7303390802227957573}
+  - {fileID: 7760796731384187995}
+  - {fileID: 2021910945891144618}
+  - {fileID: 3593174901499317468}
+  - {fileID: -3728078833622907549}
+  - {fileID: -2368154910526085936}
+  - {fileID: 8822453803274323777}
+  - {fileID: 2808692952297901631}
+  - {fileID: -3124299462716174573}
+  - {fileID: 662303368471954646}
+  - {fileID: -4053155624532114413}
+  - {fileID: -6971089928988541795}
+  - {fileID: -8556059832000138429}
+  - {fileID: -786784876649443980}
+  - {fileID: 7266024666211685633}
+  - {fileID: -604158703053585977}
+  - {fileID: -4585416890456838089}
+  - {fileID: -3873254981692724041}
+  - {fileID: 4330436342869846755}
+  - {fileID: -2944685690137148986}
+  - {fileID: -6080498155214970288}
+  - {fileID: 4850104160315453701}
+  - {fileID: 3273950297254872768}
+  - {fileID: -6901064405482592788}
+  - {fileID: 5553420582362923551}
+  - {fileID: -6805579578173917211}
+  - {fileID: 4615791204382255369}
+  - {fileID: -8376934744623804423}
+  - {fileID: 6858336371492328303}
+  - {fileID: -7278239885893054906}
+  - {fileID: -4765379546078286037}
+  - {fileID: 9205792411957102617}
+  - {fileID: -7564557222216200171}
+  - {fileID: 7643667564316020931}
+  - {fileID: -1293760554647736872}
+  - {fileID: 5399743254948035531}
+  - {fileID: 6510477230068176041}
+  - {fileID: 6121511193094926383}
+  - {fileID: -1838351437640089962}
+  - {fileID: 4855205280344734789}
+  - {fileID: 162500762660643696}
+  - {fileID: 2825279117227544632}
+  - {fileID: -5319541173199818205}
+  - {fileID: 1195228654157444893}
+  - {fileID: 277206744039514139}
+  - {fileID: 1627044381209785794}
+  - {fileID: 6342421461629711235}
+  - {fileID: -5278839316651058714}
+  - {fileID: -5174493928466812952}
+  - {fileID: 2404767513934196621}
+  - {fileID: 810961248877416988}
+  - {fileID: 8468123904703871145}
+  - {fileID: 5903473743905591407}
+  - {fileID: -7019687341074110623}
+  - {fileID: 1057439603072500033}
+  - {fileID: -3300446216542515627}
+  - {fileID: 4202300609885264675}
+  - {fileID: -4673459055084596322}
+  - {fileID: -6654086741601912148}
+  - {fileID: -4756317885121899782}
+  - {fileID: -4078409292101044887}
+  - {fileID: -5630996755419858142}
+  - {fileID: 3131964070997071563}
+  - {fileID: 363693383994754720}
+  - {fileID: -4537408783939241550}
+  - {fileID: -2521174921069365823}
+  - {fileID: 4521150666111188049}
+  - {fileID: -2764607891945407095}
+  - {fileID: 1578349036079290987}
+  - {fileID: -2099873859965068941}
+  - {fileID: 3772451682954051839}
+  - {fileID: 8279470423480555130}
+  - {fileID: 9086295682758337142}
+  - {fileID: -5578743166995567891}
+  - {fileID: 5956274358614259487}
+  - {fileID: -5169986742412273326}
+  - {fileID: -4101459946574040134}
+  - {fileID: 7937114861941754961}
+  - {fileID: -5361675808040324589}
+  - {fileID: 2769066729118658195}
+  - {fileID: 408372808307968197}
+  - {fileID: -4964081215711142201}
+  - {fileID: 4189641300740903931}
+  - {fileID: -7219432559330378458}
+  - {fileID: 7487628933023700921}
+  - {fileID: 5001344097045826050}
+  - {fileID: -7247689176602079957}
+  - {fileID: 4501536520181722963}
+  - {fileID: -4703567768026779402}
+  - {fileID: 8683137942814322162}
+  - {fileID: 1978384542122097787}
+  - {fileID: 7539652589120608062}
+  - {fileID: 4037989472687801843}
+  - {fileID: 2488632228939435563}
+  - {fileID: -5493154616145218803}
+  - {fileID: -6614418640085364554}
+  - {fileID: 699036124782395937}
+  - {fileID: -2180472244437263104}
+  - {fileID: 5932109356079542930}
+  - {fileID: 6677845492606679008}
+  - {fileID: -8690652565154990234}
+  - {fileID: 7407623823653282761}
+  - {fileID: 6463718223020211404}
+  - {fileID: -8139510254242702626}
+  - {fileID: -3257296059694400491}
+  - {fileID: -5433777513996821492}
+  - {fileID: 4329291533888974507}
+  - {fileID: -4598325677913091169}
+  - {fileID: 3710069419244627739}
+  - {fileID: -1184299001545437927}
+  - {fileID: 262445913719343622}
+  - {fileID: -354844769703378951}
+  - {fileID: -6297601293297393272}
+  - {fileID: 3826504194912114409}
+  - {fileID: -5176212278046579089}
+  - {fileID: 6838977460879675303}
+  - {fileID: 6245785284391433786}
+  - {fileID: 693530819338456191}
+  - {fileID: 1223838306120057408}
+  - {fileID: -9123179445291231576}
+  - {fileID: 865746318205942010}
+  - {fileID: 6844681954533011146}
+  - {fileID: 3503097598888077426}
+  - {fileID: -728139194172751556}
+  - {fileID: -7947719463402397646}
+  - {fileID: -1533763819512710070}
+  - {fileID: -6515402958051910982}
+  - {fileID: 430961558595193523}
+  - {fileID: 2674126364887277947}
+  - {fileID: 8147473331866033196}
+  - {fileID: -931915951465177594}
+  - {fileID: -8272836504020641328}
+  - {fileID: 9079590248777910668}
+  - {fileID: -796958980618328950}
+  - {fileID: 8312153661765254403}
+  - {fileID: -3576221288697007290}
+  - {fileID: -7492404651263323339}
+  - {fileID: -7385237261374678290}
+  - {fileID: -3448721494987715635}
+  - {fileID: 4124568737272367147}
+  - {fileID: 1441985014089796292}
+  EditorParameters:
+  - {fileID: 5889449068461591796}
+  - {fileID: 5534671540634919412}
+  - {fileID: -3029900258792998372}
+  - {fileID: -2900845122526499739}
+  - {fileID: -8739502532673288543}
+  MasterBanks:
+  - {fileID: -1074333314047361534}
+  StringsBanks:
+  - {fileID: -2559924674273271750}
+  cacheTime: 638513839289859633
+  cacheVersion: 131616
+--- !u!114 &162500762660643696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DirectionGame/Hint 1/Hint_1_Own
+  m_EditorClassIdentifier: 
+  Path: event:/DirectionGame/Hint 1/Hint_1_Own
+  Guid:
+    Data1: -179139685
+    Data2: 1308042440
+    Data3: -590464072
+    Data4: -78898188
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
+--- !u!114 &262445913719343622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Resonance/Fire Ambient
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Resonance/Fire Ambient
+  Guid:
+    Data1: 2087692373
+    Data2: 1242238944
+    Data3: 1136621976
+    Data4: -1285661424
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 15203
+--- !u!114 &277206744039514139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemy1
+  m_EditorClassIdentifier: 
+  Path: event:/Enemy1
+  Guid:
+    Data1: 1104176038
+    Data2: 1242941889
+    Data3: 1844306583
+    Data4: -103958655
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3700
+--- !u!114 &363693383994754720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Steam/S_Violin 4
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Steam/S_Violin 4
+  Guid:
+    Data1: 442129622
+    Data2: 1279882009
+    Data3: 1612494773
+    Data4: -2105867656
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &408372808307968197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Steam/S_Drums
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Steam/S_Drums
+  Guid:
+    Data1: -1897686805
+    Data2: 1079549412
+    Data3: -973120124
+    Data4: -1472698452
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &430961558595193523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Resonance/Siren
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Resonance/Siren
+  Guid:
+    Data1: -1728553567
+    Data2: 1199865694
+    Data3: -169967955
+    Data4: -757823154
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1200
+--- !u!114 &595485306914799662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/Event03/Event3_Resonance
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/Event03/Event3_Resonance
+  Guid:
+    Data1: 1849234471
+    Data2: 1292111895
+    Data3: 810010552
+    Data4: -734097609
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 29560
+--- !u!114 &662303368471954646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Long/OculusLong
+  m_EditorClassIdentifier: 
+  Path: event:/Long/OculusLong
+  Guid:
+    Data1: -1836894351
+    Data2: 1104419546
+    Data3: -1666064479
+    Data4: 1812213984
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 154488
+--- !u!114 &693530819338456191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Oculus/Clicking
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Oculus/Clicking
+  Guid:
+    Data1: 1475237759
+    Data2: 1104685632
+    Data3: -1094151779
+    Data4: 1879488829
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -8750055038890317039}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 40
+--- !u!114 &699036124782395937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Steam/Clicking
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Steam/Clicking
+  Guid:
+    Data1: 376359684
+    Data2: 1082795316
+    Data3: 680961464
+    Data4: -1542755666
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 3858256172089847922}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 40
+--- !u!114 &810961248877416988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/Event02/Event2_Own
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/Event02/Event2_Own
+  Guid:
+    Data1: 901920956
+    Data2: 1241587192
+    Data3: 1416103350
+    Data4: -136558460
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 62000
+--- !u!114 &865746318205942010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Steam/Scanner 1
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Steam/Scanner 1
+  Guid:
+    Data1: -815823993
+    Data2: 1315067917
+    Data3: -1128030049
+    Data4: 1962326564
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9000
+--- !u!114 &1057439603072500033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Impacts/Boom_Resonance
+  m_EditorClassIdentifier: 
+  Path: event:/Impacts/Boom_Resonance
+  Guid:
+    Data1: 144072131
+    Data2: 1151230565
+    Data3: -994812776
+    Data4: 968571582
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1202
+--- !u!114 &1195228654157444893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/Event04/Event4_Resonance
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/Event04/Event4_Resonance
+  Guid:
+    Data1: 396277412
+    Data2: 1118226162
+    Data3: -983503960
+    Data4: 1732632537
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 66000
+--- !u!114 &1223838306120057408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Oculus/Scanner 1
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Oculus/Scanner 1
+  Guid:
+    Data1: -523633024
+    Data2: 1112352031
+    Data3: -2083973745
+    Data4: 470942399
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9000
+--- !u!114 &1427514190045472121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/IndustryRobotArm 2/RobotArmVelocity
+  m_EditorClassIdentifier: 
+  Name: RobotArmVelocity
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2730915589
+    data2: 1940664539
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &1441985014089796292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Oculus/Conveyor Belt 2
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Oculus/Conveyor Belt 2
+  Guid:
+    Data1: 2030612476
+    Data2: 1160110399
+    Data3: -1910188136
+    Data4: -885194385
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 27440
+--- !u!114 &1578349036079290987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Resonance/R_Violin 2
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Resonance/R_Violin 2
+  Guid:
+    Data1: -178769700
+    Data2: 1212835390
+    Data3: -1012376947
+    Data4: -823567761
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &1627044381209785794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Oculus/O_Horn 1
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Oculus/O_Horn 1
+  Guid:
+    Data1: 301651367
+    Data2: 1283034784
+    Data3: 850463659
+    Data4: 967704251
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &1783989546034011861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambient/Music
+  m_EditorClassIdentifier: 
+  Path: event:/Ambient/Music
+  Guid:
+    Data1: -1179015643
+    Data2: 1213800810
+    Data3: -1833897849
+    Data4: 1563968594
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 59115
+--- !u!114 &1978384542122097787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DirectionGame/Hint 2/Hint_2_Resonance
+  m_EditorClassIdentifier: 
+  Path: event:/DirectionGame/Hint 2/Hint_2_Resonance
+  Guid:
+    Data1: 1618950647
+    Data2: 1125051564
+    Data3: 913058961
+    Data4: -1109557705
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
+--- !u!114 &2021910945891144618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/WindowOpen
+  m_EditorClassIdentifier: 
+  Path: event:/UI/WindowOpen
+  Guid:
+    Data1: 547857512
+    Data2: 1117569117
+    Data3: -1700498047
+    Data4: 683093544
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
+--- !u!114 &2085964020090988958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Spooky/Monster/MonsterSneaking2
+  m_EditorClassIdentifier: 
+  Path: event:/Spooky/Monster/MonsterSneaking2
+  Guid:
+    Data1: 1489344080
+    Data2: 1301796032
+    Data3: -867830356
+    Data4: 292408173
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 180
+--- !u!114 &2404767513934196621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Oculus/O_Horn 3
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Oculus/O_Horn 3
+  Guid:
+    Data1: 953758136
+    Data2: 1203719758
+    Data3: -1842112379
+    Data4: 1503939900
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &2488632228939435563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DirectionGame/Hint 3/Hint_3_Oculus
+  m_EditorClassIdentifier: 
+  Path: event:/DirectionGame/Hint 3/Hint_3_Oculus
+  Guid:
+    Data1: 436581627
+    Data2: 1324440848
+    Data3: 1678909091
+    Data4: 2005514177
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1209
+--- !u!114 &2674126364887277947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Resonance/Scanner 1
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Resonance/Scanner 1
+  Guid:
+    Data1: -747342425
+    Data2: 1156886408
+    Data3: -115303780
+    Data4: 842274936
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9000
+--- !u!114 &2769066729118658195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/Event01/Event1_Resonance
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/Event01/Event1_Resonance
+  Guid:
+    Data1: 875262443
+    Data2: 1119664599
+    Data3: 9991329
+    Data4: 823175557
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 62000
+--- !u!114 &2800751855408040803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/VolumeSetting
+  m_EditorClassIdentifier: 
+  Path: event:/UI/VolumeSetting
+  Guid:
+    Data1: -245392618
+    Data2: 1233681416
+    Data3: -406094935
+    Data4: 1856127950
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7480
+--- !u!114 &2808692952297901631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Spooky/Monster/MonsterSound3
+  m_EditorClassIdentifier: 
+  Path: event:/Spooky/Monster/MonsterSound3
+  Guid:
+    Data1: -2017044369
+    Data2: 1144803780
+    Data3: 917731518
+    Data4: 1951612053
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &2825279117227544632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Steam/S_Cello
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Steam/S_Cello
+  Guid:
+    Data1: -1916457571
+    Data2: 1331244517
+    Data3: -1712365182
+    Data4: -2091665599
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &3131964070997071563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Menu_Open
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Menu_Open
+  Guid:
+    Data1: 1530672083
+    Data2: 1260404506
+    Data3: 688436626
+    Data4: -2087950000
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1850
+--- !u!114 &3146063704422590710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/Event02/Event2_Steam
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/Event02/Event2_Steam
+  Guid:
+    Data1: 1015850811
+    Data2: 1108008432
+    Data3: 690204319
+    Data4: 1733878498
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 62000
+--- !u!114 &3273950297254872768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Oculus/O_Viola 3
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Oculus/O_Viola 3
+  Guid:
+    Data1: -1989195134
+    Data2: 1131927999
+    Data3: 1682922681
+    Data4: 1645726999
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &3360390571101021613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Spooky/SpookyAmbience 2
+  m_EditorClassIdentifier: 
+  Path: event:/Spooky/SpookyAmbience 2
+  Guid:
+    Data1: -1069388191
+    Data2: 1121228664
+    Data3: -1676762991
+    Data4: 571242022
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 38347
+--- !u!114 &3412092683330008504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Knight/KnightWalking
+  m_EditorClassIdentifier: 
+  Path: event:/Knight/KnightWalking
+  Guid:
+    Data1: 2122901025
+    Data2: 1282398200
+    Data3: -1795989882
+    Data4: 449321719
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -3948237081467760363}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 11067
+--- !u!114 &3503097598888077426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Steam/Engine Rumbling
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Steam/Engine Rumbling
+  Guid:
+    Data1: -1405503341
+    Data2: 1144479755
+    Data3: 765542794
+    Data4: 1885863456
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 32411
+--- !u!114 &3593174901499317468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Long/BeatTest/ResonanceBeat
+  m_EditorClassIdentifier: 
+  Path: event:/Long/BeatTest/ResonanceBeat
+  Guid:
+    Data1: -582831253
+    Data2: 1295683475
+    Data3: -646986817
+    Data4: 1959765902
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1906
+--- !u!114 &3710069419244627739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Steam/Approved
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Steam/Approved
+  Guid:
+    Data1: 1520928077
+    Data2: 1161547521
+    Data3: -913395306
+    Data4: 248378202
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1481
+--- !u!114 &3772451682954051839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/Event01/Event1_Oculus 2
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/Event01/Event1_Oculus 2
+  Guid:
+    Data1: -681726241
+    Data2: 1199543674
+    Data3: 1630494357
+    Data4: 818177503
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 62000
+--- !u!114 &3826504194912114409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Oculus/Engine Rumbling
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Oculus/Engine Rumbling
+  Guid:
+    Data1: -1268737945
+    Data2: 1219784758
+    Data3: -902448502
+    Data4: 968395413
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 32411
+--- !u!114 &3858256172089847922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Clicking/RobotArmVelocity
+  m_EditorClassIdentifier: 
+  Name: RobotArmVelocity
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2730915589
+    data2: 1940664539
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &4037989472687801843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Steam/S_Horn 1
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Steam/S_Horn 1
+  Guid:
+    Data1: -1456178693
+    Data2: 1149737990
+    Data3: 927922069
+    Data4: 1714540637
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &4124568737272367147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Steam/IndustryRobotArm 2
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Steam/IndustryRobotArm 2
+  Guid:
+    Data1: 814098163
+    Data2: 1144412154
+    Data3: -1675362902
+    Data4: 264403229
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -1881616390176962356}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &4158684660423159817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Oculus/O_Viola 2
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Oculus/O_Viola 2
+  Guid:
+    Data1: 1965050454
+    Data2: 1198722272
+    Data3: 1416233370
+    Data4: 80815939
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &4189641300740903931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/BtnClick
+  m_EditorClassIdentifier: 
+  Path: event:/UI/BtnClick
+  Guid:
+    Data1: 401902573
+    Data2: 1244211059
+    Data3: 1216707743
+    Data4: -873777871
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 514
+--- !u!114 &4202300609885264675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DirectionGame/Hint 2/Hint_2_Oculus
+  m_EditorClassIdentifier: 
+  Path: event:/DirectionGame/Hint 2/Hint_2_Oculus
+  Guid:
+    Data1: -1491213883
+    Data2: 1127359296
+    Data3: -1772339288
+    Data4: -199783781
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
+--- !u!114 &4329291533888974507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Steam/Grab
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Steam/Grab
+  Guid:
+    Data1: -1576075448
+    Data2: 1238767559
+    Data3: 1530582446
+    Data4: 1486476565
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 900
+--- !u!114 &4330436342869846755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Resonance/R_Violin 1
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Resonance/R_Violin 1
+  Guid:
+    Data1: 2035445883
+    Data2: 1169331209
+    Data3: -1975381098
+    Data4: 1194686427
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &4501536520181722963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Resonance/R_Violin 4
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Resonance/R_Violin 4
+  Guid:
+    Data1: -571835664
+    Data2: 1147886234
+    Data3: -1920675958
+    Data4: -981409031
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &4521150666111188049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Knight/SwordSwing/Swing4
+  m_EditorClassIdentifier: 
+  Path: event:/Knight/SwordSwing/Swing4
+  Guid:
+    Data1: -1474304295
+    Data2: 1165286280
+    Data3: -18826859
+    Data4: 603305943
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2481
+--- !u!114 &4615791204382255369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/Event01/Event1_Own
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/Event01/Event1_Own
+  Guid:
+    Data1: -198909051
+    Data2: 1317724143
+    Data3: -1200664663
+    Data4: 1820227784
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 62000
+--- !u!114 &4644864172433684026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/SlideOpen 2
+  m_EditorClassIdentifier: 
+  Path: event:/UI/SlideOpen 2
+  Guid:
+    Data1: -544932000
+    Data2: 1285105195
+    Data3: -639584069
+    Data4: -414874607
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 482
+--- !u!114 &4850104160315453701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DirectionGame/Hint 2/Hint_2_Own
+  m_EditorClassIdentifier: 
+  Path: event:/DirectionGame/Hint 2/Hint_2_Own
+  Guid:
+    Data1: 1219128703
+    Data2: 1100291988
+    Data3: -2064164443
+    Data4: 1347876248
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
+--- !u!114 &4855205280344734789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Submit
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Submit
+  Guid:
+    Data1: 59912602
+    Data2: 1148872141
+    Data3: -456191602
+    Data4: -216614390
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
+--- !u!114 &4883310809452506462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/SlideClose 2
+  m_EditorClassIdentifier: 
+  Path: event:/UI/SlideClose 2
+  Guid:
+    Data1: 1442130698
+    Data2: 1277936583
+    Data3: 1337877671
+    Data4: 880482117
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 482
+--- !u!114 &5001344097045826050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Oculus/O_Viola 1
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Oculus/O_Viola 1
+  Guid:
+    Data1: 928104686
+    Data2: 1240868403
+    Data3: 1939255976
+    Data4: -1549828151
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &5075412752751303480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Steam/S_Cymbals
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Steam/S_Cymbals
+  Guid:
+    Data1: 1128718684
+    Data2: 1137983808
+    Data3: -120343649
+    Data4: -1805867375
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &5399743254948035531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cues/CueLoop1
+  m_EditorClassIdentifier: 
+  Path: event:/Cues/CueLoop1
+  Guid:
+    Data1: -1865770858
+    Data2: 1272962127
+    Data3: -1542511486
+    Data4: -2116989383
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2400
+--- !u!114 &5534671540634919412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ResonanceVolume
+  m_EditorClassIdentifier: 
+  Name: ResonanceVolume
+  StudioPath: parameter:/ResonanceVolume
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3756872758
+    data2: 2812201090
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5553420582362923551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Oculus/O_Cello
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Oculus/O_Cello
+  Guid:
+    Data1: -887773053
+    Data2: 1308900434
+    Data3: -619419759
+    Data4: 504347210
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &5820911307229152451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Clicking/RobotArmVelocity
+  m_EditorClassIdentifier: 
+  Name: RobotArmVelocity
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2730915589
+    data2: 1940664539
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &5889449068461591796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OculusVolume
+  m_EditorClassIdentifier: 
+  Name: OculusVolume
+  StudioPath: parameter:/OculusVolume
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1149407748
+    data2: 1571560408
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5903473743905591407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/Event04/Event4_Steam
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/Event04/Event4_Steam
+  Guid:
+    Data1: -1503847233
+    Data2: 1182014303
+    Data3: 1172921760
+    Data4: 2081984725
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 66000
+--- !u!114 &5932109356079542930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Oculus/Approved
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Oculus/Approved
+  Guid:
+    Data1: -1354799083
+    Data2: 1101587346
+    Data3: -726912084
+    Data4: 1952834445
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1481
+--- !u!114 &5940174241408093513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Steam/S_Pizzicato 2
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Steam/S_Pizzicato 2
+  Guid:
+    Data1: 1166451973
+    Data2: 1205517838
+    Data3: -830416472
+    Data4: 1871311848
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &5956274358614259487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DirectionGame/Hint 1/Hint_1_Resonance
+  m_EditorClassIdentifier: 
+  Path: event:/DirectionGame/Hint 1/Hint_1_Resonance
+  Guid:
+    Data1: 797709285
+    Data2: 1146701144
+    Data3: 562566021
+    Data4: 149155074
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
+--- !u!114 &6121511193094926383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Oculus/O_Violin 1
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Oculus/O_Violin 1
+  Guid:
+    Data1: -1845032040
+    Data2: 1234636715
+    Data3: 1797519537
+    Data4: 1378438017
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &6144391525945441593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/Event03/Event3_Steam
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/Event03/Event3_Steam
+  Guid:
+    Data1: 72765773
+    Data2: 1123063404
+    Data3: 1718027175
+    Data4: -1008022725
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 29560
+--- !u!114 &6159887233388535832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Knight/KnightDefeat
+  m_EditorClassIdentifier: 
+  Path: event:/Knight/KnightDefeat
+  Guid:
+    Data1: -1745694952
+    Data2: 1082666985
+    Data3: 910227842
+    Data4: 1143988599
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2086
+--- !u!114 &6245785284391433786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Resonance/Engine Rumbling
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Resonance/Engine Rumbling
+  Guid:
+    Data1: 2036658812
+    Data2: 1162711122
+    Data3: -1985776197
+    Data4: -131971194
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 32411
+--- !u!114 &6342421461629711235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Impacts/Boom_Oculus
+  m_EditorClassIdentifier: 
+  Path: event:/Impacts/Boom_Oculus
+  Guid:
+    Data1: -1713055065
+    Data2: 1163750594
+    Data3: -1325557071
+    Data4: 2067000692
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1202
+--- !u!114 &6463718223020211404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Resonance/Approved
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Resonance/Approved
+  Guid:
+    Data1: 988463655
+    Data2: 1245822186
+    Data3: 1332798120
+    Data4: -249213330
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1481
+--- !u!114 &6510477230068176041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Steam/S_Viola 2
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Steam/S_Viola 2
+  Guid:
+    Data1: 1125919639
+    Data2: 1240578989
+    Data3: 1978470838
+    Data4: 1742195500
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &6677845492606679008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Oculus/IndustryRobotArm 2
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Oculus/IndustryRobotArm 2
+  Guid:
+    Data1: 1289779989
+    Data2: 1133537290
+    Data3: -640845653
+    Data4: 91562057
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 1427514190045472121}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &6838977460879675303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Resonance/Conveyor Belt 1
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Resonance/Conveyor Belt 1
+  Guid:
+    Data1: 1020282492
+    Data2: 1121395033
+    Data3: -69675863
+    Data4: 670086898
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 27440
+--- !u!114 &6844681954533011146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Resonance/IndustryRobotArm 2
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Resonance/IndustryRobotArm 2
+  Guid:
+    Data1: 1590990479
+    Data2: 1334652406
+    Data3: 639819657
+    Data4: 1801709511
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 8881217380291840019}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &6858336371492328303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Long/BeatTest/FMOD
+  m_EditorClassIdentifier: 
+  Path: event:/Long/BeatTest/FMOD
+  Guid:
+    Data1: 1942361227
+    Data2: 1151790534
+    Data3: -994555750
+    Data4: 24894548
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1906
+--- !u!114 &7266024666211685633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DirectionGame/Hint 3/Hint_3_Own
+  m_EditorClassIdentifier: 
+  Path: event:/DirectionGame/Hint 3/Hint_3_Own
+  Guid:
+    Data1: -1432383625
+    Data2: 1171248267
+    Data3: -1497697100
+    Data4: -2100547482
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1209
+--- !u!114 &7303390802227957573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/SlideClose
+  m_EditorClassIdentifier: 
+  Path: event:/UI/SlideClose
+  Guid:
+    Data1: 1450630497
+    Data2: 1248124054
+    Data3: -1850943574
+    Data4: -901662008
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 497
+--- !u!114 &7383482200136607164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Subjective Evaluation Events/Event02/Event2_Resonance
+  m_EditorClassIdentifier: 
+  Path: event:/Subjective Evaluation Events/Event02/Event2_Resonance
+  Guid:
+    Data1: -71102189
+    Data2: 1299322389
+    Data3: -366705745
+    Data4: -873551442
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 62000
+--- !u!114 &7396349995633088710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Oculus/O_Pizzicato 2
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Oculus/O_Pizzicato 2
+  Guid:
+    Data1: 840020041
+    Data2: 1233200464
+    Data3: 942849173
+    Data4: 1646904602
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &7407623823653282761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Oculus/IndustryRobotArm 3
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Oculus/IndustryRobotArm 3
+  Guid:
+    Data1: 1435903011
+    Data2: 1119938803
+    Data3: 246365364
+    Data4: 1490968732
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -3743343511188174637}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 44497
+--- !u!114 &7479825970604838038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DirectionGame/Hint 2/Hint_2_Steam
+  m_EditorClassIdentifier: 
+  Path: event:/DirectionGame/Hint 2/Hint_2_Steam
+  Guid:
+    Data1: 315540234
+    Data2: 1124315697
+    Data3: 951083399
+    Data4: 96639550
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
+--- !u!114 &7487628933023700921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Steam/S_Piano
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Steam/S_Piano
+  Guid:
+    Data1: -808507154
+    Data2: 1088395354
+    Data3: 401799311
+    Data4: 1795313919
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &7539652589120608062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Spooky/Monster/MonsterSneaking4
+  m_EditorClassIdentifier: 
+  Path: event:/Spooky/Monster/MonsterSneaking4
+  Guid:
+    Data1: 992347899
+    Data2: 1264692327
+    Data3: 1925670057
+    Data4: -216320535
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 240
+--- !u!114 &7643667564316020931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Oculus/O_Violin 3
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Oculus/O_Violin 3
+  Guid:
+    Data1: 208860303
+    Data2: 1340155146
+    Data3: -2128951137
+    Data4: 58362523
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &7645656336161871717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambient/MovingSource1
+  m_EditorClassIdentifier: 
+  Path: event:/Ambient/MovingSource1
+  Guid:
+    Data1: -392050162
+    Data2: 1141969772
+    Data3: 654910601
+    Data4: -1848026047
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7000
+--- !u!114 &7760796731384187995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Spooky/Monster/MonsterSound2
+  m_EditorClassIdentifier: 
+  Path: event:/Spooky/Monster/MonsterSound2
+  Guid:
+    Data1: 767737698
+    Data2: 1328886610
+    Data3: 2100054183
+    Data4: -1716294101
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2600
+--- !u!114 &7788275756892538644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TestSteam
+  m_EditorClassIdentifier: 
+  Path: event:/TestSteam
+  Guid:
+    Data1: 1444958253
+    Data2: 1080317767
+    Data3: -1686767178
+    Data4: -299949873
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 50000
+--- !u!114 &7937114861941754961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Resonance/R_Viola 1
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Resonance/R_Viola 1
+  Guid:
+    Data1: 669869031
+    Data2: 1254561781
+    Data3: -1802665037
+    Data4: -132007453
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &8147473331866033196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Steam/Conveyor Belt 1
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Steam/Conveyor Belt 1
+  Guid:
+    Data1: 1536711600
+    Data2: 1084129232
+    Data3: 419994511
+    Data4: 796392756
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 27440
+--- !u!114 &8279470423480555130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cues/Hint2
+  m_EditorClassIdentifier: 
+  Path: event:/Cues/Hint2
+  Guid:
+    Data1: -956631073
+    Data2: 1116737759
+    Data3: 577966486
+    Data4: 695103976
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 180
+--- !u!114 &8312153661765254403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Steam/Conveyor Belt 2
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Steam/Conveyor Belt 2
+  Guid:
+    Data1: 95258058
+    Data2: 1242381427
+    Data3: 676429702
+    Data4: -1682201474
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 27440
+--- !u!114 &8468123904703871145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Long/ResonanceLong
+  m_EditorClassIdentifier: 
+  Path: event:/Long/ResonanceLong
+  Guid:
+    Data1: -1133496899
+    Data2: 1264009954
+    Data3: 1350585475
+    Data4: -1391884149
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 154488
+--- !u!114 &8594449530906272134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Spooky/Monster/MonsterSound5
+  m_EditorClassIdentifier: 
+  Path: event:/Spooky/Monster/MonsterSound5
+  Guid:
+    Data1: 1356324897
+    Data2: 1269112996
+    Data3: -340453970
+    Data4: 41662005
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1600
+--- !u!114 &8683137942814322162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Orchestra/Oculus/O_Violin 4
+  m_EditorClassIdentifier: 
+  Path: event:/Orchestra/Oculus/O_Violin 4
+  Guid:
+    Data1: 504513009
+    Data2: 1259021111
+    Data3: 1532335495
+    Data4: -552931373
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153600
+--- !u!114 &8822453803274323777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Noise
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Noise
+  Guid:
+    Data1: 2051473006
+    Data2: 1324226383
+    Data3: -660263543
+    Data4: 1917625673
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
+--- !u!114 &8824914148997360221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Select
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Select
+  Guid:
+    Data1: -310857892
+    Data2: 1302778900
+    Data3: 1186670004
+    Data4: -1261240938
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
+--- !u!114 &8881217380291840019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/IndustryRobotArm 2/RobotArmVelocity
+  m_EditorClassIdentifier: 
+  Name: RobotArmVelocity
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2730915589
+    data2: 1940664539
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &9079590248777910668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Industrial/Steam/IndustryRobotArm 3
+  m_EditorClassIdentifier: 
+  Path: event:/Industrial/Steam/IndustryRobotArm 3
+  Guid:
+    Data1: 1422497716
+    Data2: 1235590759
+    Data3: -872772444
+    Data4: -1157635266
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -5332516309148829714}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 44497
+--- !u!114 &9086295682758337142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambient/Ambient1
+  m_EditorClassIdentifier: 
+  Path: event:/Ambient/Ambient1
+  Guid:
+    Data1: -1696342304
+    Data2: 1186266839
+    Data3: 978256275
+    Data4: 780419854
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 154488
+--- !u!114 &9205792411957102617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Spooky/Monster/MonsterNoises
+  m_EditorClassIdentifier: 
+  Path: event:/Spooky/Monster/MonsterNoises
+  Guid:
+    Data1: 707858829
+    Data2: 1245742990
+    Data3: -1790492503
+    Data4: 396124808
+  Banks:
+  - {fileID: -1074333314047361534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 32000
