@@ -38,7 +38,7 @@ public class PopupWindow : MonoBehaviour
         LeanTween.moveLocalY(gameObject, minY, 0);
         LeanTween.scale(gameObject, Vector3.one * minScale * 0.001f, 0);
         LeanTween.alphaCanvas(canvas, minAlpha, 0);
-        interactable.enabled = false;
+        if(interactable!=null) interactable.enabled = false;
     }
 
     private void OnEnable()
@@ -93,11 +93,11 @@ public class PopupWindow : MonoBehaviour
 
     private void EnableCollider()
     {
-        interactable.enabled = true;
+        if(interactable!=null) interactable.enabled = true;
     }
 
     private void DisableCollider()
     {
-        interactable.enabled = false;
+        if (interactable != null) interactable.enabled = false;
     }
 }

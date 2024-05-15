@@ -15,6 +15,9 @@ public class MainIntroductionManager : MonoBehaviour
     public WindowManager windowManager;
 
 
+    private List<string> eventNames = new List<string>() {"Battle", "Horror Atmosphere", "Audio Phenomena"};
+
+
     private void OnEnable()
     {
         ResetEvents();
@@ -28,6 +31,13 @@ public class MainIntroductionManager : MonoBehaviour
         }
 
         if(eventOnStart) StartEvent(startEvent);
+
+        Invoke("LogStart", 0.5f);
+    }
+
+    void LogStart()
+    {
+        GameManager.Instance.LogServerEvent("Introduction");
     }
 
     private void HideAllWindows()
@@ -53,6 +63,7 @@ public class MainIntroductionManager : MonoBehaviour
         eventList[currentEvent].SetActive(false);
         currentEvent = i;
         eventList[i].SetActive(true);
+        GameManager.Instance.LogServerEvent(eventNames[Mathf.Clamp(i,0,2)]);
     }
 
     public void ResetEvents()
@@ -74,6 +85,26 @@ public class MainIntroductionManager : MonoBehaviour
     {
         if (visibility) windowManager.windows[windowManager.currentWindowIndex].GetComponent<PopupWindow>().Open();
         else windowManager.windows[windowManager.currentWindowIndex].GetComponent<PopupWindow>().Close();
+    }
+
+    public void ResetMenu()
+    {
+        ResetEvents();
+        additionalInfoWindow.gameObject.SetActive(false);
+
+        GUIAudioManager.SetAmbientVolume(0.5f);
+
+        if (hideWindowsOnStart)
+        {
+            Invoke("HideAllWindows", 0.3f);
+        }
+
+        if (eventOnStart) StartEvent(startEvent);
+
+        Invoke("LogStart", 0.5f);
+
+        windowManager.ResetValues();
+        windowManager.OpenPage(0);
     }
 
 

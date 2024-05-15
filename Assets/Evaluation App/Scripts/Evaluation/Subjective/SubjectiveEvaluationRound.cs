@@ -45,8 +45,13 @@ public class SubjectiveEvaluationRound : MonoBehaviour
     {
         bus = FMODUnity.RuntimeManager.GetBus("bus:/MainSounds");
         bus.setVolume(1);
-        windowManager = GetComponent<WindowManager>();
+        
 
+    }
+
+    private void Awake()
+    {
+        windowManager = GetComponent<WindowManager>();
     }
 
     public void SaveRound()
@@ -60,8 +65,8 @@ public class SubjectiveEvaluationRound : MonoBehaviour
     public void StartRound(bool nextAspect)
     {
         //sync.SetAudioOutput(false,);
-        
 
+        windowManager = GetComponent<WindowManager>();
         if (nextAspect) windowManager.OpenPage(0);
         else
         {
@@ -71,6 +76,8 @@ public class SubjectiveEvaluationRound : MonoBehaviour
 
         audioSwitch.SetAll(true, roundData.speakerID, roundData.comparisonSpatializerID);
         audioSwitch.Play(partData.fileID);
+
+        manager.HighlightSpeaker(roundData.speakerID);
 
     }
 

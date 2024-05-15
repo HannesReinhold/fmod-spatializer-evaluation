@@ -57,15 +57,16 @@ public class SubjectiveEvaluationManager : MonoBehaviour
         finish.SetActive(false);
         evaluationRound.SetActive(false);
         Debug.Log(GameManager.Instance.dataManager);
+        DisableHighlighting();
         numParts = GameManager.Instance.dataManager.spatializerData.subjectiveEvaluationData.evaluationParts.Count;
         if (!skipTutorial) introduction.SetActive(true);
         else { 
             StartRound(); 
             roundID++;
         }
-        DisableHighlighting();
-        //GUIAudioManager.SetAmbientVolume(0);
 
+        //GUIAudioManager.SetAmbientVolume(0);
+        GameManager.Instance.LogServerEvent("Subjective Evaluation");
 
     }
 
@@ -85,9 +86,12 @@ public class SubjectiveEvaluationManager : MonoBehaviour
         GUIAudioManager.SetAmbientVolume(0);
         numParts = GameManager.Instance.dataManager.spatializerData.subjectiveEvaluationData.evaluationParts.Count;
         roundManager.UpdateInterface(GameManager.Instance.dataManager.spatializerData.subjectiveEvaluationData.evaluationParts[partID], roundID);
+        roundManager.StartRound(true);
         tutorial.SetActive(false);
         evaluationRound.SetActive(true);
+        roundID++;
 
+        GameManager.Instance.LogServerEvent("Subjective Evaluation Round");
     }
 
     public void NextRound()
@@ -133,7 +137,9 @@ public class SubjectiveEvaluationManager : MonoBehaviour
         Invoke("EmergeSpeaker", 4);
         Invoke("EmergeSpeaker", 5);
         Invoke("EmergeSpeaker", 6);
-        
+        Invoke("EmergeSpeaker", 7);
+        Invoke("EmergeSpeaker", 8);
+
         Invoke("DisableHighlighting",8);
     }
 
@@ -150,6 +156,15 @@ public class SubjectiveEvaluationManager : MonoBehaviour
         LeanTween.moveY(speakers[currentEmergingSpeaker], 0, 1).setEaseOutCubic();
         speakers[currentEmergingSpeaker].GetComponentInChildren<Hint>().OpenHint();
         currentEmergingSpeaker++;
+    }
+
+    public void HighlightSpeaker(int index)
+    {
+        for(int i=0; i<6; i++)
+        {
+            if(index==i) speakers[i].GetComponentInChildren<SpeakerHighlighter>().ApplyHighlight();
+            else speakers[i].GetComponentInChildren<SpeakerHighlighter>().RemoveHighlight();
+        }
     }
 
 

@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cb82a87a4954a947923856a12b49b38, type: 3}
   m_Name: Default
   m_EditorClassIdentifier: 
-  lowFreqAbsorption: 0.1
-  midFreqAbsorption: 0.2
-  highFreqAbsorption: 0.3
-  scattering: 0.05
-  lowFreqTransmission: 0.1
-  midFreqTransmission: 0.05
-  highFreqTransmission: 0.03
+  lowFreqAbsorption: 1
+  midFreqAbsorption: 1
+  highFreqAbsorption: 0
+  scattering: 0
+  lowFreqTransmission: 0
+  midFreqTransmission: 0
+  highFreqTransmission: 0

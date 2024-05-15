@@ -10,6 +10,8 @@ public class WindowManager : MonoBehaviour
     public int currentWindowIndex = 0;
     public int startWindowIndex = 0;
 
+    public int WindowManagerIndex = 0;
+
     private void Awake()
     {
     }
@@ -60,6 +62,8 @@ public class WindowManager : MonoBehaviour
         if (currentWindow != null) currentWindow.GetComponent<PopupWindow>().Close();
         currentWindow = windows[currentWindowIndex];
         currentWindow.SetActive(true);
+
+        //GameManager.Instance.LogServerEvents(WindowManagerIndex);
     }
 
     public void PreviousPage()
@@ -68,16 +72,21 @@ public class WindowManager : MonoBehaviour
         if (currentWindow != null) currentWindow.GetComponent<PopupWindow>().Close();
         currentWindow = windows[currentWindowIndex];
         currentWindow.SetActive(true);
+
+        //GameManager.Instance.LogServerEvents(WindowManagerIndex);
     }
 
     public void OpenPage(int pageIndex)
     {
+        
+        if (currentWindow != null && pageIndex!=currentWindowIndex) currentWindow.GetComponent<PopupWindow>().Close();
         currentWindowIndex = pageIndex;
-        if (currentWindow != null) currentWindow.GetComponent<PopupWindow>().Close();
         currentWindow = windows[pageIndex];
         currentWindow.SetActive(true);
         GUIAudioManager.PlayMenuOpen(transform.position);
         Debug.Log("Open Menu"+currentWindow);
+
+        //GameManager.Instance.LogServerEvents(WindowManagerIndex);
 
     }
 

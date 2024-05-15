@@ -28,6 +28,8 @@ public class GameManager : MonoBehaviour
 
     public OVRPassthroughLayer passthroughLayer;
 
+    public ServerLogEvent serverLog;
+
 
 
 
@@ -178,6 +180,7 @@ public class GameManager : MonoBehaviour
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Intro", transform.position);
         introductionObject.SetActive(true);
+        if(sessionID!=0) introductionObject.GetComponent<MainIntroductionManager>().ResetMenu();
         subjectiveObject.SetActive(false);
         directionGuessingObject.SetActive(false);
         completeObject.SetActive(false);
@@ -230,7 +233,6 @@ public class GameManager : MonoBehaviour
         foreach (MeshRenderer r in roomModel.GetComponentsInChildren<Renderer>())
         {
             LeanTween.alpha(r.gameObject, 0, time);
-            Debug.Log("Set Alpha");
         }
 
     }
@@ -251,5 +253,38 @@ public class GameManager : MonoBehaviour
     {
         passthroughLayer.textureOpacity = opacity;
     }
+
+
+    public void LogServerEvents(int currentWindowManager, string additionalEvent="")
+    {
+        serverLog.LogAll(currentWindowManager, additionalEvent);
+    }
+
+    public void LogServerEvent(string additionalEvent = "")
+    {
+        serverLog.LogEvent(additionalEvent);
+    }
+
+    public void NextPageEvent(int nextPage)
+    {
+        serverLog.NextPageEvent(nextPage);
+    }
+
+    public void RestartEvent()
+    {
+        serverLog.NextPageEvent(-999);
+    }
+
+    public void SkipIntroductionEvent()
+    {
+        serverLog.NextPageEvent(-100);
+    }
+
+    public void SkipIntroduction()
+    {
+        StartSubjectiveEvaluation();
+    }
 }
+
+
 

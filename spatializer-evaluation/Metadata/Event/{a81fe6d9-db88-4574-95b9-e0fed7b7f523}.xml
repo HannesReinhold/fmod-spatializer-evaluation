@@ -92,6 +92,9 @@
 		<property name="length">
 			<value>2.4816326530612245</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{3a563b68-30b7-442f-b1eb-fd3b6d330708}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{66be03db-9c7b-403e-8424-0919184f1abf}</destination>
 		</relationship>
@@ -118,6 +121,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{5cc3da06-de28-4489-abcc-3e1b18d373ab}" />
 	<object class="MixerBusFader" id="{d74a86ef-599b-4bd4-b239-e6cb342fe3c4}" />
+	<object class="RandomizerModulator" id="{3a563b68-30b7-442f-b1eb-fd3b6d330708}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>8</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{54410d74-7ecc-4887-a770-fa8b66278313}">
 		<relationship name="effects">
 			<destination>{0a500252-2a93-459a-a1a5-bbfe09341786}</destination>
@@ -223,7 +234,6 @@
 		<property name="name">
 			<value>Attenuation Ran</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-6</value>
 		</property>
@@ -232,7 +242,6 @@
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -268,7 +277,6 @@
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>

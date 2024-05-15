@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{9a31f5de-f728-459c-b8cf-0bea968b5bee}">
+		<property name="volume">
+			<value>5</value>
+		</property>
+		<property name="name">
+			<value>OculusLarge</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{e4d16585-f4cf-498f-bd66-07829f6514cd}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{c9bf3573-001e-4998-b598-76bc26e889ed}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{ab0feb16-fed0-4586-9f0f-87c36f651dbd}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{e4d16585-f4cf-498f-bd66-07829f6514cd}">
+		<relationship name="effects">
+			<destination>{8818a0fe-4991-4d96-9ed8-8d07e3850ae3}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{c9bf3573-001e-4998-b598-76bc26e889ed}" />
+	<object class="MixerBusFader" id="{8818a0fe-4991-4d96-9ed8-8d07e3850ae3}" />
+</objects>
